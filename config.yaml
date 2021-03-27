@@ -21,7 +21,7 @@ navigation_sidebar: assets/sidenav.md
 navigation_topbar: assets/headernav.md
 
 # Developer stuff
-show_config: true
+show_config: false
 extension_precedence: ["md", "html", "htm", "txt"]
 extension_types: ["markdown", "html", "html", "text"]
 
