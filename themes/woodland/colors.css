@@ -19,4 +19,8 @@
     --article-link-color: yellow;
     --article-header-color: #55ff99;   
     --article-background-color: #000a00;
+
+    --search-title-color: goldenrod;
+    --search-link-color: lightcyan;
+    --search-preview-color: aliceblue;
 }

@@ -1,22 +1,41 @@
 /* Add your CSS overrides to main.css here */
 
-main article {
-    background: linear-gradient(145deg, rgba(255,255,255,0) 20%,
-              rgba(0,11,0,1) 80%), url(coppice_dark.jpg) 0 0/100% no-repeat;
-   /* background: red url("coppice_dark.jpg") 0 0/100% no-repeat */
+main {
+    background: linear-gradient(300deg, rgba(0, 0, 0, .8) 20%, rgba(0, 11, 0, .9) 80%),
+        url(article_shrooms.jpg) 0 0/cover no-repeat;
+}
+
+main > div.article_container {
+    width: 100%;
+    overflow: auto;
+}
+
+main > div.article_container > article {
+    max-width: 60em;
+    background-color: transparent !important;
+    
+}
+
+main article.plain {
+    background: none;
 }
 
 div.sidebar {
-    background: linear-gradient(180deg, rgba(255,255,255,0) 20%,
-    rgba(11,33,11, 1) 50%), url(bluebells01.jpg) 0 0/contain no-repeat;
+    background: linear-gradient(180deg, rgba(11, 33, 11, 0.6) 20%, rgba(11, 33, 11, 1) 50%),
+        url(nav_fern.jpg) 0 0 / 100% no-repeat;
+}
+
+body > div.container > div.sidebar > div.logo {
+    background-color: transparent;
+}
+
+body > div.container > div.sidebar > nav {
+    background-color: transparent;
 }
 
 @media screen and (max-device-width: 480px) and (orientation: portrait) {
-
     main article {
-        background: linear-gradient(180deg, rgba(0,11,0,.75) 20%,
-                  rgba(0,11,0,.5) 90%), url(bluebells01.jpg) 0 0/cover no-repeat;
+        background: linear-gradient(180deg, rgba(0, 11, 0, 0.75) 20%, rgba(0, 11, 0, 0.5) 90%),
+            url(article_bluebells.jpg) 0 0 / cover no-repeat;
     }
-
-
 }
