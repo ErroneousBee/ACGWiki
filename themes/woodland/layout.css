@@ -1,0 +1,22 @@
+/* Add your CSS overrides to main.css here */
+
+main article {
+    background: linear-gradient(145deg, rgba(255,255,255,0) 20%,
+              rgba(0,11,0,1) 80%), url(coppice_dark.jpg) 0 0/100% no-repeat;
+   /* background: red url("coppice_dark.jpg") 0 0/100% no-repeat */
+}
+
+div.sidebar {
+    background: linear-gradient(180deg, rgba(255,255,255,0) 20%,
+    rgba(11,33,11, 1) 50%), url(bluebells01.jpg) 0 0/contain no-repeat;
+}
+
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+
+    main article {
+        background: linear-gradient(180deg, rgba(0,11,0,.75) 20%,
+                  rgba(0,11,0,.5) 90%), url(bluebells01.jpg) 0 0/cover no-repeat;
+    }
+
+
+}

@@ -1,0 +1,22 @@
+:root {
+    --main-color: aliceblue;
+    --main-background-color: black;
+
+    --sidebar-color: white;
+    --sidebar-background-color: #001111;  
+    --sidebar-color-hover: black;
+    --sidebar-background-color-hover: white;  
+
+    --header-color: aliceblue;
+    --header-background-color: #113311; 
+
+    --topbar-color: white;
+    --topbar-background-color: #003300;   
+    --topbar-color-hover: white;
+    --topbar-background-color-hover: darkgreen;
+
+    --article-color: white;
+    --article-link-color: yellow;
+    --article-header-color: #55ff99;   
+    --article-background-color: #000a00;
+}

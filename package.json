@@ -1,0 +1,33 @@
+{
+  "name": "portawiki",
+  "version": "1.0.0",
+  "description": "A Portable Wiki",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "index": "grunt lunr-index",
+    "dev": "npm run index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErroneousBee/PortaWiki.git"
+  },
+  "author": "neil@neilhancock.co.uk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ErroneousBee/PortaWiki/issues"
+  },
+  "homepage": "https://github.com/ErroneousBee/PortaWiki#readme",
+  "dependencies": {
+    "yaml-front-matter": "^4.1.1"
+  },
+  "devDependencies": {
+    "cheerio": "^1.0.0-rc.5",
+    "eslint": "^7.20.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "lunr": "^2.3.9"
+  }
+}

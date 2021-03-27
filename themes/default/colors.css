@@ -1,0 +1,26 @@
+:root {
+    --main-color: black;
+    --main-background-color: aliceblue;
+
+    --sidebar-color: white;
+    --sidebar-background-color: black;  
+    --sidebar-color-hover: black;
+    --sidebar-background-color-hover: white;  
+
+    --header-color: pink;
+    --header-background-color: black; 
+
+    --topbar-color: white;
+    --topbar-background-color: darkgreen;   
+    --topbar-color-hover: white;
+    --topbar-background-color-hover: red;
+
+    --article-color: black;
+    --article-link-color: darkblue;
+    --article-header-color: purple;  
+    --article-background-color: aliceblue;
+
+    --search-title-color: black;
+    --search-link-color: blue;
+    --search-preview-color: grey;
+}

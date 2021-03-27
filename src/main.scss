@@ -1,0 +1,390 @@
+html {
+    height: 100%;
+}
+
+// Resets and defaults.
+* {
+    box-sizing: border-box;
+}
+
+// Hide the icon definitions
+body>svg {
+    display: none;
+}
+
+.svg-icon {
+    height: 1em;
+    width: 1em;
+}
+
+// Layout of sidebar/main/content areas
+body {
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
+
+    >div.container {
+        width: 100%;
+        display: flex;
+
+        >div.sidebar {
+            flex: 1 1 auto;
+        }
+
+        >main {
+            flex: 1 1 100%;
+
+            display: flex;
+            flex-direction: column;
+
+            header {
+                flex: 1 1 auto;
+            }
+
+            article {
+                flex: 1 1 100%;
+            }
+
+        }
+    }
+}
+
+// Rounding and shaping of the grid components
+body div.container {
+    height: 100%;
+    font-family: sans-serif;
+
+    div.sidebar {
+
+        height: 100%;
+        border-radius: 25px;
+
+        .logo {
+            text-align: center;
+
+            img {
+                height: 5em;
+            }
+        }
+
+        nav.sidenav {
+            height: 100%;
+            padding-right: 1em;
+            overflow-y: auto;
+
+            ul {
+                padding-left: 1em;
+                list-style: none;
+
+                li {
+                    margin: 0;
+                    cursor: pointer;
+                    white-space: nowrap;
+
+                    span.navline {
+                        display: block;
+                        padding: 0em 3px;
+                    }
+
+                    a {
+                        cursor: pointer;
+                        text-decoration: none;
+                        color: unset;
+                    }
+                }
+            }
+        }
+    }
+
+    main {
+        header {
+            border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+
+            div.title {
+                width: 100%;
+            }
+
+            div.toolbar {
+                width: 100%;
+
+                nav.topmenu {
+                    display: inline-block;
+                }
+
+                .icon {
+                    float: right;
+                    margin: 0px 0.5em;
+                    cursor: pointer;
+                }
+
+                nav#navigation_topbar {
+                    height: 100%;
+
+                    ul>li:hover>ul,
+                    ul>li>ul.open {
+                        display: flex;
+                        list-style: none;
+                        margin-left: 1em;
+                        flex-direction: column;
+                    }
+
+                    ul {
+                        padding: 0px;
+                        margin: 0px;
+                        list-style: none;
+                        display: flex;
+                        flex-wrap: nowrap;
+                        flex-direction: row;
+
+                        >li {
+                            text-align: center;
+                            flex: 1 1 auto;
+                            padding: 0px 0.5em;
+                            height: 100%;
+
+                            ul {
+                                display: none;
+                                position: absolute;
+                            }
+
+                            a {
+                                text-decoration: none;
+                                color: unset;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        article {
+            overflow-y: auto;
+            height: 100%;
+            width: 100%;
+            padding: 3px 1em;
+        }
+    }
+}
+
+// Side Navbar Accordio n
+nav.sidenav {
+
+    >ul {
+        display: block;
+
+        ul {
+            display: none;
+        }
+
+        li.open>ul {
+            display: block;
+        }
+    }
+}
+
+
+// Colours and font sizes
+body>div.container {
+    color: var(--main-color);
+    background-color: var(--main-background-color);
+
+    div.sidebar {
+
+        color: var(--sidebar-color);
+        background-color: var(--sidebar-background-color);
+
+        >nav {
+            li>span.navline:hover {
+                color: var(--sidebar-color-hover);
+                background-color: var(--sidebar-background-color-hover);
+            }
+        }
+    }
+
+    main {
+
+
+        article {
+            color: var(--article-color);
+            background-color: var(--article-background-color);
+
+            a {
+                color: var(--article-link-color);
+                text-decoration: none;
+                cursor: pointer;
+            }
+
+            a:hover {
+                text-decoration: underline;
+            }
+
+            h1,
+            h2,
+            h3,
+            h4 {
+                color: var(--article-header-color);
+            }
+        }
+
+        header {
+            color: var(--header-color);
+            background-color: var(--header-background-color);
+
+            div.title {
+
+                span.logo {
+                    display: none;
+                }
+
+                span.title {
+                    text-indent: 5%;
+                    font-size: x-large;
+                    margin: 0px 1em;
+                    line-height: 2em;
+                    vertical-align: baseline;
+                }
+
+                span.subtitle {
+                    font-size: small;
+                    margin-right: 1em;
+                    vertical-align: baseline;
+                }
+            }
+
+            div.toolbar {
+                color: var(--topbar-color);
+                background-color: var(--topbar-background-color);
+
+                >nav {
+                    ul {
+                        color: var(--topbar-color);
+                        background-color: var(--topbar-background-color);
+
+                        >li:hover {
+                            cursor: pointer;
+                            color: var(--topbar-color-hover);
+                            background-color: var(--topbar-background-color-hover);
+                        }
+                    }
+                }
+
+                .icon {
+                    fill: black;
+                }
+
+                .icon:hover {
+                    fill: white;
+                }
+            }
+        }
+    }
+}
+
+// Search page
+article {
+    div.searchform {
+        margin: 3em;
+
+        input {
+            margin-left: 1em;
+            width: 70%;
+        }
+    }
+
+    div.searchresults {
+        margin: 3em;
+
+        ul {
+            list-style: none;
+
+            li {
+
+                margin-top: 1em;
+
+                a {
+                    text-decoration: none;
+                }
+
+                span.title {
+                    color: var(--search-title-color);
+                }
+
+                span.link {
+                    color: var(--search-link-color);
+                    margin-left: 2em;
+                    font-size: small;
+                    text-decoration: underline;
+
+                }
+
+                span.preview {
+                    font-size: small;
+                    color: var(--search-preview-color);
+                }
+
+            }
+        }
+    }
+
+}
+
+// Media overrides
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+    body {
+
+        >div.container {
+
+            font-size: 1.4em;
+
+            .sidebar {
+                display: none !important
+            }
+
+            header {
+
+                margin: 0px;
+                padding-top: .5em;
+                height: 8em;
+
+                div.title {
+
+                    span.logo {
+                        display: inline !important;
+                        text-align: center;
+                        padding: 5px 1em;
+                        vertical-align: top;
+
+                        >img {
+                            height: 4em;
+                        }
+                    }
+
+                    span.title {
+                        font-size: 1.5em;
+                    }
+
+                    span.subtitle {
+                        font-size: 1em;
+                        margin: 0px;
+                    }
+
+                }
+
+                div.toolbar {
+                    height: 2em;
+                    font-size: 1.4em;
+
+                    nav#navigation_topbar>ul>li {
+                        padding: 5px .4em;
+                    }
+                }
+            }
+
+            article {
+                padding: 0px 1em;
+                margin: 0px;
+            }
+        }
+    }
+}
