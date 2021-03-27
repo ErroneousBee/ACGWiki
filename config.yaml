@@ -29,10 +29,6 @@ extension_types: ["markdown", "html", "html", "text"]
 # It hasnt been developed yet!
 search: Search.html
 
-# This is the user config and other toos page, which is an html page behind the "hamburger" link
-# It hasnt been developed yet!
-settings: Settings.html
-
 # Search index items
 search_fields: ["title", "description", "keywords", "body"]
 search_exclude: ["content/assets", "Search.html"]
