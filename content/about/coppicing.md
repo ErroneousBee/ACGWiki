@@ -13,7 +13,7 @@ plants and animals to survive. Coppicing smaller trees and felling large trees, 
 managed a woodland resource.
 
 <figure>
-  <img src="ACGWebSite/images/Coppicing.jpg" alt="Coppicing" style="width:40%"/>
+  <img src="content/images/Coppicing.jpg" alt="Coppicing" style="width:40%"/>
   <figcaption>Coppicing in Action</figcaption>
 </figure>
 
@@ -21,7 +21,7 @@ Some of Ashplats Wood has been coppiced in the last 10 years or so, and, in conj
 
 
 <figure>
-  <img src="ACGWebSite/images/Coppiced-Sweet-Chestnut.jpg" alt="Coppice Stool" style="width:40%"/>
+  <img src="content/images/Coppiced-Sweet-Chestnut.jpg" alt="Coppice Stool" style="width:40%"/>
   <figcaption>A Stool of Coppiced Chestnut</figcaption>
 </figure>
 
@@ -41,7 +41,7 @@ Some of Ashplats Wood has been coppiced in the last 10 years or so, and, in conj
     * No – not if the plant is still vigorous; a coppiced tree can live for hundreds of years; sometime much longer than one that is not coppiced.
 
 <figure>
-  <img src="ACGWebSite/images/Coppice-Stools.jpg" alt="Coppice Stool regrowth" style="width:40%"/>
+  <img src="content/images/Coppice-Stools.jpg" alt="Coppice Stool regrowth" style="width:40%"/>
   <figcaption>Coppice Stool regrowth</figcaption>
 </figure>
 

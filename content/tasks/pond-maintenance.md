@@ -3,14 +3,14 @@ title: Tasks - Pond Maintenance
 ---
 
 <figure>
-  <img src="ACGWebSite/images/pond_wide.jpg" alt="Pond Workers" style="width:100%"/>
+  <img src="content/images/pond_wide.jpg" alt="Pond Workers" style="width:100%"/>
   <figcaption>A Task day in 2011 thinning willows in Alfreds Pond</figcaption>
 </figure>
 
 Alfreds Pond is a natural pond, water drains into it from the football pitch, and from the land above it towards the green container.
 
 <figure>
-  <img src="ACGWebSite/images/2003-Pond-Condition.jpg" alt="Umaintained Pond" style="width:60%"/>
+  <img src="content/images/2003-Pond-Condition.jpg" alt="Umaintained Pond" style="width:60%"/>
   <figcaption>Alfreds pond in 2003</figcaption>
 </figure>
 
@@ -26,7 +26,7 @@ Tasks necessary to bring the pond back to a good condition were:
   
 
 <figure>
-  <img src="ACGWebSite/images/DSCF2261.jpg" alt="Pond Margin" style="width:40%"/>
+  <img src="content/images/DSCF2261.jpg" alt="Pond Margin" style="width:40%"/>
   <figcaption>The pond margin, before silt was raked</figcaption>
 </figure>
   
@@ -35,7 +35,7 @@ Some tasks days in 2011 were assigned to the jobs of pulling the silt to the ban
 The next task was reducing the willows that had taken over the centre of the pond, reducing the amount of open water available to other species. Willows reduce water in the pond by transpiration, and by physically displacing it.  Again volunteers ventured into the water, and by a process of cutting roots and winching, root balls were pulled to the bank. Some willow was left to allow cover for ducks and other animals.
 
 <figure>
-  <img src="ACGWebSite/images/P1010531.jpg" alt="Full Pond" style="width:40%"/>
+  <img src="content/images/P1010531.jpg" alt="Full Pond" style="width:40%"/>
   <figcaption>The pond in early summer while the water level remains high</figcaption>
 </figure>
 

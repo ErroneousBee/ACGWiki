@@ -3,7 +3,7 @@ title: About The Woods - Flora and Fauna
 ---
 
 <figure>
-  <img src="ACGWebSite/images/Winter-trees-in-Ashplats.jpg" alt="Winter Tress" style="width:40%"/>
+  <img src="content/images/Winter-trees-in-Ashplats.jpg" alt="Winter Tress" style="width:40%"/>
   <figcaption>Coppiced Sweet Chestnut against a winter sky</figcaption>
 </figure>
 
@@ -12,7 +12,7 @@ The woodland is typical of the High Weald landscape, clothing the ridges and val
 The bulk of the wood is characterized by Sweet Chestnut, Silver Birch, Alder, Oak and Ash and the associated shrub layer of Coppice Hazel, Holly and Hawthorn.
 
 <figure>
-  <img src="ACGWebSite/images/P1050245.jpg" alt="Orange Tip Butterfly" style="width:40%"/>
+  <img src="content/images/P1050245.jpg" alt="Orange Tip Butterfly" style="width:40%"/>
   <figcaption>Orange Tip Butterfly</figcaption>
 </figure>
 
@@ -21,14 +21,14 @@ The ground is rich in flora and carpeted with the flowers of bluebells and wood 
 The recent re-introduction of coppicing and the restoration of glades and an old meadow increase light penetration and helps the flora, butterflies and other insects thrive. For more information see the Coppicing page of the web site
 
 <figure>
-  <img src="ACGWebSite/images/P1010361.jpg" alt="Bee" style="width:40%"/>
+  <img src="content/images/P1010361.jpg" alt="Bee" style="width:40%"/>
   <figcaption>Insects thrive in the glade areas</figcaption>
 </figure>
 
 Bee feeding.The higher slopes of the wood have been laid to a plantation of Sweet Chestnut that is cut for timber on a regular coppice cycle.
 
 <figure>
-  <img src="ACGWebSite/images/P1150123.jpg" alt="Wet Woodland" style="width:40%"/>
+  <img src="content/images/P1150123.jpg" alt="Wet Woodland" style="width:40%"/>
   <figcaption>One of our Wet Woodlands that dries out in the Summer</figcaption>
 </figure>
 

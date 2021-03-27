@@ -2,7 +2,7 @@
 title: Welcome to Ashplats Conservation Group
 ---
 
-<center>![Task Day](ACGWebSite/images/ashplatts-6369.jpg =400x* "ACG Members on a Task Day")</center>
+<center>![Task Day](content/images/ashplatts-6369.jpg =400x* "ACG Members on a Task Day")</center>
 
 Ashplats Wood is 28 ha and is part of the East Court Estate in East Grinstead, West Sussex, UK. The main part of the wood is designated as Ancient Woodland, and also a West Sussex Site of Nature Conservation Importance (SNCI). It sits within the High Weald Area of Outstanding Natural Beauty (AONB)
 
