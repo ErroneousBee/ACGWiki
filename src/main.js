@@ -313,10 +313,6 @@ const App = {
         };
 
         // Click on the search and settings icons
-        document.querySelector("header span.settings").onclick = () => {
-            App.set_url(Config.settings);
-            App.load_content_from_url();
-        }
         document.querySelector("header span.search").onclick = () => {
             App.set_url(Config.search);
             App.load_content_from_url();
