@@ -41,7 +41,7 @@ body {
                 flex: 1 1 auto;
             }
 
-            article {
+            div.article_container {
                 flex: 1 1 100%;
             }
 
@@ -125,7 +125,7 @@ body div.container {
                     ul>li>ul.open {
                         display: flex;
                         list-style: none;
-                        margin-left: 1em;
+                        margin-left: -.5em;
                         flex-direction: column;
                     }
 
@@ -158,12 +158,18 @@ body div.container {
             }
         }
 
-        article {
+        div.article_container {
             overflow-y: auto;
-            height: 100%;
-            width: 100%;
-            padding: 3px 1em;
+
+            article {
+                margin: 0 auto;
+                height: 100%;
+                max-width: 60em;
+                padding: 3px 1em;
+            }
         }
+
+
     }
 }
 

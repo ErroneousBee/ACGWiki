@@ -8,6 +8,7 @@ const fs = require("fs");
 const lunr = require("lunr");
 const cheerio = require("cheerio");
 const js_yaml = require('js-yaml');
+const { htmlToText } = require('html-to-text');
 
 const Config = {
     // Valid search fields: "title", "description", "keywords", "body"
@@ -133,12 +134,13 @@ function read_config() {
 
 function buildPreviews(docs) {
     var result = {};
-    for (var i = 0; i < docs.length; i++) {
-        var doc = docs[i];
-        var preview = doc["d"];
-        if (preview == "") preview = doc["b"];
-        if (preview.length > Config.search_max_preview_chars)
-            preview = preview.slice(0, Config.search_max_preview_chars) + " ...";
+
+    for (const doc of docs) {
+
+        let preview = doc.d;
+        if (preview == "") {
+            preview = htmlToText(doc.b, {}).slice(0, Config.search_max_preview_chars) + " ...";
+        }
         result[doc["id"]] = {
             "t": doc["t"],
             "p": preview,
