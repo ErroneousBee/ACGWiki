@@ -26,7 +26,7 @@ Tasks necessary to bring the pond back to a good condition were:
   
 
 <figure>
-  <img src="content/images/DSCF2261.jpg" alt="Pond Margin" style="width:40%"/>
+  <img src="content/images/DSCF2261.jpg" alt="Pond Margin" style="width:60%"/>
   <figcaption>The pond margin, before silt was raked</figcaption>
 </figure>
   
@@ -35,7 +35,7 @@ Some tasks days in 2011 were assigned to the jobs of pulling the silt to the ban
 The next task was reducing the willows that had taken over the centre of the pond, reducing the amount of open water available to other species. Willows reduce water in the pond by transpiration, and by physically displacing it.  Again volunteers ventured into the water, and by a process of cutting roots and winching, root balls were pulled to the bank. Some willow was left to allow cover for ducks and other animals.
 
 <figure>
-  <img src="content/images/P1010531.jpg" alt="Full Pond" style="width:40%"/>
+  <img src="content/images/P1010531.jpg" alt="Full Pond" style="width:60%"/>
   <figcaption>The pond in early summer while the water level remains high</figcaption>
 </figure>
 
