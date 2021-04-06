@@ -11,7 +11,8 @@ Things to be done in the Website
 * Expand the Species Page: newts, bats, birds, Fungi. Both Rare and Common and where to find them.
 * Tree Survey page.
 * Add recent tasks, Owl Path, Laurel clearence.
-* Make RhodiPage a history. Add a page describing or invasive species and other problems.
+* Make Rhodi page a history of clearing it.
+* Add a page describing our invasive species and other problems.
 
 ### Create a quiz page
 
