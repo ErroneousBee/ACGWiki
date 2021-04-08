@@ -349,12 +349,15 @@ article {
                     }
 
                     span.title {
-                        display: inline-block;
+                        display: none;
                     }
 
                     span.subtitle {
-                        font-size: 3em;
+                        display: inline-block;
+                        font-size: 1.5em !important;
                         margin: 0px;
+                        overflow: hidden;
+                        max-width: 60%;
                     }
                 }
 
@@ -371,12 +374,13 @@ article {
             article {
                 padding: 0px 1em;
                 margin: 0px;
+                font-size: 1.6em;
             }
+
             // Search page
             article {
                 div.searchform {
                     margin: 1em;
-                    font-size: 2em;
 
                     input {
                         margin-left: unset;
@@ -388,11 +392,10 @@ article {
 
                 div.searchresults {
                     margin: 0em;
-                    font-size: 1.5em;
 
                     span.title {
                         margin-left: 0em;
-                        font-size: 1.2em;
+                        font-size: 1.5em;
                         display: inline-block;
                     } 
 
