@@ -21,8 +21,8 @@ main article.plain {
 }
 
 div.sidebar {
-    background: linear-gradient(180deg, rgba(11, 33, 11, 0.6) 20%, rgba(11, 33, 11, 1) 50%),
-        url(nav_fern.jpg) 0 0 / 100% no-repeat;
+    background: linear-gradient(180deg, rgba(11, 33, 11, 0.6) 50%, rgba(11, 33, 11, 1) 100%),
+        url(nav_trunk.jpg) 0 0 / 100% no-repeat;
 }
 
 body > div.container > div.sidebar > div.logo {

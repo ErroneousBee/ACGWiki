@@ -4,6 +4,13 @@ class: plain
 ---
 
 # Images taken by the static motion sensitive camera.
+
+### Badger
+
+<figure>
+  <img src="content/images/BushCam/Badger1.JPG" alt="Deer" style="width:80%"/>
+  <figcaption>A Badger grooming</figcaption>
+</figure>
  
 ### Deer
 

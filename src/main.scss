@@ -8,7 +8,7 @@ html {
 }
 
 // Hide the icon definitions
-body>svg {
+body > svg {
     display: none;
 }
 
@@ -23,15 +23,15 @@ body {
     overflow: hidden;
     margin: 0;
 
-    >div.container {
+    > div.container {
         width: 100%;
         display: flex;
 
-        >div.sidebar {
+        > div.sidebar {
             flex: 1 1 auto;
         }
 
-        >main {
+        > main {
             flex: 1 1 100%;
 
             display: flex;
@@ -44,7 +44,6 @@ body {
             div.article_container {
                 flex: 1 1 100%;
             }
-
         }
     }
 }
@@ -55,7 +54,6 @@ body div.container {
     font-family: sans-serif;
 
     div.sidebar {
-
         height: 100%;
         border-radius: 25px;
 
@@ -121,11 +119,11 @@ body div.container {
                 nav#navigation_topbar {
                     height: 100%;
 
-                    ul>li:hover>ul,
-                    ul>li>ul.open {
+                    ul > li:hover > ul,
+                    ul > li > ul.open {
                         display: flex;
                         list-style: none;
-                        margin-left: -.5em;
+                        margin-left: -0.5em;
                         flex-direction: column;
                     }
 
@@ -137,7 +135,7 @@ body div.container {
                         flex-wrap: nowrap;
                         flex-direction: row;
 
-                        >li {
+                        > li {
                             text-align: center;
                             flex: 1 1 auto;
                             padding: 0px 0.5em;
@@ -168,40 +166,35 @@ body div.container {
                 padding: 3px 1em;
             }
         }
-
-
     }
 }
 
 // Side Navbar Accordio n
 nav.sidenav {
-
-    >ul {
+    > ul {
         display: block;
 
         ul {
             display: none;
         }
 
-        li.open>ul {
+        li.open > ul {
             display: block;
         }
     }
 }
 
-
 // Colours and font sizes
-body>div.container {
+body > div.container {
     color: var(--main-color);
     background-color: var(--main-background-color);
 
     div.sidebar {
-
         color: var(--sidebar-color);
         background-color: var(--sidebar-background-color);
 
-        >nav {
-            li>span.navline:hover {
+        > nav {
+            li > span.navline:hover {
                 color: var(--sidebar-color-hover);
                 background-color: var(--sidebar-background-color-hover);
             }
@@ -209,8 +202,6 @@ body>div.container {
     }
 
     main {
-
-
         article {
             color: var(--article-color);
             background-color: var(--article-background-color);
@@ -238,7 +229,6 @@ body>div.container {
             background-color: var(--header-background-color);
 
             div.title {
-
                 span.logo {
                     display: none;
                 }
@@ -262,12 +252,12 @@ body>div.container {
                 color: var(--topbar-color);
                 background-color: var(--topbar-background-color);
 
-                >nav {
+                > nav {
                     ul {
                         color: var(--topbar-color);
                         background-color: var(--topbar-background-color);
 
-                        >li:hover {
+                        > li:hover {
                             cursor: pointer;
                             color: var(--topbar-color-hover);
                             background-color: var(--topbar-background-color-hover);
@@ -305,7 +295,6 @@ article {
             list-style: none;
 
             li {
-
                 margin-top: 1em;
 
                 a {
@@ -321,68 +310,63 @@ article {
                     margin-left: 2em;
                     font-size: small;
                     text-decoration: underline;
-
                 }
 
                 span.preview {
                     font-size: small;
                     color: var(--search-preview-color);
                 }
-
             }
         }
     }
-
 }
 
 // Media overrides
 @media screen and (max-device-width: 480px) and (orientation: portrait) {
     body {
-
-        >div.container {
-
+        > div.container {
             font-size: 1.4em;
 
             .sidebar {
-                display: none !important
+                display: none !important;
             }
 
             header {
-
                 margin: 0px;
-                padding-top: .5em;
+                padding-top: 0.5em;
                 height: 8em;
 
                 div.title {
-
                     span.logo {
                         display: inline !important;
                         text-align: center;
                         padding: 5px 1em;
                         vertical-align: top;
 
-                        >img {
+                        > img {
                             height: 4em;
                         }
                     }
 
                     span.title {
-                        font-size: 1.5em;
+                        display: none;
                     }
 
                     span.subtitle {
-                        font-size: 1em;
+                        display: inline-block;
+                        font-size: 1.5em !important;
                         margin: 0px;
+                        overflow: hidden;
+                        max-width: 60%;
                     }
-
                 }
 
                 div.toolbar {
                     height: 2em;
                     font-size: 1.4em;
 
-                    nav#navigation_topbar>ul>li {
-                        padding: 5px .4em;
+                    nav#navigation_topbar > ul > li {
+                        padding: 5px 0.4em;
                     }
                 }
             }
@@ -390,6 +374,42 @@ article {
             article {
                 padding: 0px 1em;
                 margin: 0px;
+                font-size: 1.6em;
+            }
+
+            // Search page
+            article {
+                div.searchform {
+                    margin: 1em;
+
+                    input {
+                        margin-left: unset;
+                        width: 100%;
+                        font-size: 1.2em;
+                        display: block;
+                    }
+                }
+
+                div.searchresults {
+                    margin: 0em;
+
+                    span.title {
+                        margin-left: 0em;
+                        font-size: 1.5em;
+                        display: inline-block;
+                    } 
+
+                    span.link {
+                        display: none;
+                    }   
+
+                    span.preview{
+
+                        font-size: 1.1em;
+                    }      
+
+                }
+
             }
         }
     }
