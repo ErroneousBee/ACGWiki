@@ -17,8 +17,7 @@ managed a woodland resource.
   <figcaption>Coppicing in Action</figcaption>
 </figure>
 
-Some of Ashplats Wood has been coppiced in the last 10 years or so, and, in conjunction with Mid Sussex District Council, further work is due to take place (weather permitting) in the winter of 2011-12.
-
+Volunteers keep some areas of hazel coppiced. The Sweet Chestnut coppice stands require commercial operations to fell and remove the wood.
 
 <figure>
   <img src="content/images/Coppiced-Sweet-Chestnut.jpg" alt="Coppice Stool" style="width:40%"/>
@@ -77,5 +76,5 @@ Some of Ashplats Wood has been coppiced in the last 10 years or so, and, in conj
     * Look closely at the trees and shrubs in the Wood; many are multiple stems growing from the base. This is the result of coppicing.
 
 
-*  What’s pollarding?
-    * Similar to coppicing but the branches are regularly cut higher up; typically between 5 and 10 feet (1.5 to 3 metres). This is done to prevent animals browsing the new growth.
+*  What is pollarding?
+    * Similar to coppicing but the branches are cut higher up; typically between 5 and 10 feet (1.5 to 3 metres). This is done to prevent animals browsing the new growth.
