@@ -9,7 +9,9 @@ const lunr = require("lunr");
 const cheerio = require("cheerio");
 const js_yaml = require('js-yaml');
 const { htmlToText } = require('html-to-text');
+const pdf_util = require('pdf-to-text');
 
+// Default values for config, read_config() will add from yaml file.+
 const Config = {
     // Valid search fields: "title", "description", "keywords", "body"
     search_fields: ["title", "description", "keywords", "body"],
@@ -21,7 +23,7 @@ const Config = {
 
 /**
  * Returns an array of file paths.
- * @param {String} folder 
+ * @param {String} folder B35
  */
 function find_files(folder) {
     if (!fs.existsSync(folder)) {
@@ -43,10 +45,13 @@ function find_files(folder) {
         if (Config.search_exclude.includes(filename)) {
             continue;
         }
-        if (stat.isFile() && !Config.extension_precedence.includes(filetype)) {
+
+        // Files we cant handle
+        if (stat.isFile() && !Config.search_filetypes.includes(filetype)) {
             continue;
         }
 
+        // Get the file, or a list of files
         if (stat.isDirectory()) {
             sources.push(find_files(filename));
         } else {
@@ -58,6 +63,11 @@ function find_files(folder) {
     return sources.reduce((acc, val) => acc.concat(val), []);
 }
 
+/**
+ * Turn an html file into a lunr search object
+ * @param {*} filename 
+ * @param {*} fileId 
+ */
 function html_to_lunr_doc(filename, fileId) {
     const txt = fs.readFileSync(filename).toString();
 
@@ -78,6 +88,11 @@ function html_to_lunr_doc(filename, fileId) {
     }
 }
 
+/**
+ * Turn a markdown or text file into a lunr search object
+ * @param {*} filename 
+ * @param {*} fileId 
+ */
 function markdown_to_lunr_doc(filename, fileId) {
 
     const text = fs.readFileSync(filename).toString();
@@ -99,6 +114,44 @@ function markdown_to_lunr_doc(filename, fileId) {
         "d": json.description || "",
         "k": json.keywords || json.tags || "",
         "b": body
+    }
+}
+
+/**
+ * 
+ * @param {String} filename 
+ * @param {*} fileId 
+ */
+async function pdf_to_lunr_doc(filename, fileId) {
+
+    const info_promise = () => {
+        return new Promise((resolve, reject) => {
+            pdf_util.info(filename, function (err, info) {
+                if (err) return reject(err);
+                resolve(info);
+            });
+        })
+    };
+
+    const text_promise = () => {
+        return new Promise((resolve, reject) => {
+            pdf_util.pdfToText(filename, function (err, data) {
+                if (err) return reject(err);
+                resolve(data); 
+            });
+        })
+    };
+
+    const text = await text_promise();
+    const info = await info_promise();
+
+    return {
+        "id": fileId,
+        "link": filename.slice(Config.contentpath.length),
+        "t": info.title || "PDF Document",
+        "d": info.description || "",
+        "k": info.keywords || "",
+        "b": text
     }
 }
 
@@ -151,7 +204,7 @@ function buildPreviews(docs) {
 }
 
 
-function main() {
+async function main() {
 
     read_config();
 
@@ -167,6 +220,10 @@ function main() {
             docs.push(markdown_to_lunr_doc(files[i], i));
         } else if (files[i].endsWith(".txt")) {
             docs.push(html_to_lunr_doc(files[i], i));
+        } else if (files[i].endsWith(".pdf")) {
+            const obj = await pdf_to_lunr_doc(files[i], i);
+            console.log(obj);
+            docs.push(obj);
         }
     }
 

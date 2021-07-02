@@ -32,5 +32,6 @@ search: Search.html
 # Search index items
 search_fields: ["title", "description", "keywords", "body"]
 search_exclude: ["content/assets", "content/TODO", "Search.html"]
+search_filetypes: ["markdown","md","html","htm","pdf"]
 search+max_preview_chars: 275
 search_index: "src/lunr_index.js"
