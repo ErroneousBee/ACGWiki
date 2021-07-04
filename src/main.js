@@ -87,7 +87,7 @@ const App = {
      * Look at the current URL and load the content based on that URL.
      * Driven from an event listener.
      */
-    load_content_from_url() {
+    load_content_from_url(event) {
 
         const url = new URL(window.location.href);
 
@@ -96,9 +96,13 @@ const App = {
         if (path === '') {
             path = Config.home;
         }
-
-        App.read_path_into_element(path, document.getElementById("content"));
-
+        console.log(path);
+        const isexternal = Config.external_types.map(type => path.endsWith("." + type)).includes(true);
+        if (isexternal) {
+            window.location.href = url.origin + "/" + Config.contentpath + path;
+        } else {
+            App.read_path_into_element(path, document.getElementById("content"));
+        }
     },
 
     /**
@@ -140,7 +144,7 @@ const App = {
                         break;
 
                     case "md": {
-                        const [html, ] = App.convert_markdown_page(text, file);
+                        const [html,] = App.convert_markdown_page(text, file);
                         element.innerHTML = html;
                         break;
                     }

@@ -221,9 +221,7 @@ async function main() {
         } else if (files[i].endsWith(".txt")) {
             docs.push(html_to_lunr_doc(files[i], i));
         } else if (files[i].endsWith(".pdf")) {
-            const obj = await pdf_to_lunr_doc(files[i], i);
-            console.log(obj);
-            docs.push(obj);
+            docs.push(await pdf_to_lunr_doc(files[i], i));
         }
     }
 
