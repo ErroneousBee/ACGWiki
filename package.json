@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ErroneousBee/PortaWiki.git"
+    "url": "git+https://github.com/ErroneousBee/ACGWiki.git"
   },
   "author": "neil@neilhancock.co.uk",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ErroneousBee/PortaWiki/issues"
+    "url": "https://github.com/ErroneousBee/ACGWiki/issues"
   },
-  "homepage": "https://github.com/ErroneousBee/PortaWiki#readme",
+  "homepage": "https://github.com/ErroneousBee/ACGWiki#readme",
   "devDependencies": {
     "cheerio": "^1.0.0-rc.5",
     "eslint": "^7.20.0",
@@ -28,7 +28,8 @@
     "fs-extra": "^9.1.0",
     "html-to-text": "^7.0.0",
     "lunr": "^2.3.9",
-    "node-sass": "^5.0.0",
+    "node-sass": "^6.0.1",
+    "pdf-to-text": "^0.0.7",
     "yaml-front-matter": "^4.1.1"
   }
 }

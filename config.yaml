@@ -21,16 +21,17 @@ navigation_sidebar: assets/sidenav.md
 navigation_topbar: assets/headernav.md
 
 # Developer stuff
-show_config: false
-extension_precedence: ["md", "html", "htm", "txt"]
-extension_types: ["markdown", "html", "html", "text"]
+show_config: false # Write a report of the config to the browser console.
+extension_precedence: ["md", "html", "htm", "txt"] # Which filetypes we prefer to show, .md is first.
+extension_types: ["markdown", "html", "html", "text"] # How to interpret file types.
+external_types: ["pdf"] # Open pdf files as new urls
 
 # This is the search tool, which is an html page behind the "search" link
-# It hasnt been developed yet!
 search: Search.html
 
 # Search index items
 search_fields: ["title", "description", "keywords", "body"]
-search_exclude: ["content/assets", "content/TODO", "Search.html"]
+search_exclude: ["content/assets", "content/TODO", "Search.html"] # Folders or filenames
+search_filetypes: ["markdown","md","html","htm","txt","pdf"] # Look in files with these suffixes
 search+max_preview_chars: 275
 search_index: "src/lunr_index.js"

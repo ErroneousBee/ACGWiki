@@ -87,18 +87,24 @@ const App = {
      * Look at the current URL and load the content based on that URL.
      * Driven from an event listener.
      */
-    load_content_from_url() {
+    load_content_from_url(event) {
 
         const url = new URL(window.location.href);
+
+        console.log("Hash change", event, url);
 
         // We use the hash part of the URL for the path 
         let path = url.hash.slice(1);
         if (path === '') {
             path = Config.home;
         }
-
-        App.read_path_into_element(path, document.getElementById("content"));
-
+        console.log(path);
+        const isexternal = Config.external_types.map(type => path.endsWith("." + type)).includes(true);
+        if (isexternal) {
+            window.location.href = url.origin + "/" + Config.contentpath + path;
+        } else {
+            App.read_path_into_element(path, document.getElementById("content"));
+        }
     },
 
     /**
@@ -140,7 +146,7 @@ const App = {
                         break;
 
                     case "md": {
-                        const [html, ] = App.convert_markdown_page(text, file);
+                        const [html,] = App.convert_markdown_page(text, file);
                         element.innerHTML = html;
                         break;
                     }
@@ -211,6 +217,10 @@ const App = {
                                 document.title = json.title;
                             }
                             element.innerHTML = html;
+
+                            // Fix links to be relative
+                            App.fix_links(element);
+
                             break;
                         }
 
@@ -221,7 +231,7 @@ const App = {
                     }
                 });
 
-                App.set_url(path);
+                //App.set_url(path);
             })
             .catch(e => {
                 console.error(e);
@@ -291,37 +301,13 @@ const App = {
         document.querySelector("nav#navigation_sidebar").onclick = App.nav_sidebar_click_handler;
 
         // Click on the header navigation toolbar
-        document.querySelector("nav#navigation_topbar").onclick = (e) => {
-            e.preventDefault();
+        document.querySelector("nav#navigation_topbar").onclick = App.nav_topbar_click_handler;
 
-            const li = e.target.closest("li");
-
-            // If we have a "ul" in here, its a further menu
-            if (li.lastElementChild && li.lastElementChild.tagName === "UL") {
-
-                // Toggle clicked, turn off all siblings
-                const isopen = li.lastElementChild.classList.contains("open");
-                li.closest("ul").querySelectorAll("li>ul.open").forEach(sibling => sibling.classList.remove("open"));
-
-                if (!isopen) {
-                    li.lastElementChild.classList.add("open");
-                }
-
-            } else {
-                document.querySelectorAll("nav#navigation_topbar ul.open").forEach(sibling => sibling.classList.remove("open"));
-                const path = App.get_path_from_element(li);
-                App.read_path_into_element(path, document.getElementById("content"));
-            }
-        };
-
-        // Click on the search and settings icons
-        // document.querySelector("header span.settings").onclick = () => {
-        //     App.set_url(Config.settings);
-        //     App.load_content_from_url();
-        // } // TODO: Make this driven from the config.
+        // Click on the search icon
+        // TODO: Make this driven from the config.
         document.querySelector("header span.search").onclick = () => {
             App.set_url(Config.search);
-            App.load_content_from_url();
+            //App.load_content_from_url();
         }
 
 
@@ -331,15 +317,12 @@ const App = {
      * User has clicked in the side navbar menu, squeeze the bellows or navigate accordionly.
      * @param {*} event 
      */
-    nav_sidebar_click_handler(event) {
+    nav_sidebar_click_handler(e) {
 
+        e.preventDefault();
 
-        event.preventDefault();
-
-        const target_li = event.target.closest("li");
+        const target_li = e.target.closest("li");
         const has_children = [...target_li.children].filter(el => el.tagName === "UL").length > 0;
-
-        console.log("click nav", target_li, has_children);
 
         // If its got li children, fix open accordiant
         if (has_children) {
@@ -347,8 +330,40 @@ const App = {
             return;
         }
 
-        const path = App.get_path_from_element(event.target);
-        App.read_path_into_element(path, document.getElementById("content"));
+        const path = App.get_path_from_element(e.target);
+        App.set_url(path);
+
+    },
+
+    /**
+     * User has clicked in the top navbar menu, drop menu or navigate accordionly.
+     * @param {*} event 
+     */
+    nav_topbar_click_handler(e) {
+
+        e.preventDefault();
+
+        const li = e.target.closest("li");
+
+        // If we have a "ul" in here, its a further menu
+        if (li.lastElementChild && li.lastElementChild.tagName === "UL") {
+
+            // Toggle clicked, turn off all siblings
+            const isopen = li.lastElementChild.classList.contains("open");
+            li.closest("ul").querySelectorAll("li>ul.open").forEach(sibling => sibling.classList.remove("open"));
+
+            if (!isopen) {
+                li.lastElementChild.classList.add("open");
+            }
+
+        } else {
+            // Close all nav menus
+            document.querySelectorAll("nav#navigation_topbar ul.open").forEach(sibling => sibling.classList.remove("open"));
+
+            // Open path
+            const path = App.get_path_from_element(li);
+            App.set_url(path);
+        }
 
     },
 
@@ -392,6 +407,38 @@ const App = {
         }
 
         return App.get_path_from_element(elp, pathpart);
+
+    },
+
+    /**
+     * Edit all links so that they work as expected for the authors of pages.
+     * @param {*} element - probably the dif that you have just loaded a markdown file into.
+     */
+    fix_links(element) {
+
+        const b =  window.location.href;
+        const base = b.substr(0, b.lastIndexOf("/") );
+
+        // Insert spans of the sidebar texts to allow hover niceness
+        const links = element.querySelectorAll("a");
+        for (const link of links) {
+
+            // External links get left alone
+            if (window.location.origin !== link.origin) {
+                continue;
+            }
+
+            // Fully qualified hashs get left alone 
+            const href = link.getAttribute("href");
+            if (href.startsWith("#/") || href.startsWith("/")) {
+                continue;
+            }
+
+            // Remove the file from the baseURI 
+            const newURI = base + "/" + href.replace(/^#/, '');
+            link.setAttribute("href", newURI);
+
+        }
 
     },
 
