@@ -5,19 +5,9 @@ keywords: species flower insect tree
 
 # Common Species
 
-#### Pendulous Sedge
-<figure>
- <img src="content/images/species/pendulous_sedge.jpg" alt="pendulous sedge" style="width:100%"/>
- <figcaption>Pendulous Sedge</figcaption>
-</figure>
- 
-Find this plant whereever there are damp areas, often growing on seep lines where a pourous sandstone cap meets impervious clay. 
-
-Growing all year round, its seed heads droop to one side.
-
 ### Lesser Celendine
 <figure>
- <img src="content/images/species/lesser_celendine.jpg" alt="lesser celendine" style="width:100%"/>
+ <img src="content/images/species/lesser_celendine.jpg" alt="lesser celendine" style="width:30%"/>
  <figcaption>Lesser Celendine</figcaption>
 </figure>
 
@@ -26,11 +16,21 @@ Flowering in April with distinctive yellow flowers. This plant is often found be
 ### Wood Anemone
 
 <figure>
- <img src="content/images/species/wood_anemone.jpg" alt="wood anemone" style="width:100%"/>
+ <img src="content/images/species/wood_anemone.jpg" alt="wood anemone" style="width:30%"/>
  <figcaption>Wood Anemone</figcaption>
 </figure>
 
 Another spring flower, favouring woodland paths.
+
+#### Pendulous Sedge
+<figure>
+ <img src="content/images/species/pendulous_sedge.jpg" alt="pendulous sedge" style="width:30%"/>
+ <figcaption>Pendulous Sedge</figcaption>
+</figure>
+ 
+Find this plant whereever there are damp areas, often growing on seep lines where a pourous sandstone cap meets impervious clay. 
+
+Growing all year round, its seed heads droop to one side.
 
 
 # Meadow Survey

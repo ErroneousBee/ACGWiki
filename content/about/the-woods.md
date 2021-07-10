@@ -5,11 +5,9 @@ title: About The Woods
 
 [Geology](#about/geology) - The rocks and soils beneath your feet.
 
-[Flora and Fauna](#about/flora-and-fauna) - Things to see in the woods.
-
-[Coppicing](#about/coppicing) - One of the ways of managing a woodland.
-
 [Nature Trail](#about/nature-trail) - Getting around in the woods.
+
+[Flora and Fauna](#about/flora-and-fauna) - Things to see in the woods.
 
 [Species Lists](#about/species-lists) - Lists of species spotted in the woods.
 

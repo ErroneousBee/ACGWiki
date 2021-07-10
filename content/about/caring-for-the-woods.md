@@ -20,7 +20,7 @@ Cycling and camping are not allowed in the woods.
   
 Please do not put down food for foxes or other animals.
 
-Do not fly tip garden waste in the woods, it brings in plants that can be invasive, and can become a home to rats and other vermin.
+Do not fly tip garden waste in the woods, it brings in invasive plants, and can become a home for rats and other vermin.
   
 The park and woodlands are managed by Mid Sussex District Council and are subject to Local Authority Bylaws. The site is regularly patrolled by the MSDC Park Rangers. 
 
