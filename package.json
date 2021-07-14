@@ -29,7 +29,9 @@
     "html-to-text": "^7.0.0",
     "lunr": "^2.3.9",
     "node-sass": "^6.0.1",
-    "pdf-to-text": "^0.0.7",
-    "yaml-front-matter": "^4.1.1"
+    "yaml-front-matter": "^4.1.1",
+    "pdf-parse": "^1.1.1"
+  },
+  "dependencies": {
   }
 }

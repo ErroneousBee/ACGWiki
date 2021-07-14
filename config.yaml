@@ -32,6 +32,6 @@ search: Search.html
 # Search index items
 search_fields: ["title", "description", "keywords", "body"]
 search_exclude: ["content/assets", "content/TODO", "Search.html"] # Folders or filenames
-search_filetypes: ["markdown","md","html","htm","txt"] # Look in files with these suffixes
+search_filetypes: ["markdown","md","html","htm","txt","pdf"] # Look in files with these suffixes
 search+max_preview_chars: 275
 search_index: "src/lunr_index.js"
