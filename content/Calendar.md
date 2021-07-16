@@ -5,11 +5,24 @@ keywords: diary tasks calendar dates
 
 # Diary Dates for Working Groups in 2021
 
-We hope to hold a litter pick on Sunday 11th July. We will confirm on facebeek and email when we know for sure we can go ahead.
-
-Other provisional dates:
+Provisional dates:
 
 September 12th - Meadow Raking
+
+October - Pond maintainence or coppicing
+
+November - Repairs to Ghyll steps ( depending on material availability ).
+
+December - Coppicing
+
+January - Woodland Tasks
+
+February  - To be decided
+
+March  - Repairs to Ghyll steps?
+
+April - Litter Pick
+
 
 # General Dates in the Season
 
