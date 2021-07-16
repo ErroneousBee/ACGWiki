@@ -3,7 +3,7 @@
 title: Ashplats Conservation Group
 
 # Set the home page, this page is loaded if no specific path is given.
-home: Home.md
+home: Home
 
 # Choose a theme, which will correspond to a folder in the themes/ folder. This folder should contain css files such as colors.css and layout.css
 theme: woodland
@@ -32,6 +32,6 @@ search: Search.html
 # Search index items
 search_fields: ["title", "description", "keywords", "body"]
 search_exclude: ["content/assets", "content/TODO", "Search.html"] # Folders or filenames
-search_filetypes: ["markdown","md","html","htm","txt"] # Look in files with these suffixes
+search_filetypes: ["markdown","md","html","htm","txt","pdf"] # Look in files with these suffixes
 search+max_preview_chars: 275
 search_index: "src/lunr_index.js"

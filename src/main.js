@@ -42,6 +42,8 @@ const App = {
         return new Promise((resolve, reject) => {
             fetch(path + '.' + extn)
                 .then(response => {
+
+                    // Nope, try next filetype.
                     if (!response.ok) {
                         if (extn_list.length === 0) {
                             reject("Ran out of extensions to try");
@@ -49,6 +51,10 @@ const App = {
                         }
                         return this.fetch_with_extention(path, extn_list);
                     }
+
+                    // Make more info into the response and resolve the promise.
+                    response.filename = response.url.split('/').pop();
+                    response.filetype = response.filename.slice((response.filename.lastIndexOf(".") - 1 >>> 0) + 2);
                     resolve(response);
                 })
                 .catch(e => {
@@ -91,14 +97,11 @@ const App = {
 
         const url = new URL(window.location.href);
 
-        console.log("Hash change", event, url);
-
         // We use the hash part of the URL for the path 
         let path = url.hash.slice(1);
         if (path === '') {
             path = Config.home;
         }
-        console.log(path);
         const isexternal = Config.external_types.map(type => path.endsWith("." + type)).includes(true);
         if (isexternal) {
             window.location.href = url.origin + "/" + Config.contentpath + path;
@@ -175,6 +178,7 @@ const App = {
         const filename = path.split('/').pop();
         const filetype = filename.slice((filename.lastIndexOf(".") - 1 >>> 0) + 2);
 
+        // If we were given a filetype, remove it and add it to front of the list to try first
         const extn_list = [...Config.extension_precedence];
         if (filetype !== "") {
             extn_list.unshift(filetype);
@@ -187,56 +191,69 @@ const App = {
 
         // Config.extension_precedence
         App.fetch_with_extention(Config.contentpath + path, extn_list)
+            .catch(e => {
+                // That didnt work, lets try appending Config.home
+                return App.fetch_with_extention(Config.contentpath + path + "/" + Config.home, [...Config.extension_precedence])
+            })
             .then(response => {
-
-                if (!response.ok) {
-                    throw new Error(response.statusText)
-                }
-
-                const filename = response.url.split('/').pop();
-                const filetype = filename.slice((filename.lastIndexOf(".") - 1 >>> 0) + 2);
 
                 response.text().then(text => {
 
+                    // Search amd possibly other 
                     const event = new CustomEvent('pathloaded', {
                         path: path
                     });
+                    document.dispatchEvent(event);
 
-                    switch (filetype) {
-                        case "htm":
-                        case "html":
-                            element.innerHTML = text;
-                            document.dispatchEvent(event);
-                            break;
+                    App.write_content_into_element(response.url, response.filetype, element, text);
 
-                        case "md": {
-                            const [html, json] = App.convert_markdown_page(text, response.url);
-                            // Deal with json frontmatter
-                            if (json.title) {
-                                document.querySelector("header span.subtitle").innerHTML = json.title;
-                                document.title = json.title;
-                            }
-                            element.innerHTML = html;
-
-                            // Fix links to be relative
-                            App.fix_links(element);
-
-                            break;
-                        }
-
-                        default:
-                            element.innerHTML = text;
-                            break;
-
-                    }
                 });
 
-                //App.set_url(path);
             })
             .catch(e => {
+                console.log( "catch 2");
+
                 console.error(e);
                 element.innerHTML = '<p class="error">' + e + '.</p><p>Path: ' + path + '</p>';
             });
+
+    },
+
+    /**
+     * Convert and write some content into an element, mostly the content into the main content area. 
+     * @param {*} source 
+     * @param {*} filetype 
+     * @param {*} element 
+     * @param {*} text 
+     */
+    write_content_into_element(source, filetype, element, text) {
+
+        switch (filetype) {
+            case "htm":
+            case "html":
+                element.innerHTML = text;
+                break;
+
+            case "md": {
+                const [html, json] = App.convert_markdown_page(text, source);
+                // Deal with json frontmatter
+                if (json.title) {
+                    document.querySelector("header span.subtitle").innerHTML = json.title;
+                    document.title = json.title;
+                }
+                element.innerHTML = html;
+
+                // Fix links to be relative
+                App.fix_links(element);
+
+                break;
+            }
+
+            default:
+                element.innerHTML = text;
+                break;
+
+        }
 
     },
 
@@ -416,8 +433,8 @@ const App = {
      */
     fix_links(element) {
 
-        const b =  window.location.href;
-        const base = b.substr(0, b.lastIndexOf("/") );
+        const b = window.location.href;
+        const base = b.substr(0, b.lastIndexOf("/"));
 
         // Insert spans of the sidebar texts to allow hover niceness
         const links = element.querySelectorAll("a");

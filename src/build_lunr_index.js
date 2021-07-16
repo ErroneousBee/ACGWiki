@@ -9,7 +9,7 @@ const lunr = require("lunr");
 const cheerio = require("cheerio");
 const js_yaml = require('js-yaml');
 const { htmlToText } = require('html-to-text');
-const pdf_util = require('pdf-to-text');
+const pdf_util = require('pdf-parse');
 
 // Default values for config, read_config() will add from yaml file.+
 const Config = {
@@ -124,37 +124,67 @@ function markdown_to_lunr_doc(filename, fileId) {
  */
 async function pdf_to_lunr_doc(filename, fileId) {
 
-    const info_promise = () => {
-        return new Promise((resolve, reject) => {
-            pdf_util.info(filename, function (err, info) {
-                if (err) return reject(err);
-                resolve(info);
-            });
-        })
-    };
+    const buffer = fs.readFileSync(filename);
 
-    const text_promise = () => {
-        return new Promise((resolve, reject) => {
-            pdf_util.pdfToText(filename, function (err, data) {
-                if (err) return reject(err);
-                resolve(data); 
-            });
-        })
-    };
+    const data = await pdf_util(buffer).then(data => {
+ 
+        // console.log(data.numpages);
+        // console.log(data.numrender);
+        // console.log(data.info);
+        // console.log(data.metadata); 
+        // console.log(data.version);
+        // console.log(data.text); 
 
-    const text = await text_promise();
-    const info = await info_promise();
+        return data;
+            
+    });
 
     return {
         "id": fileId,
         "link": filename.slice(Config.contentpath.length),
-        "t": info.title || "PDF Document",
-        "d": info.description || "",
-        "k": info.keywords || "",
-        "b": text
+        "t": data.info.title || "PDF Document",
+        "d": data.info.description || "",
+        "k": data.info.keywords || "pdf",
+        "b": data.text
     }
 }
 
+// pdf-to-text version, which ultimatly has a dependency on a 
+// pdftotext binary, part of poppler-utils and not 
+// necessarily installed on remote build systems like netlify.
+// /**
+//  * 
+//  * @param {String} filename 
+//  * @param {*} fileId 
+//  */
+// async function pdf_to_lunr_doc(filename, fileId) {
+//     const info_promise = () => {
+//         return new Promise((resolve, reject) => {
+//             pdf_util.info(filename, function (err, info) {
+//                 if (err) return reject(err);
+//                 resolve(info);
+//             });
+//         })
+//     };
+//     const text_promise = () => {
+//         return new Promise((resolve, reject) => {
+//             pdf_util.pdfToText(filename, function (err, data) {
+//                 if (err) return reject(err);
+//                 resolve(data); 
+//             });
+//         })
+//     };
+//     const text = await text_promise();
+//     const info = await info_promise();
+//     return {
+//         "id": fileId,
+//         "link": filename.slice(Config.contentpath.length),
+//         "t": info.title || "PDF Document",
+//         "d": info.description || "",
+//         "k": info.keywords || "",
+//         "b": text
+//     }
+// }
 
 function buildIndex(docs) {
     var idx = lunr(function () {
