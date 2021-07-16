@@ -3,7 +3,7 @@
 title: Ashplats Conservation Group
 
 # Set the home page, this page is loaded if no specific path is given.
-home: Home.md
+home: Home
 
 # Choose a theme, which will correspond to a folder in the themes/ folder. This folder should contain css files such as colors.css and layout.css
 theme: woodland

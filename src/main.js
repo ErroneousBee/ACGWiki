@@ -178,7 +178,7 @@ const App = {
         const filename = path.split('/').pop();
         const filetype = filename.slice((filename.lastIndexOf(".") - 1 >>> 0) + 2);
 
-        // If we were given a filetype, add it to front of the list to try.
+        // If we were given a filetype, remove it and add it to front of the list to try first
         const extn_list = [...Config.extension_precedence];
         if (filetype !== "") {
             extn_list.unshift(filetype);
@@ -191,6 +191,10 @@ const App = {
 
         // Config.extension_precedence
         App.fetch_with_extention(Config.contentpath + path, extn_list)
+            .catch(e => {
+                // That didnt work, lets try appending Config.home
+                return App.fetch_with_extention(Config.contentpath + path + "/" + Config.home, [...Config.extension_precedence])
+            })
             .then(response => {
 
                 response.text().then(text => {
@@ -205,23 +209,24 @@ const App = {
 
                 });
 
-                //App.set_url(path);
             })
             .catch(e => {
+                console.log( "catch 2");
+
                 console.error(e);
                 element.innerHTML = '<p class="error">' + e + '.</p><p>Path: ' + path + '</p>';
             });
 
     },
 
-     /**
-      * Convert and write some content into an element, mostly the content into the main content area. 
-      * @param {*} source 
-      * @param {*} filetype 
-      * @param {*} element 
-      * @param {*} text 
-      */
-    write_content_into_element( source,  filetype, element, text ) {
+    /**
+     * Convert and write some content into an element, mostly the content into the main content area. 
+     * @param {*} source 
+     * @param {*} filetype 
+     * @param {*} element 
+     * @param {*} text 
+     */
+    write_content_into_element(source, filetype, element, text) {
 
         switch (filetype) {
             case "htm":
@@ -428,8 +433,8 @@ const App = {
      */
     fix_links(element) {
 
-        const b =  window.location.href;
-        const base = b.substr(0, b.lastIndexOf("/") );
+        const b = window.location.href;
+        const base = b.substr(0, b.lastIndexOf("/"));
 
         // Insert spans of the sidebar texts to allow hover niceness
         const links = element.querySelectorAll("a");
