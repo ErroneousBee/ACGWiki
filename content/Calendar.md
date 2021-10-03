@@ -5,11 +5,24 @@ keywords: diary tasks calendar dates
 
 # Diary Dates for Working Groups in 2021
 
-We hope to hold a litter pick on Sunday 11th July. We will confirm on facebeek and email when we know for sure we can go ahead.
-
-Other provisional dates:
+Provisional dates:
 
 September 12th - Meadow Raking
+
+October 10th - Scout Land. Clear vegetation, repair path, coppicing and sycamore removal.
+
+November 7th - Coppicing
+
+December 12th- Coppicing
+
+January 9th - To be decided
+
+February 13th - To be decided
+
+March  13th - Repairs to Ghyll steps ( depending on material availability )
+
+April 10th - Litter Pick (delends on other litter picking activites )
+
 
 # General Dates in the Season
 
@@ -18,3 +31,4 @@ September 12th - Meadow Raking
 * September - Meadow mowing and raking
 * Early Autumn - Pond work whilst the ponds are still low and the residents are no longer living fast paced lives.
 * December - The Xmas Task
+

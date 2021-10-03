@@ -2,37 +2,71 @@
 title: Work To Be Done 
 ---
 
-### Repair Ghyll Steps
+These are all jobs that can be done in the woods. Some are seasonal events, some are continuous, some will only need doing periodically.
 
-* Use Chestnut from the trees cut down along main path.
-* Make chestnut risers and stakes. 
-* Get topping material from somewhere.
-* Replace missing step, use side risers to stop side slump.
-* Dig out drains upslope.
-* Topping material ( or corderoy ) on some boggy sections 1/2 way up.
 
-### Control Rhodi Regrowth
+## Control Rhododendron Regrowth
 
 * Get/Update Herbicide Certs.
-* Map where they are comming up.
+* Map locations of Rhododendron regrowth.
+* Monitor other invasive species, particularly Cherry Laurel.
 
-### Coppicing
+## Owl Path
 
-Continue coppicing sections in scout land and near Badgers Path
+This path is becomming overgrown but no activities can be safely done until the dead ash trees removed.
 
-### Owl and Scout Paths
+## Ghyll Steps
 
-* Maintain sections of corduroy path.
-* Keep growth cut back, particularly the wet section in scout land.
+* Make chestnut risers and stakes. 
+* Liaise with MSDC to acquire topping material.
+* Replace missing/decaying steps, use side risers to stop side slump.
+* Dig out ditches and drains upslope.
+* Add topping to worn areas, particularly the lower slope where water erosion and desire paths are forming, and on some boggy sections 1/2 way up.
+* Push undergrowth back.
+* Consider moving sections that are bypassed by desire paths.
+* Plinth is decaying and vandalised.
 
-### Summer Litter Pick
+## Pegasus Path ( Scout Land )
 
-* Locate piles of green flytipping ( get w3w addresses )
-* Litter pick in the woods where youths have been camping out ( scoutland and football pitch )
-* General Public have been keeping path litter free!
+* Clear encroaching vegetation.
+* Remove sycamore from coppiced area.
+* Repair sections of corderoy path at seep line.
+* Install short sections of corderoy in boggy parts.
+* Coppice Hazel.
+* Thin Hollies.
+* Report unsafe trees.
+* Get w3w locations for pond, dog bin, seep line, etc.
+* Identify some of the plants in the coppiced area.
 
-### Path maintainence
+## Coppicing Areas
 
-* Corderoy in boggy sections where public have been widening paths in the winter.
+Coppicing increases biodiversity in the woodlands. Possible locations include:
+
+* Scout land border ( badgers ).
+* East of McinDoe.
+* Along Pine Path.
+* Hollies by football pitch.
+
+## Ponds
+
+The ponds are in generally good condition. Pond work is best done in October after a dry summer when water levels are low and many species have become dormant.
+
+* Get advice from experts on maintainence priorities.
+* Reduce willows in Alfreds Pond.
+* Deepen Lancaster Pond.
+* Maintain Cranston.
+
+## Meadow
+
+* Seek advice on recovering from poor mowing.
+* Look into buying scythes. A rough scythe could also be used in the glade.
+
+
+## Glade
+
+* This areas needs the brambles removed and encroaching vegetation pushed back.
+
+
+
 
 
