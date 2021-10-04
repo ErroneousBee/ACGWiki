@@ -1,5 +1,6 @@
 ---
 title: Work To Be Done 
+keywords: tasklist tasks
 ---
 
 These are all jobs that can be done in the woods. Some are seasonal events, some are continuous, some will only need doing periodically.
@@ -61,12 +62,19 @@ The ponds are in generally good condition. Pond work is best done in October aft
 * Seek advice on recovering from poor mowing.
 * Look into buying scythes. A rough scythe could also be used in the glade.
 
-
 ## Glade
 
 * This areas needs the brambles removed and encroaching vegetation pushed back.
 
+# Other tasks
 
+* Remove tree guards from Ambulance Station hedge
+* Identify where paths need closing off or surfacing
+* Corderoy in boggy sections where public have been widening paths in the winter.
 
+# Small Items
 
-
+* New saw blades ( also rivets for blades? )
+* Grasshook guard
+* Print or buy new feet for 13 yellow Salmon litter pickers
+* Install new lock furniture on container door ( its in the grey cupboard )

@@ -8,7 +8,7 @@ class: plain
 ### Badger
 
 <figure>
-  <img src="content/images/BushCam/Badger1.JPG" alt="Deer" style="width:80%"/>
+  <img src="content/images/BushCam/Badger1.jpg" alt="Deer" style="width:80%"/>
   <figcaption>A Badger grooming</figcaption>
 </figure>
  

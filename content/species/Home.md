@@ -32,6 +32,24 @@ Find this plant whereever there are damp areas, often growing on seep lines wher
 
 Growing all year round, its seed heads droop to one side.
 
+### Yellow Rattle
+
+<figure>
+ <img src="content/species/yellow_rattle.jpg" alt="yellow rattle" style="width:30%"/>
+ <figcaption>Yellow Rattle</figcaption>
+</figure>
+ 
+Find this plant in the meadow. It parasitises grass, supressing it growth and helps other wildflowers compete.
+
+### Lesser Stitchwort
+
+<figure>
+ <img src="content/species/lesser_stitchwort.jpg" alt="lesser stitchwort" style="width:30%"/>
+ <figcaption>Lesser Stitchwort</figcaption>
+</figure>
+ 
+Find this plant in the meadow. It is a tiny flower, but covers the meadow throuout the summer. Have a close look at the flower, what appears to be ten petals is actually five. 
+
 
 # Meadow Survey
 

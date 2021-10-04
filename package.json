@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npm run index",
-    "build": "node-sass src/*.scss -o css/ && node src/build_lunr_index.js && node src/build_website.js"
+    "build": "node-sass src/*.scss -o css/ && node src/build_website.js"
   },
   "repository": {
     "type": "git",
