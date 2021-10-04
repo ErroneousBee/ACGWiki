@@ -19,7 +19,7 @@ comment: No external links work here ( E.g. cannot navigate to http://example.co
     * [Geology](#geology)
     * [Flora and Fauna](#flora-and-fauna)
     * [Nature Trail](#nature-trail)
-    * [Species](#species-lists)
+    * [Species](#/species/Home)
     * [BushCam](#bushcam)  
 * [Getting Involved](#getting-involved)
 * [Contact Us](#Contact)

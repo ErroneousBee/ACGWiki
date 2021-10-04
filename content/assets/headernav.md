@@ -19,7 +19,7 @@ comment:    1st level items apper in the bar, 2nd level are dropdowns.
     * [History of Ashplats](#history)
     * [Geology of Ashplats](#geology)
     * [Flora and Fauna](#flora-and-fauna)
-    * [Species](#species-lists)
+    * [Species](#/species/Home)
     * [BushCam](#bushcam)
     * [The Nature Trail](#nature-trail)
 * Contact

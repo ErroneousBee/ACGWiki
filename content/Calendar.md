@@ -15,13 +15,16 @@ November 7th - Coppicing
 
 December 12th- Coppicing
 
-January 9th - To be decided
+January 9th - [To be decided](/#TODO/Tasks)
 
-February 13th - To be decided
+February 13th - [To be decided](/#TODO/Tasks)
 
 March  13th - Repairs to Ghyll steps ( depending on material availability )
 
 April 10th - Litter Pick (delends on other litter picking activites )
+
+
+[Details of some tasks ](/#TODO/Tasks) can be found in the [TODO](/#TODO/Home) area.
 
 
 # General Dates in the Season

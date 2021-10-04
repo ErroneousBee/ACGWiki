@@ -1,6 +1,6 @@
 :root {
     --main-color: aliceblue;
-    --main-background-color: darkgrey;
+    --main-background-color: black;
 
     --sidebar-color: white;
     --sidebar-background-color: #001111;  
@@ -8,7 +8,7 @@
     --sidebar-background-color-hover: white;  
 
     --header-color: pink;
-    --header-background-color: #330011; 
+    --header-background-color: #220011; 
 
     --topbar-color: white;
     --topbar-background-color: darkgrey;   

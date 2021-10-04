@@ -5,7 +5,6 @@ title: WebSite Development
 Things to be done in the Website
 ================================
 
-* Rewrite the Do and Dont page to clarify, and make it friendlier.
 * Add Meadow mow/rake task
 * Get photos and w3w grid references for the species page
 * Expand the Species Page: newts, bats, birds, Fungi. Both Rare and Common and where to find them.
