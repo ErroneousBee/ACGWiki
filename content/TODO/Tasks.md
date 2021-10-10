@@ -29,6 +29,8 @@ This path is becomming overgrown but no activities can be safely done until the 
 
 ## Pegasus Path ( Scout Land )
 
+This was done Oct 2021, still need to clear sycamore, and maybe return in late 2022.
+
 * Clear encroaching vegetation.
 * Remove sycamore from coppiced area.
 * Repair sections of corderoy path at seep line.
@@ -61,10 +63,12 @@ The ponds are in generally good condition. Pond work is best done in October aft
 
 * Seek advice on recovering from poor mowing.
 * Look into buying scythes. A rough scythe could also be used in the glade.
+* Strong cord for bailing.
 
 ## Glade
 
 * This areas needs the brambles removed and encroaching vegetation pushed back.
+* Map location of Rowan and Alder Buckthorne trees
 
 # Other tasks
 
@@ -74,7 +78,8 @@ The ponds are in generally good condition. Pond work is best done in October aft
 
 # Small Items
 
-* New saw blades ( also rivets for blades? )
-* Grasshook guard
+* New saw blades ( have plenty hung up in container )
 * Print or buy new feet for 13 yellow Salmon litter pickers
 * Install new lock furniture on container door ( its in the grey cupboard )
+* Print Maps and tasklists for container and entrances.
+* Purchase and replace barrow tyre and inner tube.
