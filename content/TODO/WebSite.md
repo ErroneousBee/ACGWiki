@@ -13,7 +13,9 @@ Things to be done in the Website
 * Make Rhodi page a history of clearing it.
 * Add a page describing our invasive species and other problems.
 
-### Create a quiz page
+### Create special pages
 
 Create a page that hosts a small quiz, multiple choice on species identification.
+
+A Image library, or a curated gallery via plugin.
 
