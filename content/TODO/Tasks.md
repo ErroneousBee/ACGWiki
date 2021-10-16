@@ -91,5 +91,5 @@ We used to mow this area, it doesnt really grow grass. It does start regereratin
 * New saw blades ( have plenty hung up in container )
 * Print or buy new feet for 13 yellow Salmon litter pickers
 * Install new lock furniture on container door ( its in the grey cupboard )
-* Print Maps and tasklists for container and entrances. Need printer.
-* Purchase and replace barrow tyre and inner tube. 3.5-8 tyre and tube ordered.
+* Print Maps and tasklists for container and entrances. Trying new ink.
+* Replace barrow tyre and inner tube. 3.5-8 tyre and tube delevered.
