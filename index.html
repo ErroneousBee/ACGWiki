@@ -22,6 +22,7 @@
         crossorigin="anonymous"></script>
     <script src="plugins/Search/src/lunr_index.js"></script>
     <script src="plugins/Search/src/plugin.js"></script>
+    <link rel="stylesheet" type="text/css" href="plugins/Search/src/plugin.css">
     <!-- End of Plugins HEAD -->
 
 </head>
@@ -39,8 +40,13 @@
         </span>
     </template>
     <template id="lunr_search_page_template">
-        <div class="searchform">Search:<input onkeyup="App.Plugins.Search.keyup(event)" type="search" id="search"
-                placeholder="type something here"></div>
+        <div class="searchform">
+            <label>
+                Search:
+                <input onkeyup="App.Plugins.Search.keyup(event)" type="search" placeholder="Search terms">
+                
+            </label>
+        </div>
         <div class="searchresults">
             <hr />
         </div>

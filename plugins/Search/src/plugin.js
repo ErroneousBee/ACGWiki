@@ -45,7 +45,7 @@ App.Plugins.Search = {
     async initialise() {
 
         // Add the icon to the toolbar
-        const template = document.getElementById("lunr_search_icon_template").content.cloneNode(true);;
+        const template = document.getElementById("lunr_search_icon_template").content.cloneNode(true);
         document.getElementById("main_toolbar").appendChild(template);
 
         // Click on the search icon sets a path.
@@ -63,20 +63,19 @@ App.Plugins.Search = {
 
         // Copy the search input template into place
         const template = document.getElementById("lunr_search_page_template").content.cloneNode(true);
+        template.querySelector('label').firstChild.nodeValue = "Search:";
+        template.querySelector('input').placeholder = " Enter search terms ";
         element.innerHTML = "";
         element.appendChild(template);
 
         // We treat second path level as search args
         const search_args = path.split("/", 2);
         if (search_args.length > 1) {
-            const args =   decodeURIComponent(search_args[1]);
+            const args = decodeURIComponent(search_args[1]);
             document.querySelector('div.searchform input#search').value = args;
             App.Plugins.Search.populate_results(args);
         }
 
-
     },
-
-
 
 }
