@@ -113,6 +113,9 @@ App = {
 
         const url = new URL(window.location.href);
 
+        // Reset ( remove ) any classes applied to the article by plugins.
+        document.getElementById("content").removeAttribute("class");
+
         // We use the hash part of the URL for the path 
         let path = url.hash.slice(1);
         if (path === '') {
@@ -217,7 +220,7 @@ App = {
         document.querySelector("header span.subtitle").innerHTML = "";
         document.title = path;
 
-        // Config.extension_precedence
+        // TODO: Try "path" 
         App.fetch_with_extention(Config.contentpath + path, extn_list)
             .catch(e => {
                 // That didnt work, lets try appending Config.home
@@ -227,7 +230,7 @@ App = {
 
                 response.text().then(text => {
 
-                    // Search amd possibly other 
+                    // Despstch an event in case some plugin is listening.
                     const event = new CustomEvent('pathloaded', {
                         path: path
                     });
@@ -295,9 +298,13 @@ App = {
      * @param {Object} json - json object derived from a pages frontmatter
      */
     handle_frontmatter(json) {
+
         if (json.title) {
             document.querySelector("header span.subtitle").innerHTML = json.title;
             document.title = json.title;
+        }
+        if (json.class) {
+            document.getElementById("content").classList.add(json.class);
         }
 
         // Loads or resets the theme

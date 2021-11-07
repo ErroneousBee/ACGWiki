@@ -23,4 +23,10 @@
     --search-title-color: white;
     --search-link-color: lightblue;
     --search-preview-color: grey;
+
+    --figure-background-color: black;
+    --figure-popout-background-color: rgba(0, 0, 0, 0.8);
+    --figure-border-color: #73AD21;
+    --figure-caption-color: aliceblue;
+    --figure-image-border-color: darkgrey;
 }

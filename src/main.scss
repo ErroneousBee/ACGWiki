@@ -159,10 +159,18 @@ body div.container {
         div.article_container {
             overflow-y: auto;
 
+            // Normally, article is a centered column
             article {
                 margin: 0 auto;
                 height: 100%;
                 max-width: 60em;
+                padding: 3px 1em;
+            }
+
+            // Some plugins or pages might need to fill the available space
+            article.wide {
+                width: 100%;
+                max-width: none;
                 padding: 3px 1em;
             }
         }
@@ -266,55 +274,13 @@ body > div.container {
                 }
 
                 .icon {
-                    fill: black;
+                    fill: var(--topbar-color);
+                    background-color: var(--topbar-background-color);
                 }
 
                 .icon:hover {
-                    fill: white;
-                }
-            }
-        }
-    }
-}
-
-// Search page
-article {
-    div.searchform {
-        margin: 3em;
-
-        input {
-            margin-left: 1em;
-            width: 70%;
-        }
-    }
-
-    div.searchresults {
-        margin: 3em;
-
-        ul {
-            list-style: none;
-
-            li {
-                margin-top: 1em;
-
-                a {
-                    text-decoration: none;
-                }
-
-                span.title {
-                    color: var(--search-title-color);
-                }
-
-                span.link {
-                    color: var(--search-link-color);
-                    margin-left: 2em;
-                    font-size: small;
-                    text-decoration: underline;
-                }
-
-                span.preview {
-                    font-size: small;
-                    color: var(--search-preview-color);
+                    fill: var(--topbar-color-hover);
+                    background-color: var(--topbar-background-color-hover);
                 }
             }
         }

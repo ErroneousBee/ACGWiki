@@ -23,4 +23,11 @@
     --search-title-color: black;
     --search-link-color: blue;
     --search-preview-color: grey;
+
+    --figure-background-color: darkgreen;
+    --figure-popout-background-color: rgba(0, 0, 0, 0.8);
+    --figure-border-color: #73AD21;
+    --figure-caption-color: white;
+    --figure-image-border-color: pink;
+    
 }
