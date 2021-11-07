@@ -63,6 +63,7 @@ The ponds are in generally good condition. Pond work is best done in October aft
 * Reduce willows in Alfreds Pond. Borrow a boat to get easier access, and cut/winch them out.
 * Deepen Lancaster Pond.
 * Maintain Cranston.
+* Drain from Alfreds needs rodding.
 
 ## Meadow
 
@@ -91,5 +92,29 @@ We used to mow this area, it doesnt really grow grass. It does start regereratin
 * New saw blades ( have plenty hung up in container )
 * Print or buy new feet for 13 yellow Salmon litter pickers
 * Install new lock furniture on container door ( its in the grey cupboard )
-* Print Maps and tasklists for container and entrances. Trying new ink.
-* Replace barrow tyre and inner tube. 3.5-8 tyre and tube delevered.
+* Print Maps and tasklists for container and entrances. Need printer.
+* Purchase and replace barrow tyre and inner tube. 3.5-8 tyre and tube ordered.
+
+
+
+# Potential Task Locations
+
+///pouch.atomic.draw Low bridge crossing needed 
+
+///stray.usage.arrow Suitable for corderoy along Beech Path
+
+///dice.adjust.silks Suitable for corderoy top of Badgers. 
+
+///aspect.hugs.pushed Hazel coppice on both sides on pines path.
+
+///shin.swim.curiosity Rhodi returning along Main Track
+
+# Previous Tasks
+
+Oct 2020 - Owl path clearance and removing laurels around lake.
+Nov 2020 - Very small group. Continued from Oct task at Lake.
+July 2021 - Litter Pick in the Woodlands.
+Sept 2021 - Mowind and Raking in the Meadow. Not very successful.
+Oct 2021 - Pegasus Path. Push back encraoching vegetation, felled sycamore and used to repair corderoy sections.
+
+
