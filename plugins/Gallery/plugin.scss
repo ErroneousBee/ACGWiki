@@ -1,4 +1,4 @@
-main article>div.Gallery {
+main article > div.Gallery {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -8,20 +8,21 @@ main article>div.Gallery {
     figure {
         background-color: var(--figure-background-color);
         border-radius: 25px;
-        border: 2px solid #73ad21;
+        border: 2px solid var (--figure-image-border-color);
+        text-align: center;
+        margin: 1em;
 
         figcaption {
             color: var(--figure-caption-color);
-            margin-bottom: 1em;
-            text-align: center;
+            margin: 1em;
         }
 
         img {
             cursor: zoom-in;
             max-width: 200px;
-            margin: 1em;
             border: 1px solid var(--figure-image-border-color);
             max-height: 300px;
+            margin-top: 1em;
         }
     }
 }
@@ -44,4 +45,3 @@ main article div.Gallery_show {
         border: 1em solid transparent;
     }
 }
-
