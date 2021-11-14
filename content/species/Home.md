@@ -50,6 +50,18 @@ Find this plant in the meadow. It parasitises grass, supressing it growth and he
  
 Find this plant in the meadow. It is a tiny flower, but covers the meadow throuout the summer. Have a close look at the flower, what appears to be ten petals is actually five. 
 
+### Trooping Funnel
+
+<figure>
+ <img src="content/species/trooping_funnel_01.jpg" alt="Trooping Funnel" style="width:30%"/>
+ <figcaption>Trooping Funnel Line</figcaption>
+</figure>
+ <figure>
+ <img src="content/species/trooping_funnel_02.jpg" alt="Trooping Funnel" style="width:30%"/>
+ <figcaption>Trooping Funnel</figcaption>
+</figure>
+Trooping Funnel appears beside paths in the autumn. It forms rings and arcs of large funnels.
+
 
 # Meadow Survey
 
