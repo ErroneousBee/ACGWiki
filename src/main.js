@@ -280,6 +280,7 @@ App = {
                 } else {
                     element.innerHTML = html;
                     App.fix_links(element);
+                    App.fix_image_paths(element);
                 }
 
                 break;
@@ -502,6 +503,51 @@ App = {
             link.setAttribute("href", newURI);
 
         }
+
+    },
+
+    /**
+     * Alter image src attributes to include the current path, and make it clickable to show image.
+     * @param {element} element - The element you wish to fix paths within
+     */
+    fix_image_paths(element) {
+
+        const pageURL = new URL(window.location.href);
+        const path = pageURL.hash.substring(1, pageURL.hash.lastIndexOf("/"));
+
+        // Pull all the images from the grid
+        for (const img of element.querySelectorAll("img")) {
+            const file = img.getAttribute("src");
+
+            // Opens with overlay
+            img.onclick = App.open_image.bind(null,element);
+
+            // Is this fully qualified or an external path? 
+            if ( file.startsWith("/") || file.startsWith ("http") ) {
+                continue;
+            }
+
+            img.setAttribute("src", Config.contentpath + path + '/' + file);
+
+        }
+
+    },
+
+     /**
+     * View an image in a container overlay that dismisses when clicked
+     * @param {element} article_el 
+     * @param {event} event 
+     */
+    open_image(article_el, event) {
+
+        const show = document.createElement('div');
+        show.className = "image_overlay";
+        show.onclick = () => show.remove();
+
+        const image = document.createElement('img');
+        image.src = event.target.src;
+        show.appendChild(image);
+        article_el.appendChild(show);
 
     },
 
