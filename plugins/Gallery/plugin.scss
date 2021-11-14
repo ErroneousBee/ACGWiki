@@ -45,3 +45,10 @@ main article div.Gallery_show {
         border: 1em solid transparent;
     }
 }
+
+// Media overrides
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+    main article > div.Gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
