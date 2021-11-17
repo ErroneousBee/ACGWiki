@@ -30,7 +30,7 @@ external_types: ["pdf"] # Open pdf files as new urls
 # Run 'npm run build' after changing plugins list to install them.
 plugins: 
     - Search
-#    - Gallery
+    - Gallery
 
 # Search plugin, sets the path and how things get inclusded/excplided
 search:

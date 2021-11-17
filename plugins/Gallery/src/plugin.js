@@ -90,6 +90,11 @@ App.Plugins.Gallery = {
 
     },
 
+    /**
+     * View an image in a container overlay that dismisses when clicked
+     * @param {element} article_el 
+     * @param {event} event 
+     */
     open_image(article_el, event) {
 
         const show = document.createElement('div');
