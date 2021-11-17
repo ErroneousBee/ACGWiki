@@ -5,9 +5,11 @@ keywords: species flower insect tree
 
 # Common Species
 
+Try the [species gallery](Common)
+
 ### Lesser Celendine
 <figure>
- <img src="content/images/species/lesser_celendine.jpg" alt="lesser celendine" style="width:30%"/>
+ <img src="lesser_celendine.jpg" alt="lesser celendine" style="width:30%"/>
  <figcaption>Lesser Celendine</figcaption>
 </figure>
 
@@ -16,7 +18,7 @@ Flowering in April with distinctive yellow flowers. This plant is often found be
 ### Wood Anemone
 
 <figure>
- <img src="content/images/species/wood_anemone.jpg" alt="wood anemone" style="width:30%"/>
+ <img src="wood_anemone.jpg" alt="wood anemone" style="width:30%"/>
  <figcaption>Wood Anemone</figcaption>
 </figure>
 
@@ -24,7 +26,7 @@ Another spring flower, favouring woodland paths.
 
 #### Pendulous Sedge
 <figure>
- <img src="content/images/species/pendulous_sedge.jpg" alt="pendulous sedge" style="width:30%"/>
+ <img src="pendulous_sedge.jpg" alt="pendulous sedge" style="width:30%"/>
  <figcaption>Pendulous Sedge</figcaption>
 </figure>
  
@@ -35,7 +37,7 @@ Growing all year round, its seed heads droop to one side.
 ### Yellow Rattle
 
 <figure>
- <img src="content/species/yellow_rattle.jpg" alt="yellow rattle" style="width:30%"/>
+ <img src="yellow_rattle.jpg" alt="yellow rattle" style="width:30%"/>
  <figcaption>Yellow Rattle</figcaption>
 </figure>
  
@@ -44,7 +46,7 @@ Find this plant in the meadow. It parasitises grass, supressing it growth and he
 ### Lesser Stitchwort
 
 <figure>
- <img src="content/species/lesser_stitchwort.jpg" alt="lesser stitchwort" style="width:30%"/>
+ <img src="lesser_stitchwort.jpg" alt="lesser stitchwort" style="width:30%"/>
  <figcaption>Lesser Stitchwort</figcaption>
 </figure>
  
@@ -53,11 +55,10 @@ Find this plant in the meadow. It is a tiny flower, but covers the meadow throuo
 ### Trooping Funnel
 
 <figure>
- <img src="content/species/trooping_funnel_01.jpg" alt="Trooping Funnel" style="width:30%"/>
+ <img src="trooping_funnel_01.jpg" alt="Trooping Funnel" style="width:30%"/>
  <figcaption>Trooping Funnel Line</figcaption>
-</figure>
- <figure>
- <img src="content/species/trooping_funnel_02.jpg" alt="Trooping Funnel" style="width:30%"/>
+</figure><figure>
+ <img src="trooping_funnel_02.jpg" alt="Trooping Funnel" style="width:30%"/>
  <figcaption>Trooping Funnel</figcaption>
 </figure>
 Trooping Funnel appears beside paths in the autumn. It forms rings and arcs of large funnels.
