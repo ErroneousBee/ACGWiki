@@ -13,15 +13,17 @@ October 10th - Scout Land. Clear vegetation, repair path, coppicing and sycamore
 
 November 7th - Coppicing
 
-December 12th- Coppicing
+December 12th- Coppicing - Xmas Task in the scout land. Coppicing and reducing Hollies 
 
-January 9th - [To be decided](/#TODO/Tasks)
+January 9th - Coppicing between McIndoe and Badgers
 
-February 13th - [To be decided](/#TODO/Tasks)
+February 13th - Coppicing between McIndoe and Badgers
 
 March  13th - Repairs to Ghyll steps ( depending on material availability )
 
 April 10th - Litter Pick (delends on other litter picking activites )
+
+Summer 2022 - Clearing vegetation encroachong on paths.
 
 
 [Details of some tasks ](/#TODO/Tasks) can be found in the [TODO](/#TODO/Home) area.
