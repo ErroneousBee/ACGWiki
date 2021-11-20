@@ -1,26 +1,32 @@
 :root {
     --main-color: black;
-    --main-background-color: aliceblue;
+    --main-background-color: lightgrey;
 
-    --sidebar-color: darkgreen;
-    --sidebar-background-color: aliceblue;  
+    --sidebar-color: darkblue;
+    --sidebar-background-color: white;  
     --sidebar-color-hover: black;
     --sidebar-background-color-hover: white;  
 
-    --header-color: darkred;
-    --header-background-color: #ffdddd; 
+    --header-color: black;
+    --header-background-color: #ddddff; 
 
-    --topbar-color: darkgreen;
+    --topbar-color: darkblue;
     --topbar-background-color: lightgrey;   
     --topbar-color-hover: black;
     --topbar-background-color-hover: lightgrey;
 
     --article-color: black;
-    --article-link-color: #111133;
+    --article-link-color: blue;
     --article-header-color: darkblue; 
     --article-background-color: aliceblue;
 
     --search-title-color: black;
     --search-link-color: blue;
     --search-preview-color: grey;
+
+    --figure-background-color: lightgrey;
+    --figure-popout-background-color: rgba(0, 0, 0, 0.8);
+    --figure-border-color: darkgrey;
+    --figure-caption-color: black;
+    --figure-image-border-color: aliceblue;
 }

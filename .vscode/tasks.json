@@ -12,16 +12,6 @@
                 "isDefault": true
             },
             "problemMatcher": []
-        },
-        {
-            "label": "Lunr Build",
-            "type": "shell",
-            "command": "node src/build_lunr_index.js",
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            },
-            "problemMatcher": []
         }
     ]
 }

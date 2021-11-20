@@ -1,4 +1,5 @@
-const Config = {
+/* eslint-disable no-unused-vars */
+Config = {
     title: 'Default Title',
     extension_precedence: ["md", "html", "htm", "txt"],
     theme: 'default',
@@ -9,7 +10,13 @@ const Config = {
     contentpath: 'content/'
 };
 
-const App = {
+
+App = {
+
+    Plugins: [], // Plugins will register themselves here in plugin init.
+    Registry: {
+        path_divert: [] // Functions to call for specific paths
+    },
 
     async onload() {
 
@@ -17,6 +24,16 @@ const App = {
         await App.load_config();
 
         App.load_theme();
+
+        // Run all plugin initialisers
+        for (const plugin of Config.plugins) {
+            try {
+                App.Plugins[plugin].initialise();
+            } catch (error) {
+                console.error("No initialise function found for plugin: " + plugin);
+                console.warn("Activate plugins in the config, then run 'npm run build' to install plugins into index.html.");
+            }
+        }
 
         // Load the assorted navigation, banners and whatnot.
         App.load_side_content();
@@ -90,24 +107,38 @@ const App = {
     },
 
     /**
-     * Look at the current URL and load the content based on that URL.
-     * Driven from an event listener.
+     * Driven by onhaschange events. Look at the current URL and load the content based on that URL.
      */
     load_content_from_url(event) {
 
         const url = new URL(window.location.href);
+
+        // Reset ( remove ) any classes applied to the article by plugins.
+        document.getElementById("content").removeAttribute("class");
 
         // We use the hash part of the URL for the path 
         let path = url.hash.slice(1);
         if (path === '') {
             path = Config.home;
         }
+
+        // Is this reserved by a plugin?
+        const divert = App.Registry.path_divert.find(e => path.startsWith(e.path));
+        if (divert) {
+            divert.handler(path, Config, document.getElementById("content"));
+            return;
+        }
+
+        // Is this something we dont handle, like a pdf file?
         const isexternal = Config.external_types.map(type => path.endsWith("." + type)).includes(true);
         if (isexternal) {
             window.location.href = url.origin + "/" + Config.contentpath + path;
-        } else {
-            App.read_path_into_element(path, document.getElementById("content"));
+            return;
         }
+
+        // Must be a normal bit of content for us to display.
+        App.read_path_into_element(path, document.getElementById("content"));
+
     },
 
     /**
@@ -189,7 +220,7 @@ const App = {
         document.querySelector("header span.subtitle").innerHTML = "";
         document.title = path;
 
-        // Config.extension_precedence
+        // TODO: Try "path" 
         App.fetch_with_extention(Config.contentpath + path, extn_list)
             .catch(e => {
                 // That didnt work, lets try appending Config.home
@@ -199,7 +230,7 @@ const App = {
 
                 response.text().then(text => {
 
-                    // Search amd possibly other 
+                    // Despstch an event in case some plugin is listening.
                     const event = new CustomEvent('pathloaded', {
                         path: path
                     });
@@ -211,8 +242,6 @@ const App = {
 
             })
             .catch(e => {
-                console.log( "catch 2");
-
                 console.error(e);
                 element.innerHTML = '<p class="error">' + e + '.</p><p>Path: ' + path + '</p>';
             });
@@ -236,15 +265,23 @@ const App = {
 
             case "md": {
                 const [html, json] = App.convert_markdown_page(text, source);
-                // Deal with json frontmatter
-                if (json.title) {
-                    document.querySelector("header span.subtitle").innerHTML = json.title;
-                    document.title = json.title;
-                }
-                element.innerHTML = html;
 
-                // Fix links to be relative
-                App.fix_links(element);
+                // Set title/theme, etc based on page frontmatter
+                App.handle_frontmatter(json);
+
+                // Tell a plugin to do its stuff, or render the page.
+                if (json.plugin) {
+                    try {
+                        App.Plugins[json.plugin].onpageload(json, html, element, source);
+                    } catch (error) {
+                        console.error("Could not run plugin " + json.plugin + " for page " + source);
+                        console.warn("Activate plugins in the config, then run 'npm run build' to install plugins into index.html.");
+                    }
+                } else {
+                    element.innerHTML = html;
+                    App.fix_links(element);
+                    App.fix_image_paths(element);
+                }
 
                 break;
             }
@@ -255,6 +292,24 @@ const App = {
 
         }
 
+    },
+
+    /**
+     * Set the page title and other stuff based on the frontmatter
+     * @param {Object} json - json object derived from a pages frontmatter
+     */
+    handle_frontmatter(json) {
+
+        if (json.title) {
+            document.querySelector("header span.subtitle").innerHTML = json.title;
+            document.title = json.title;
+        }
+        if (json.class) {
+            document.getElementById("content").classList.add(json.class);
+        }
+
+        // Loads or resets the theme
+        App.load_theme(json.theme);
     },
 
     /**
@@ -319,14 +374,6 @@ const App = {
 
         // Click on the header navigation toolbar
         document.querySelector("nav#navigation_topbar").onclick = App.nav_topbar_click_handler;
-
-        // Click on the search icon
-        // TODO: Make this driven from the config.
-        document.querySelector("header span.search").onclick = () => {
-            App.set_url(Config.search);
-            //App.load_content_from_url();
-        }
-
 
     },
 
@@ -460,6 +507,51 @@ const App = {
     },
 
     /**
+     * Alter image src attributes to include the current path, and make it clickable to show image.
+     * @param {element} element - The element you wish to fix paths within
+     */
+    fix_image_paths(element) {
+
+        const pageURL = new URL(window.location.href);
+        const path = pageURL.hash.substring(1, pageURL.hash.lastIndexOf("/"));
+
+        // Pull all the images from the grid
+        for (const img of element.querySelectorAll("img")) {
+            const file = img.getAttribute("src");
+
+            // Opens with overlay
+            img.onclick = App.open_image.bind(null,element);
+
+            // Is this fully qualified or an external path? 
+            if ( file.startsWith("/") || file.startsWith ("http") ) {
+                continue;
+            }
+
+            img.setAttribute("src", Config.contentpath + path + '/' + file);
+
+        }
+
+    },
+
+     /**
+     * View an image in a container overlay that dismisses when clicked
+     * @param {element} article_el 
+     * @param {event} event 
+     */
+    open_image(article_el, event) {
+
+        const show = document.createElement('div');
+        show.className = "image_overlay";
+        show.onclick = () => show.remove();
+
+        const image = document.createElement('img');
+        image.src = event.target.src;
+        show.appendChild(image);
+        article_el.appendChild(show);
+
+    },
+
+    /**
      * Set the theme href.
      * @param {String} name - A String like "dark" or "light", or false/null for the config default.
      */
@@ -467,6 +559,16 @@ const App = {
         const theme = (name) ? name : Config.theme;
         document.querySelector("link#theme_colors").setAttribute("href", "themes/" + theme + "/colors.css");
         document.querySelector("link#theme_layout").setAttribute("href", "themes/" + theme + "/layout.css");
+        document.querySelector("link#theme_icon").setAttribute("href", "themes/" + theme + "/favicon.ico");
+    },
+
+    /**
+     * Inform the page loader that this path is to be handled by a plugin
+     * @param {*} path - Any paths that start with this will get the callback called
+     * @param {*} callback - A function to be called when the path changes to this path
+     */
+    register_divert(path, callback) {
+        App.Registry.path_divert.push({ path: path, handler: callback })
     }
 
 

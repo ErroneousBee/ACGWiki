@@ -5,7 +5,6 @@ title: WebSite Development
 Things to be done in the Website
 ================================
 
-* Rewrite the Do and Dont page to clarify, and make it friendlier.
 * Add Meadow mow/rake task
 * Get photos and w3w grid references for the species page
 * Expand the Species Page: newts, bats, birds, Fungi. Both Rare and Common and where to find them.
@@ -14,7 +13,9 @@ Things to be done in the Website
 * Make Rhodi page a history of clearing it.
 * Add a page describing our invasive species and other problems.
 
-### Create a quiz page
+### Create special pages
 
 Create a page that hosts a small quiz, multiple choice on species identification.
+
+A Image library, or a curated gallery via plugin.
 

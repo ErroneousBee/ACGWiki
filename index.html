@@ -8,27 +8,53 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.0/showdown.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/3.14.1/js-yaml.min.js"></script>
 
-    <!-- Search Tools -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js"
-        integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg=="
-        crossorigin="anonymous"></script>
-    <script src="src/lunr_index.js"></script>
-    <script src="src/lunr_search.js"></script>
-
     <!-- CSS some of which gets overridden -->
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link id="theme_colors" rel="stylesheet" type="text/css" href="themes/default/colors.css">
     <link id="theme_layout" rel="stylesheet" type="text/css" href="themes/default/layout.css">
+    <link id="theme_icon" rel="icon" type="image/png" href="favicon.ico">
+
+    <!-- Plugin source code gets written in here by the build tool -->
+    <!-- Start of Plugins HEAD -->
+    <!-- Search Tools -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js"
+        integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg=="
+        crossorigin="anonymous"></script>
+    <script src="plugins/Search/src/lunr_index.js"></script>
+    <script src="plugins/Search/src/plugin.js"></script>
+    <link rel="stylesheet" type="text/css" href="plugins/Search/src/plugin.css">
+    <!-- Gallery plugin -->
+    <script src="plugins/Gallery/src/plugin.js"></script>
+    <link rel="stylesheet" type="text/css" href="plugins/Gallery/src/plugin.css">
+    <!-- End of Plugins HEAD -->
 
 </head>
 
 <body onload="App.onload();">
 
-    <!-- define some icons for toolbar use -->
+    <!-- Plugin source code gets written in here by the build tool -->
+    <!-- Start of Plugins BODY -->
+    <!-- Search Tools -->
+    <template id="lunr_search_icon_template">
+        <span class="icon search">
+            <svg class="svg-icon">
+                <use xlink:href="#icon-search" />
+            </svg>
+        </span>
+    </template>
+    <template id="lunr_search_page_template">
+        <div class="searchform">
+            <label>
+                Search:
+                <input onkeyup="App.Plugins.Search.keyup(event)" type="search" placeholder="Search terms">
+                
+            </label>
+        </div>
+        <div class="searchresults">
+            <hr />
+        </div>
+    </template>
     <svg xmlns="http://www.w3.org/2000/svg">
-        <symbol id="icon-menu" viewBox="0 0 32 32">
-            <path d="M2 6h28v6h-28zM2 14h28v6h-28zM2 22h28v6h-28z"></path>
-        </symbol>
         <symbol id="icon-search" viewBox="0 0 32 32">
             <path
                 d="M31.008 27.231l-7.58-6.447c-0.784-0.705-1.622-1.029-2.299-0.998 1.789-2.096 2.87-4.815 2.87-7.787 0-6.627-5.373-12-12-12s-12 5.373-12 12 5.373 12 12 12c2.972 0 5.691-1.081 7.787-2.87-0.031 0.677 0.293 1.515 0.998 2.299l6.447 7.58c1.104 1.226 2.907 1.33 4.007 0.23s0.997-2.903-0.23-4.007zM12 20c-4.418 0-8-3.582-8-8s3.582-8 8-8 8 3.582 8 8-3.582 8-8 8z">
@@ -36,7 +62,17 @@
         </symbol>
     </svg>
 
-    <div class=container>
+    <!-- End of Plugins BODY -->
+
+
+    <!-- define some icons for toolbar use -->
+    <svg xmlns="http://www.w3.org/2000/svg">
+        <symbol id="icon-menu" viewBox="0 0 32 32">
+            <path d="M2 6h28v6h-28zM2 14h28v6h-28zM2 22h28v6h-28z"></path>
+        </symbol>
+    </svg>
+
+    <div class="container">
         <div class="sidebar">
             <div class="logo" id="logo"></div>
             <nav class="sidenav" id="navigation_sidebar"></nav>
@@ -45,13 +81,8 @@
             <header>
                 <div class="title"><span class="logo"></span><span class="title"></span><span class="subtitle"></span>
                 </div>
-                <div class="toolbar">
+                <div class="toolbar" id="main_toolbar">
                     <nav class="topmenu" id="navigation_topbar"></nav>
-                    <span class="icon search">
-                        <svg class="svg-icon">
-                            <use xlink:href="#icon-search" />
-                        </svg>
-                    </span>
                 </div>
             </header>
             <div class="article_container">

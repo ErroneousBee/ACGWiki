@@ -1,0 +1,40 @@
+article div.searchform {
+    margin: 3em;
+}
+
+article div.searchform input {
+    margin-left: 2em;
+    width: 70%;
+}
+
+article div.searchresults {
+    margin: 3em;
+}
+
+article div.searchresults ul {
+    list-style: none;
+}
+
+article div.searchresults ul li {
+    margin-top: 1em;
+}
+
+article div.searchresults ul li a {
+    text-decoration: none;
+}
+
+article div.searchresults ul li span.title {
+    color: var(--search-title-color);
+}
+
+article div.searchresults ul li span.link {
+    color: var(--search-link-color);
+    margin-left: 2em;
+    font-size: small;
+    text-decoration: underline;
+}
+
+article div.searchresults ul li span.preview {
+    font-size: small;
+    color: var(--search-preview-color);
+}

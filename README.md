@@ -30,7 +30,8 @@ This is best done using git commands:
 # Get into the project directory and get everything up to date
 cd <path to ACGWiki>
 git checkout main
-git pull
+git config pull.rebase false
+git stash
 git checkout release
 git pull
 
@@ -49,4 +50,5 @@ git push
 
 # Lets also make sure we continue developing off the release branch
 git checkout main
+git stash pop
 ```
