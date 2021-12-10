@@ -3,7 +3,7 @@ title: Diary and Forthcoming Task Days
 keywords: diary tasks calendar dates
 ---
 
-# Diary Dates for Working Groups in 2021
+# Diary Dates for Working Groups in 2021-2022
 
 Provisional dates:
 
@@ -13,15 +13,17 @@ October 10th - Scout Land. Clear vegetation, repair path, coppicing and sycamore
 
 November 7th - Coppicing
 
-December 12th- Coppicing
+December 12th- Coppicing - Xmas Task in the scout land. Coppicing and reducing Hollies 
 
-January 9th - [To be decided](/#TODO/Tasks)
+January 9th - Coppicing between McIndoe and Badgers
 
-February 13th - [To be decided](/#TODO/Tasks)
+February 13th - Coppicing between McIndoe and Badgers
 
 March  13th - Repairs to Ghyll steps ( depending on material availability )
 
-April 10th - Litter Pick (delends on other litter picking activites )
+April 10th - Litter Pick (depends on other litter picking activites )
+
+Summer 2022 - Clearing vegetation encroaching on paths. Surveys and Monitoring.
 
 
 [Details of some tasks ](/#TODO/Tasks) can be found in the [TODO](/#TODO/Home) area.
@@ -34,4 +36,5 @@ April 10th - Litter Pick (delends on other litter picking activites )
 * September - Meadow mowing and raking
 * Early Autumn - Pond work whilst the ponds are still low and the residents are no longer living fast paced lives.
 * December - The Xmas Task
+* Summer - Reduced activity as volunteers are away and cutting is restricted.
 
