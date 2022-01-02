@@ -13,14 +13,14 @@ plants and animals to survive. Coppicing smaller trees and felling large trees, 
 managed a woodland resource.
 
 <figure>
-  <img src="content/images/Coppicing.jpg" alt="Coppicing" style="width:40%"/>
+  <img src="/content/images/Coppicing.jpg" alt="Coppicing" style="width:40%"/>
   <figcaption>Coppicing in Action</figcaption>
 </figure>
 
 Volunteers keep some areas of hazel coppiced. The Sweet Chestnut coppice stands require commercial operations to fell and remove the wood.
 
 <figure>
-  <img src="content/images/Coppiced-Sweet-Chestnut.jpg" alt="Coppice Stool" style="width:40%"/>
+  <img src="/content/images/Coppiced-Sweet-Chestnut.jpg" alt="Coppice Stool" style="width:40%"/>
   <figcaption>A Stool of Coppiced Chestnut</figcaption>
 </figure>
 
@@ -40,7 +40,7 @@ Volunteers keep some areas of hazel coppiced. The Sweet Chestnut coppice stands 
     * No – not if the plant is still vigorous; a coppiced tree can live for hundreds of years; sometime much longer than one that is not coppiced.
 
 <figure>
-  <img src="content/images/Coppice-Stools.jpg" alt="Coppice Stool regrowth" style="width:40%"/>
+  <img src="/content/images/Coppice-Stools.jpg" alt="Coppice Stool regrowth" style="width:40%"/>
   <figcaption>Coppice Stool regrowth</figcaption>
 </figure>
 
