@@ -3,7 +3,7 @@ title: Tasks - Path Building
 ---
 
 <figure>
-  <img src="content/images/P1060208.jpg" alt="Steps" style="width:40%"/>
+  <img src="/content/images/P1060208.jpg" alt="Steps" style="width:40%"/>
   <figcaption>A completed section of the steps</figcaption>
 </figure>
 
@@ -19,7 +19,7 @@ The project was planned and co-ordinated by ACG volunteers who proposed a sourci
 Tests with the locally available chestnut coppice wood resulted in a simple design of a split log riser, held in place by supporting pegs hammered into the ground, backfilled by stone. Chestnut resists rotting, and a sandstone backfill would allow water to drain away.
 
 <figure>
-  <img src="content/images/P1040964.jpg" alt="Splitting Chestnut" style="width:40%"/>
+  <img src="/content/images/P1040964.jpg" alt="Splitting Chestnut" style="width:40%"/>
   <figcaption>Splitting a chestnut log</figcaption>
 </figure>
 
@@ -27,7 +27,7 @@ The first task was to coppice the chestnut which was split and debarked to produ
 
 
 <figure>
-  <img src="content/images/Sandstone-being-delivered-for-Ghyll-Steps-project.jpg" alt="Sanstone Delivery" style="width:40%"/>
+  <img src="/content/images/Sandstone-being-delivered-for-Ghyll-Steps-project.jpg" alt="Sanstone Delivery" style="width:40%"/>
   <figcaption>Delivery of sandstone from a local housing development</figcaption>
 </figure>
 
@@ -42,12 +42,12 @@ Building the steps was done over several task days. Each day saw a few meters of
 Starting at the top of the slope, enough chestnut logs and pegs were carried down to create several steps. The top step was installed first, with subsequent steps being placed to create a consistent fall.
 
 <figure>
-  <img src="content/images/IMG_0735.jpg" alt="Step Riser" style="width:40%"/>
+  <img src="/content/images/IMG_0735.jpg" alt="Step Riser" style="width:40%"/>
   <figcaption>Installing step risers on the ghyll slope</figcaption>
 </figure>
 
 <figure>
-  <img src="content/images/IMG_0736.jpg" alt="Step Riser" style="width:40%"/>
+  <img src="/content/images/IMG_0736.jpg" alt="Step Riser" style="width:40%"/>
   <figcaption>Completed risers ready for sandstone infill</figcaption>
 </figure>
 
@@ -58,7 +58,7 @@ Once the risers were in place, sandstone was barrowed down the slope and tipped 
 # The Bottom of the Slope.
 
 <figure>
-  <img src="content/images/Boardwalk.jpg" alt="Boardwalk" style="width:40%"/>
+  <img src="/content/images/Boardwalk.jpg" alt="Boardwalk" style="width:40%"/>
   <figcaption>Boardwalk linking bridge to bottom of Ghyll Steps</figcaption>
 </figure>
 
@@ -66,7 +66,7 @@ Once the risers were in place, sandstone was barrowed down the slope and tipped 
 At the bottom of the slope, there was an area where the water collected in a marshy area between the steps and the stream. Some months after the steps were completed, MSDC installed a boardwalk linking the two together.
 
 <figure>
-  <img src="content/images/PathSteps.jpg" alt="PathSteps" style="width:40%"/>
+  <img src="/content/images/PathSteps.jpg" alt="PathSteps" style="width:40%"/>
   <figcaption>Newly minted steps, and a ramming tool</figcaption>
 </figure>
 

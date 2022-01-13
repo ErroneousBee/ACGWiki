@@ -5,14 +5,14 @@ title: About The Woods - Nature Trail
 As a permanent reminder of the Girl-guiding Centenary celebrations (1910 - 2010), Guides in East Grinstead, with the support of many local organizations including Ashplats Conservation Group, have installed a nature trail in the gardens of East Court Mansion and Ashplats Wood.
 
 <figure>
-  <img src="content/images/P1010534.jpg" alt="Route Map" style="width:40%"/>
+  <img src="/content/images/P1010534.jpg" alt="Route Map" style="width:40%"/>
   <figcaption>The route map on the East Court Terrace.</figcaption>
 </figure>
 
 The trail is free for anyone to use. It’s about 1 mile long and will take the average adult about 30 minutes to walk. The information sign above can be found on the terrace of East Court Mansion and the photo left shows one of the posts on the trail. There are 16 posts in total and where possible these are sited near to paths to enable pushchairs, wheelchairs and those who are less steady on their feet to reach them. However, the path through the woods to Rutland Meadow is narrow, over rougher ground and will be muddy when wet.
 
 <figure>
-  <img src="content/images/P1010545.jpg" alt="Marker Post" style="width:40%"/>
+  <img src="/content/images/P1010545.jpg" alt="Marker Post" style="width:40%"/>
   <figcaption>Nature Trail Marker Post</figcaption>
 </figure>
 

@@ -6,7 +6,7 @@ Part of the wood is ancient woodland, meaning that its been continuously wooded 
 The Tithe Map of 1841 shows the wood to be smaller than it is today but if you look carefully you can still see the evidence of old meadow boundaries today which are now part of the wood.
 
 <figure>
- <img src="content/images/history/Ashplats-map-1841-Tithe.jpg" alt="1841 Map" style="width:100%"/>
+ <img src="/content/images/history/Ashplats-map-1841-Tithe.jpg" alt="1841 Map" style="width:100%"/>
  <figcaption>1841 Tithe Map of Ashplats Wood</figcaption>
 </figure>
 
@@ -19,7 +19,7 @@ Ashplats Conservation Group was set up as a voluntary organisation in 1997 to he
 How has the wood changed?
 
 <figure>
- <img src="content/images/history/Ashplats-map-2011-with-1841-tithe-overlay.jpg" alt="Map Overlay" style="width:100%"/>
+ <img src="/content/images/history/Ashplats-map-2011-with-1841-tithe-overlay.jpg" alt="Map Overlay" style="width:100%"/>
  <figcaption>1841 Tithe Map Overlaying the 2011 OS Map (reproduced under public sector mapping agreement)</figcaption>
 </figure>
 
