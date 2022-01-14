@@ -174,34 +174,13 @@ body div.container {
                 padding: 3px 1em;
             }
 
-            article div.image_overlay {
-                position: absolute;
-                top: 0px;
-                left: 0px;
-                width: 100%;
-                height: 100%;
 
-                display: grid;
-                justify-content: center;
 
-                background-color: var(--figure-popout-background-color);
-                overflow: scroll;
-                cursor: zoom-out !important;
-
-                img {
-                    border: 1em solid transparent;
-                    cursor: zoom-out !important;
-                }
-            }
-
-            article img {
-                cursor: zoom-in;
-            }
         }
     }
 }
 
-// Side Navbar Accordio n
+// Side Navbar Accordion
 nav.sidenav {
     > ul {
         display: block;
@@ -214,6 +193,54 @@ nav.sidenav {
             display: block;
         }
     }
+}
+
+// Article special layouts
+
+main > div.article_container > article {
+
+    // Images can be zoomed to full size with a click, and zoomed out
+    img {
+        cursor: zoom-in;
+    }
+    div.image_overlay {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+
+        display: grid;
+        justify-content: center;
+
+        background-color: var(--figure-popout-background-color);
+        overflow: scroll;
+        cursor: zoom-out !important;
+
+        img {
+            border: 1em solid transparent;
+            cursor: zoom-out !important;
+        }
+    }
+
+    // tables get a subtle cell border
+    table {
+        border-collapse: collapse;
+        border: 2px solid var(--article-line-color);
+        margin-top: 1px;
+
+        td, th {
+            border: 1px solid var(--article-line-color);
+            padding: 0.5rem;
+            text-align: left;
+          }
+
+    }
+
+    hr {
+        color: var(--article-line-color);
+    }
+
 }
 
 // Colours and font sizes

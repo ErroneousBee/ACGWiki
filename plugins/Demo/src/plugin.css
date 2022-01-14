@@ -1,0 +1,11 @@
+div.Demo_enhance {
+    font-size: 3rem;
+    text-align: center;
+    line-height: 1000%;
+    color: salmon;
+    font-family: "Niconne", cursive;
+    font-weight: bold;
+    text-shadow: 2px 2px 0px red, 4px 4px 0px black;
+    vertical-align: baseline;
+    background-color: darkmagenta;
+}

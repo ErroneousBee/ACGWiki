@@ -18,7 +18,8 @@
     --article-color: black;
     --article-link-color: darkblue;
     --article-header-color: purple;  
-    --article-background-color: aliceblue;
+    --article-background-color: aliceblue; 
+    --article-line-color: lightgrey;             /* Table borders, horizontal rules */
 
     --search-title-color: black;
     --search-link-color: blue;

@@ -56,19 +56,15 @@ App.Plugins.Gallery = {
             if (img.nextSibling) {
                 text = img.nextSibling.textContent.trim();
             }
-            // TODO: Read up to next img or eof
-            if (!text) {
-                text = img.getAttribute("title");
-            }
-            if (!text) {
-                text = img.getAttribute("alt");
-            }
 
             const figure = document.createElement('figure');
-            figure.append(img);
             const caption = document.createElement('figcaption');
-            caption.innerText = text;
+            caption.innerText = img.getAttribute("title") || img.getAttribute("alt");
             figure.append(caption);
+            figure.append(img);
+            const p = document.createElement('p');
+            p.innerText = text;
+            figure.append(p);
 
             grid.append(figure);
 

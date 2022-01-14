@@ -19,6 +19,7 @@
     --article-link-color: yellow;
     --article-header-color: #55ff99;  
     --article-background-color: black;
+    --article-line-color: #222;             /* Table borders, horizontal rules */
 
     --search-title-color: white;
     --search-link-color: lightblue;

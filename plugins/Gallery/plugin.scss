@@ -14,7 +14,12 @@ main article > div.Gallery {
 
         figcaption {
             color: var(--figure-caption-color);
+            margin: 0em;
+        }
+
+        p {
             margin: 1em;
+            font-size: smaller;
         }
 
         img {
