@@ -21,7 +21,7 @@ function read_config() {
     const text = fs.readFileSync("config.yaml").toString();
 
     try {
-        const json = js_yaml.safeLoad(text);
+        const json = js_yaml.load(text);
         for (const item in json) {
             Config[item] = json[item];
         }

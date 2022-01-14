@@ -89,7 +89,7 @@ App = {
             .then(response => response.text())
             .then(text => {
                 try {
-                    const json = jsyaml.safeLoad(text);
+                    const json = jsyaml.load(text);
                     for (const item in json) {
                         Config[item] = json[item];
                     }
@@ -335,7 +335,7 @@ App = {
         }
 
         try {
-            const json = jsyaml.safeLoad(fm);
+            const json = jsyaml.load(fm);
             const converter = new showdown.Converter({
                 noHeaderId: true,
                 customizedHeaderId: true,

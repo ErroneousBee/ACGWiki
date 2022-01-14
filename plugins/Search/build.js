@@ -93,7 +93,7 @@ function markdown_to_lunr_doc(filename, fileId) {
     const [fm, body] = text.split("\n" + sep, 2);
     let json = {};
     try {
-        json = js_yaml.safeLoad(fm) || {};
+        json = js_yaml.load(fm) || {};
     } catch (e) {
         console.error("Failure reading page frontmatter from ", filename, e);
     }
