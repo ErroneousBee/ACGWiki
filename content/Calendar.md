@@ -7,7 +7,7 @@ keywords: diary tasks calendar dates
 
 Provisional dates:
 
-September 12th - Meadow Raking
+September 12th 2021 - Meadow Raking
 
 October 10th - Scout Land. Clear vegetation, repair path, coppicing and sycamore removal.
 
@@ -15,13 +15,15 @@ November 7th - Coppicing
 
 December 12th- Coppicing - Xmas Task in the scout land. Coppicing and reducing Hollies 
 
-January 9th - Coppicing between McIndoe and Badgers
+January 9th 2022 - Coppicing between McIndoe and Badgers
 
-February 13th - Coppicing between McIndoe and Badgers
+February 13th 2022 - Coppicing between McIndoe and Badgers
 
-March  13th - Repairs to Ghyll steps ( depending on material availability )
+March  13th 2022 - Repairs to Ghyll steps ( depending on material availability )
 
-April 10th - Litter Pick (depends on other litter picking activites )
+April 10th 2022 - Litter Pick and continuing Ghyll Steps
+
+May 8th 2022 - Ghyll Steps final repairs
 
 Summer 2022 - Clearing vegetation encroaching on paths. Surveys and Monitoring.
 
