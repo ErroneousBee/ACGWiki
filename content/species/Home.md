@@ -38,28 +38,45 @@ Growing all year round, its seed heads droop to one side.
 ### Yellow Rattle
 
 <figure>
- <img src="yellow_rattle.jpg" alt="yellow rattle" style="width:30%"/>
+ <img src="meadow/yellow_rattle_seedhead.jpg" alt="yellow rattle seedhead" style="width:30%"/>
+ <figcaption>Yellow Rattle Seedhead</figcaption>
+</figure>
+<figure>
+ <img src="meadow/yellow_rattle_flower_01.jpg" alt="yellow rattle" style="width:30%"/>
+ <figcaption>Yellow Rattle amongst Stitchwort</figcaption>
+</figure>
+ <figure>
+ <img src="meadow/yellow_rattle_flower_02.jpg" alt="yellow rattle" style="width:30%"/>
  <figcaption>Yellow Rattle</figcaption>
 </figure>
  
-Find this plant in the meadow. It parasitises grass, supressing it growth and helps other wildflowers compete.
+Find this plant in June in the meadow. It parasitises grass, supressing grass growth and helping other wildflowers compete.
 
 ### Lesser Stitchwort
 
 <figure>
- <img src="lesser_stitchwort.jpg" alt="lesser stitchwort" style="width:30%"/>
+ <img src="meadow/lesser_stitchwort.jpg" alt="lesser stitchwort" style="width:30%"/>
  <figcaption>Lesser Stitchwort</figcaption>
 </figure>
  
-Find this plant in the meadow. It is a tiny flower, but covers the meadow throuout the summer. Have a close look at the flower, what appears to be ten petals is actually five. 
+Find this plant in the meadow. It is a tiny flower, but covers the meadow throughout the summer. Have a close look at the flower, what appears to be ten petals is actually five. 
 
 ### Trooping Funnel
 
 <figure>
- <img src="trooping_funnel_01.jpg" alt="Trooping Funnel" style="width:30%"/>
+ <img src="fungi/trooping_funnel_01.jpg" alt="Trooping Funnel" style="width:30%"/>
  <figcaption>Trooping Funnel Line</figcaption>
 </figure><figure>
- <img src="trooping_funnel_02.jpg" alt="Trooping Funnel" style="width:30%"/>
+ <img src="fungi/trooping_funnel_02.jpg" alt="Trooping Funnel" style="width:30%"/>
  <figcaption>Trooping Funnel</figcaption>
 </figure>
 Trooping Funnel appears beside paths in the autumn. It forms rings and arcs of large funnels.
+
+
+### Dog Rose
+
+<figure>
+ <img src="dog_rose_01.jpg" alt="Dog Rose" style="width:30%"/>
+ <figcaption>Dog Rose against Bramble</figcaption>
+</figure>
+Find this in June, Look for 4cm wide flowers in brambles along side the paths.
