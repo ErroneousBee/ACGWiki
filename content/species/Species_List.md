@@ -50,6 +50,7 @@ These are Species found in the Woods
 | Dryopteris flexi-mas     |  Male fern          |          
 | Pteridium aquilinum      |  Bracken            |              
 | Equisetum telmateia      |  Great horsetail    |  
+
                            
 ## Flowering Plants
 
@@ -87,6 +88,15 @@ These are Species found in the Woods
 | Juncus articulatus              |    Jointed Rush                         | 
 | Juncus effusus                  |    Soft Rush                            |
 | Lamiastrum                      |    Dead Nettle                          |
+
+## Invertebrates
+
+| Binomial name   | Common Name  | Location / Date |
+| ----------------|--------------|----------|
+| Rhagonycha lutea   |    Soldier Beetle    | Rutland meadow 2022 |
+| Rivula sericealis  |    Straw Dot Moth    | Rutland meadow 2022 |
+
+
 
 ## In The Meadow
 
@@ -130,3 +140,4 @@ A survey in Rutland Meadow found these species:
 |   Lasius flavus               |  yellow meadow ant            |
 |   Festuca rubra               |  red fescue                   |
 |   Potentilla erecta           |  tormentil                    |
+

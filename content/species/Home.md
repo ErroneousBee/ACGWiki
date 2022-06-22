@@ -3,9 +3,9 @@ title: About The Woods - Species Lists
 keywords: species flower insect tree
 ---
 
-# Common Species
+Try the galleries for [common species](Common) and some [harder to find](Other) species.
 
-Try the [species gallery](Common) or see lists of [species identified in previous surveys](Species_List)
+Or see our lists of [species identified in previous surveys](Species_List)
 
 
 ### Lesser Celendine
