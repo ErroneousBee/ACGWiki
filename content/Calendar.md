@@ -3,29 +3,29 @@ title: Diary and Forthcoming Task Days
 keywords: diary tasks calendar dates
 ---
 
-# Diary Dates for Working Groups in 2021-2022
+# Diary Dates for Working Groups in 2022-2023
 
 Provisional dates:
 
-September 12th 2021 - Meadow Raking
+September 11th - Meadow, Fill in holes and push back edges.
 
-October 10th - Scout Land. Clear vegetation, repair path, coppicing and sycamore removal.
+October 9th - Removing Laurel and Bamboo from Lake and Play Area
 
-November 7th - Coppicing
+November 6th - Coppicing - by Pine Path
 
-December 12th- Coppicing - Xmas Task in the scout land. Coppicing and reducing Hollies 
+December 11th - Coppicing - by Pine Path
 
-January 9th 2022 - Coppicing between McIndoe and Badgers
+January 8th 2023 - Coppicing - by Pine Path
 
-February 13th 2022 - Coppicing between McIndoe and Badgers
+February 12th 2023 - Coppicing - by Pine Path
 
-March  13th 2022 - Repairs to Ghyll steps ( depending on material availability )
+March  12th 2023 - Bench in The Glade
 
-April 10th 2022 - Litter Pick and continuing Ghyll Steps
+April 9th 2023 - Litter Pick 
 
-May 8th 2022 - Ghyll Steps final repairs
+May 14th 2023 - Survey
 
-Summer 2022 - Clearing vegetation encroaching on paths. Surveys and Monitoring.
+Summer 2023 - Clearing vegetation encroaching on paths. Surveys and Monitoring.
 
 
 [Details of some tasks ](/#TODO/Tasks) can be found in the [TODO](/#TODO/Home) area.

@@ -19,19 +19,6 @@ This path is becomming overgrown but no activities can be safely done until the 
 Previous tasks removed trees and scalloped the woodland edges as per the management plan. This needs continuing when it can be safely accessed.
 
 
-## Ghyll Steps
-
-The installation of steps and boardwalk has allowed the braiding of paths on the slope to be reduced. 
-
-* Make chestnut risers and stakes. 
-* Liaise with MSDC to acquire topping material.
-* Replace missing/decaying steps, use side risers to stop side slump.
-* Dig out ditches and drains upslope.
-* Add topping to worn areas, particularly the lower slope where water erosion and desire paths are forming, and on some boggy sections 1/2 way up.
-* Push undergrowth back.
-* Consider moving sections that are bypassed by desire paths.
-* Plinth is decaying and vandalised.
-
 ## Pegasus Path ( Scout Land )
 
 This was done Oct 2021, still need to clear sycamore, and maybe return in late 2022.
@@ -77,12 +64,22 @@ The ponds are in generally good condition. Pond work is best done in October aft
 
 We used to mow this area, it doesnt really grow grass. It does start regererating trees and bramble, which needs to be kept down to maintain this area as a woodland glade.
 
+We could design and install a bench here, and possibly add a musical instrument.
+
 * This areas needs the brambles removed and encroaching vegetation pushed back.
 * Map location of Rowan and Alder Buckthorne trees
 
+## Survey
+
+* Identify and record unusual species
+    * Tree just down from container ( Grey Willow? )
+    * Wild Service by Lake
+    * Alder Buckthorn north of meadow
+    * Alder buckthorn in glade
+     
+
 # Other tasks
 
-* Remove tree guards from Ambulance Station hedge
 * Identify where paths need closing off or surfacing
 * Corderoy in boggy sections where public have been widening paths in the winter.
 * Reduce sycamore in coppice areas, it becomes dominant if left unchecked.
@@ -93,8 +90,6 @@ We used to mow this area, it doesnt really grow grass. It does start regereratin
 * Print or buy new feet for 13 yellow Salmon litter pickers
 * Install new lock furniture on container door ( its in the grey cupboard )
 * Print Maps and tasklists for container and entrances. Need printer.
-* Purchase and replace barrow tyre and inner tube. 3.5-8 tyre and tube ordered.
-
 
 
 # Potential Task Locations
