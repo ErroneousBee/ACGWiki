@@ -76,7 +76,7 @@ We could design and install a bench here, and possibly add a musical instrument.
     * Wild Service by Lake
     * Alder Buckthorn north of meadow
     * Alder buckthorn in glade
-     
+
 
 # Other tasks
 
@@ -106,10 +106,11 @@ We could design and install a bench here, and possibly add a musical instrument.
 
 # Previous Tasks
 
-Oct 2020 - Owl path clearance and removing laurels around lake.
-Nov 2020 - Very small group. Continued from Oct task at Lake.
-July 2021 - Litter Pick in the Woodlands.
-Sept 2021 - Mowind and Raking in the Meadow. Not very successful.
-Oct 2021 - Pegasus Path. Push back encraoching vegetation, felled sycamore and used to repair corderoy sections.
-
+- Oct 2020 - Owl path clearance and removing laurels around lake.
+- Nov 2020 - Very small group. Continued from Oct task at Lake.
+- July 2021 - Litter Pick in the Woodlands.
+- Sept 2021 - Mowind and Raking in the Meadow. Not very successful.
+- Oct 2021 - Pegasus Path. Push back encraoching vegetation, felled sycamore and used to repair corderoy sections.
+- Winter 2021/2022 - Coppicing by Badgers.
+- Sept 2022 - Meadow. Filled in some holes and pushed back edges. Mowing is cut/collect by MSDC.
 
