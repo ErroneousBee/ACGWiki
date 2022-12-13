@@ -52,3 +52,10 @@ git push
 git checkout main
 git stash pop
 ```
+
+
+### Creating a thumbnails Directory
+
+```
+mkdir thumbs ; mogrify  -format jpg -path thumbs -thumbnail 100x100 *.jpg
+```
