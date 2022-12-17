@@ -1,6 +1,6 @@
 ---
 title: Gallery of Species
-keywords: species flower insect tree
+keywords: species insect tree
 plugin: Gallery
 ---
 
