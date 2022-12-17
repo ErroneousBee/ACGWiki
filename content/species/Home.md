@@ -9,17 +9,15 @@ keywords: species flower insect tree
 See our lists of [species identified in previous surveys](Species_List)
 
 
-[![Common](images/thumbs/lesser_celendine.jpg)](Common) Common Species
+[![Common](images/thumbs/lesser_celendine.jpg)](Plants) Common Species
 
-[![Beetle](invertebrates/thumbs/Rhagonycha_lutea.jpg)](Other) Other Species
+[![Beetle](images/thumbs/Rhagonycha_lutea.jpg)](Invertebrates) Insects and Spiders
 
-[![Birds](images/thumbs/robin_singing.jpg)](Birds) Birds
+[![Robin](images/thumbs/robin_singing.jpg)](Birds) Birds
 
 [![Fungi](images/thumbs/chicken_of_the_woods.jpg)](Fungi) Fungi
 
-[![Meadow](images/thumbs/common_spotted_orchid_01.jpg)](Meadow) In the Meadow
-
-
+[![Orchid](images/thumbs/common_spotted_orchid_01.jpg)](Plants) Plants
 
 # Some Common Species
 
@@ -44,7 +42,7 @@ Find this Sedge wherever there are damp areas, often growing on seep lines where
 Growing all year round, its seed heads droop to one side. Be carefull if pulling on its leaves, they can cut the skin!
 
 <figure>
- <img src="images/yellow_rattle.jpg" alt="yellow rattle" style="width:30%"/>
+ <img src="images/yellow_rattle_seedhead.jpg" alt="yellow rattle" style="width:30%"/>
  <figcaption>Yellow Rattle</figcaption>
 </figure>
 Find Yellow Rattle in the meadow during late summer. It parasitises grass, supressing grass growth and helping other wildflowers compete.

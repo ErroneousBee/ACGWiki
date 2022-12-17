@@ -1,5 +1,5 @@
 ---
-title: Gallery of Common Species
+title: Gallery of Plant Species
 keywords: species flower insect tree
 plugin: Gallery
 ---
@@ -16,7 +16,7 @@ Another spring flower, favouring woodland paths.
 Find this plant whereever there are damp areas, often growing on seep lines where a pourous sandstone cap meets impervious clay.
 Growing all year round, its seed heads droop to one side.
 
-![Yellow Rattle](images/yellow_rattle_flower_02.jpg "Yellow Rattle")
+![Yellow Rattle](images/yellow_rattle_flower_01.jpg "Yellow Rattle")
 Another spring flower, favouring woodland paths.
 Find this plant in the meadow. It parasitises grass, supressing it growth and helps other wildflowers compete.
 
