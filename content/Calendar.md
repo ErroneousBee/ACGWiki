@@ -3,6 +3,9 @@ title: Diary and Forthcoming Task Days
 keywords: diary tasks calendar dates
 ---
 
+To join us in looking after the woods, meet us at the [green container](https://what3words.com/bunch.then.wink) at 10am on a task day. 
+For information on upcoming task days, visit our [Facebook Page](https://www.facebook.com/Ashplats-Conservation-Group-115414828555180) or ask to be put on the <a href="mailto:acgsecretary@gmail.com">mailing list</a>.
+
 # Diary Dates for Working Groups in 2022-2023
 
 Provisional dates:
