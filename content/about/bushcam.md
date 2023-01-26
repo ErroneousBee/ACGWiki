@@ -3,7 +3,13 @@ title: About The Woods - Wildlife Images
 class: plain
 ---
 
-# Images taken by the static motion sensitive camera.
+# The Bush Camera
+
+The volunteers deploy a motion sensitive camera in the woods to monitor the wildlife. Quite a few species have been captured by the camera, particularly birds and mammals which are large enough to trigger the motion sensor.
+
+The complete collection of images and short movies is available on our [Google Photos](https://goo.gl/photos/zu2MzQiacmQztExC8) page.
+
+# Selected Images from the Bushcam
 
 ### Badger
 
