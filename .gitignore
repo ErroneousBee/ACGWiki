@@ -3,3 +3,4 @@ node_modules/
 target/
 plugins/Search/src/lunr_index.js
 plugins/Gallery/src/plugin.css
+.vscode/
