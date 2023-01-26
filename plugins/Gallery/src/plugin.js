@@ -9,7 +9,7 @@ App.Plugins.Gallery = {
 
     /**
      * Executed when the markdown page is read and converted. 
-     * We will have to render the content os the article here.
+     * We will have to render the content of the article here.
      * @param {Object} json - Frontmatter object, pulled from the markdown file.
      * @param {String} html - The markdown after its been converted to html.
      * @param {HTMLElement} element - The article element that any content should be inserted into.
@@ -46,24 +46,25 @@ App.Plugins.Gallery = {
         const grid = document.createElement('div');
         grid.className = "Gallery";
 
-        // Pull all the images from the grid
+        // Pull all the images from the converted markdown and construct 
+        // a figure for each one.
         for (const img of page.querySelectorAll("img")) {
-            const file = img.getAttribute("src");
-            img.setAttribute("src", path + '/' + file);
 
-            // Get some caption text from trailing text, or title, or alt text
-            let text;
-            if (img.nextSibling) {
-                text = img.nextSibling.textContent.trim();
-            }
+            // We need the image path and its thumbnail path
+            const file = img.getAttribute("src");
+            const fn = file.split('/').at(-1);
+            const dn = file.split('/').slice(0,-1).join("/");
+            img.setAttribute("src", path + '/' + dn + '/thumbs/' + fn);
+            img.setAttribute("data-src", path + '/' + file);
 
             const figure = document.createElement('figure');
             const caption = document.createElement('figcaption');
             caption.innerText = img.getAttribute("title") || img.getAttribute("alt");
             figure.append(caption);
             figure.append(img);
+
             const p = document.createElement('p');
-            p.innerText = text;
+            p.innerText = (img.nextSibling) ? img.nextSibling.textContent.trim() : '';
             figure.append(p);
 
             grid.append(figure);
@@ -98,12 +99,10 @@ App.Plugins.Gallery = {
         show.onclick = () => show.remove();
 
         const image = document.createElement('img');
-        image.src = event.target.src;
+        image.src = event.target.getAttribute('data-src');
         show.appendChild(image);
 
-
         article_el.appendChild(show);
-
 
     }
 }
