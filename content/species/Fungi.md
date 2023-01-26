@@ -1,4 +1,4 @@
- ---
+---
 title: Gallery of Fungi
 keywords: toadstool mushroom fungus fungi
 plugin: Gallery
