@@ -17,5 +17,5 @@ Things to be done in the Website
 
 Create a page that hosts a small quiz, multiple choice on species identification.
 
-A Image library, or a curated gallery via plugin.
+A Image library, or a curated gallery via plugin. **DONE** See gallery plugin.
 

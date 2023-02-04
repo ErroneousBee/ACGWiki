@@ -6,11 +6,14 @@ keywords: tasklist tasks
 These are all jobs that can be done in the woods. Some are seasonal events, some are continuous, some will only need doing periodically.
 
 
-## Control Rhododendron Regrowth
+## Invasive Species Regrowth
 
 * Get/Update Herbicide Certs.
 * Map locations of Rhododendron regrowth.
 * Monitor other invasive species, particularly Cherry Laurel.
+* Task to pull Laurel that is popping up.
+    - Around playing fields and lake.
+    - On sandstone cap/chestnut area.
 
 ## Owl Path
 
@@ -23,18 +26,15 @@ Previous tasks removed trees and scalloped the woodland edges as per the managem
 
 The installation of steps and boardwalk has allowed the braiding of paths on the slope to be reduced. 
 
-* Make chestnut risers and stakes. 
-* Liaise with MSDC to acquire topping material.
-* Replace missing/decaying steps, use side risers to stop side slump.
+* MSDC to deal with step replacement
 * Dig out ditches and drains upslope.
 * Add topping to worn areas, particularly the lower slope where water erosion and desire paths are forming, and on some boggy sections 1/2 way up.
 * Push undergrowth back.
-* Consider moving sections that are bypassed by desire paths.
 * Plinth is decaying and vandalised.
 
 ## Pegasus Path ( Scout Land )
 
-This was done Oct 2021, still need to clear sycamore, and maybe return in late 2022.
+This was done Oct 2021, still need to clear sycamore, and return for more 2023 or later.
 
 * Clear encroaching vegetation.
 * Remove sycamore from coppiced area.
@@ -62,40 +62,38 @@ The ponds are in generally good condition. Pond work is best done in October aft
 * Get advice from experts on maintainence priorities.
 * Reduce willows in Alfreds Pond. Borrow a boat to get easier access, and cut/winch them out.
 * Deepen Lancaster Pond.
-* Maintain Cranston.
+* Cranston has had the canopy removed. 
+    - Crome the pond as far as possible to increase depth. 
+    - Investigate planting. 
 * Drain from Alfreds needs rodding.
 
 ## Meadow
 
-2021 Mow was very poor, the mower barely cut anything. Need to look at getting this back to a reasonable mow.
+2021/2022 Mows were poor or absent. Need to look at getting this back to a reasonable mow.
 
 * Seek advice on recovering from poor mowing.
 * Look into buying scythes. A rough scythe could also be used in the glade.
 * Purchase strong cord for bailing.
+* Investigate mower hire for summer mow. Contractors do not maintain the blade, nor deliver the mower.
 
 ## Glade
 
 We used to mow this area, it doesnt really grow grass. It does start regererating trees and bramble, which needs to be kept down to maintain this area as a woodland glade.
 
 * This areas needs the brambles removed and encroaching vegetation pushed back.
-* Map location of Rowan and Alder Buckthorne trees
+* Map location of Rowan and Alder Buckthorne trees.
 
 # Other tasks
 
-* Remove tree guards from Ambulance Station hedge
 * Identify where paths need closing off or surfacing
 * Corderoy in boggy sections where public have been widening paths in the winter.
 * Reduce sycamore in coppice areas, it becomes dominant if left unchecked.
 
 # Small Items
 
-* New saw blades ( have plenty hung up in container )
 * Print or buy new feet for 13 yellow Salmon litter pickers
 * Install new lock furniture on container door ( its in the grey cupboard )
 * Print Maps and tasklists for container and entrances. Need printer.
-* Purchase and replace barrow tyre and inner tube. 3.5-8 tyre and tube ordered.
-
-
 
 # Potential Task Locations
 
@@ -111,10 +109,20 @@ We used to mow this area, it doesnt really grow grass. It does start regereratin
 
 # Previous Tasks
 
-Oct 2020 - Owl path clearance and removing laurels around lake.
-Nov 2020 - Very small group. Continued from Oct task at Lake.
-July 2021 - Litter Pick in the Woodlands.
-Sept 2021 - Mowind and Raking in the Meadow. Not very successful.
-Oct 2021 - Pegasus Path. Push back encraoching vegetation, felled sycamore and used to repair corderoy sections.
-
-
+2020 Oct - Owl path clearance and removing laurels around lake.
+     Nov - Very small group. Continued from Oct task at Lake.
+2021 Jul - Litter Pick in the Woodlands.
+     Sep - Mowing and Raking in the Meadow. Not very successful.
+     Oct - Pegasus Path. Push back encroaching vegetation, felled sycamore and used to repair corderoy sections.
+     Nov - Coppicing
+     Dec - Coppicing - Xmas Task in the scout land. Coppicing and reducing Hollies 
+2022 Jan - Coppicing between McIndoe and Badgers
+     Feb - Coppicing between McIndoe and Badgers
+     Mar - Repairs to Ghyll steps ( didnt go well )
+     Jun - Reed Services. Glade brambles pushed back, overgrowth on pegasus and other paths. 
+     Sep - Mowing didn't happen, maintained meadow fringes.
+     Oct - Lake, removed Laurel and removed logs from lake.
+     Nov - Cancelled ( weather )
+     Dec - Coppicing by Pines Path
+2023 Jan - Coppicing by Pines Path
+     Feb - Coppicing by Pines Path
