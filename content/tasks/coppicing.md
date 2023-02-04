@@ -10,7 +10,7 @@ Most of Ashplats Wood is Ancient Woodland, which means there has been a wood on 
 For centuries, up to around 1960 woods were an important resource; trees and shrubs were regularly cut down and allowed to re-grow, 
 creating a mosaic of old and new growth with variations of light and shade. These continual changes encouraged a wide range of 
 plants and animals to survive. Coppicing smaller trees and felling large trees, known as standards for timber was a common way to 
-managed a woodland resource.
+manage a woodland resource.
 
 <figure>
   <img src="/content/images/Coppicing.jpg" alt="Coppicing" style="width:40%"/>
