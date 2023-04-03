@@ -11,7 +11,7 @@ February 12th - Coppicing along Pines Path.
 
 March 12th - Surveys and minor repair work.
 
-April 9th - Big Litter Pick. 
+April 16th - Big Litter Pick. ( rescheduled from April 9th )
 
 May, June, July, August - Occasional summer tasks. Clearing vegetation encroaching on paths. Surveys and Monitoring.
 
