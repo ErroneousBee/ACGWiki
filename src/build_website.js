@@ -39,11 +39,7 @@ function copy_to_target() {
 
     // Copy all the files into the target directory
     const sources = [
-        'index.html',
-        'config.yaml',
-        'src/main.js',
-        'themes',
-        'css',
+        ...Config.system_files,
         Config.contentpath,
     ];
 

@@ -1,0 +1,5 @@
+# Netlify configuration
+ [[redirects]]
+  from = "/about-nature-trail"
+  to = "/#about/nature-trail"
+  status = 301

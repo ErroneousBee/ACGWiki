@@ -7,12 +7,6 @@ keywords: diary tasks calendar dates
 
 Provisional dates 2023:
 
-February 12th - Coppicing along Pines Path.
-
-March 12th - Surveys and minor repair work.
-
-April 16th - Big Litter Pick. ( rescheduled from April 9th )
-
 May, June, July, August - Occasional summer tasks. Clearing vegetation encroaching on paths. Surveys and Monitoring.
 
 September 10th - Meadow Mow and Raking. Pushing back trees and brambles.
@@ -25,10 +19,16 @@ December 10th - Coppicing.
 
 January 14th 2024 - Coppicing. 
 
-February 11th 2024 - Coppicing. 
+February 11th 2024 - Coppicing or Owl path.
+
+March - Path repairs
+
+April - Litter Pick
+
+June - Survey
 
 
-[Details of some tasks ](/#TODO/Tasks) can be found in the [TODO](/#TODO/Home) area.
+[Details of some tasks](/#TODO/Tasks) can be found in the [TODO](/#TODO/Home) area.
 
 
 # General Dates in the Season

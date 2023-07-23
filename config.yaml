@@ -20,6 +20,16 @@ navigation_sidebar: assets/sidenav.md
 # This is the navigation that is part of the horizontal header bar.
 navigation_topbar: assets/headernav.md
 
+# System files, a list of files and folders to be included in the build
+system_files: [
+    'index.html',
+    'netlify.toml', # Netlify site config
+    'config.yaml',
+    'src/main.js',
+    'themes',
+    'css'
+]
+
 # Developer stuff
 show_config: true # Write a report of the config to the browser console.
 extension_precedence: ["md", "html", "htm", "txt"] # Which filetypes we prefer to show, .md is first.
