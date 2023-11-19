@@ -13,7 +13,8 @@ keywords: species plants binomial
 - Fill the frame. 
 - Clear the area. Remove debris from around a specimen to avoid autofocus picking the wrong target.
 - Hold/support it in position using hand or other support.
-- Note an accurate location, date, and time of record ( take a reference pic using mobile phone if using an SLR ).
+- Note the location, date, and time.
+    - If using an SLR, take a reference pic using a mobile phone.
 - Use a scale object. Coins, tools, fingers in the shot can help show size.
 
 ## Arthropods: Beetles, Bugs, Centipedes.
@@ -23,11 +24,11 @@ keywords: species plants binomial
 
 ## Arachnids: Spiders, harvestmen.
 - Dorsal view, showing abdominal markings.
-- On web if available.
+- On it's web if available.
 - Face, showing eye arrangement.
 
 ## Butterflies and Moths
-- Wings, showing markings underside and topside.
+- Wings, show markings underside and topside.
 - Environment, including how high in canopy and what they are feeding on.
 - Telephoto lens and tripod recommended.
 
