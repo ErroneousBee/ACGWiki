@@ -5,27 +5,27 @@ keywords: diary tasks calendar dates
 
 # Diary Dates for Working Groups in 2023-2024
 
-Provisional dates 2023:
+December 10th
+- Roaming with Mattocks, digging out returning rhododendron and laurel. 
+- Species reporting using iNaturalist. 
 
-May, June, July, August - Occasional summer tasks. Clearing vegetation encroaching on paths. Surveys and Monitoring.
+January 14th 2024 
+- Coppicing. 
 
-September 10th - Meadow Mow and Raking. Pushing back trees and brambles.
+February 11th 2024 
+- Coppicing.
 
-October 8th - Pond Task. Cranston Pond, clearing bank and deepening the pond. 
+March 
+- Path repairs. Moving topping to the Ghyll steps.
+- Creating corduroy path if a good location is available.
 
-November 5th - Pond Task? Clearing around the lake ( very provisional! ) 
+April 
+- Annual Litter Pick
 
-December 10th - Coppicing. 
-
-January 14th 2024 - Coppicing. 
-
-February 11th 2024 - Coppicing or Owl path.
-
-March - Path repairs
-
-April - Litter Pick
-
-June - Survey
+May, June, July, August 
+- Occasional summer tasks announced via email. 
+- Clearing vegetation encroaching on paths. 
+- Surveys and Monitoring.
 
 
 [Details of some tasks](/#TODO/Tasks) can be found in the [TODO](/#TODO/Home) area.
