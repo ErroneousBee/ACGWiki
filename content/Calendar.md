@@ -12,14 +12,18 @@ December 10th
 January 14th 2024 
 - Coppicing. 
 
+January 26th 2024
+- Annual General Meeting
+- 7:30pm, Sackville College Common Room.
+
 February 11th 2024 
-- Coppicing.
+- Coppicing by Badgers Path.
 
-March 
-- Path repairs. Moving topping to the Ghyll steps.
-- Creating corduroy path if a good location is available.
+March 10th 2024
+- Dealing with the Fallen Oak on Wood Anenome Path.
+- Removing/thinning Laurels and Sycamore.
 
-April 
+April 14th 2024
 - Annual Litter Pick
 
 May, June, July, August 
