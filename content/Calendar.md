@@ -5,25 +5,28 @@ keywords: diary tasks calendar dates
 
 # Diary Dates for Working Groups in 2023-2024
 
-December 10th
-- Roaming with Mattocks, digging out returning rhododendron and laurel. 
-- Species reporting using iNaturalist. 
+8th September 2024 
+- Raking the meadow.
 
-January 14th 2024 
+13th October 2024
+- Pond work, probably pulling items from The Lake, Alfreds Pond and Cranston Pond.
+
+3rd November 2024
+- Coppicing, somewhere near Pines Path.
+
+8th December 2024
+- Removing returning rhododendron from the woods.
+
+12th January 2025 
 - Coppicing. 
 
-January 26th 2024
-- Annual General Meeting
-- 7:30pm, Sackville College Common Room.
+9th February 2025
+- Keeping the glade open. Perhaps drop topping onto path.
 
-February 11th 2024 
-- Coppicing by Badgers Path.
+9th March 2025
+- Scout Land. Fixing the path, removing sycamore.
 
-March 10th 2024
-- Dealing with the Fallen Oak on Wood Anenome Path.
-- Removing/thinning Laurels and Sycamore.
-
-April 14th 2024
+13th April 2025
 - Annual Litter Pick
 
 May, June, July, August 

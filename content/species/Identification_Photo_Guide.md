@@ -6,32 +6,34 @@ keywords: species plants binomial
 # How to take useful Identification Photos
 
 - Create a clear image.
-    - Move back and use a small amount of zoom.
-    - Support the camera on a bag, tripod or anything handy.
+    - Move back and use a small amount ( 1.5x ) of zoom.
+    - Support the camera on a bag or tripod.
     - Use high ISO and small aperture.
     - Light it well. Use a reflector or diffuse light source, avoid flashes.
 - Fill the frame. 
-- Clear the area. Remove debris from around a specimen to avoid autofocus picking the wrong target.
+- Clear the area. Remove grass and debris from around a specimen to avoid autofocus picking the wrong target.
 - Hold/support it in position using hand or other support.
-- Note an accurate location, date, and time of record ( take a reference pic using mobile phone if using an SLR ).
+- Note the location, date, and time.
+    - If using an SLR, take a reference pic using a mobile phone.
 - Use a scale object. Coins, tools, fingers in the shot can help show size.
 
 ## Arthropods: Beetles, Bugs, Centipedes.
+- 3/4 profile.
 - Dorsal view, showing body markings and wing case.
 - Lateral view, showing legs.
 - Some species are identified by eyes or mouth parts.
 
 ## Arachnids: Spiders, harvestmen.
 - Dorsal view, showing abdominal markings.
-- On web if available.
 - Face, showing eye arrangement.
+- On it's web if available.
 
 ## Butterflies and Moths
-- Wings, showing markings underside and topside.
+- Wings, show markings underside and topside.
 - Environment, including how high in canopy and what they are feeding on.
 - Telephoto lens and tripod recommended.
 
-## Flies, Bees, Moths and other flying insects.
+## Flies, Bees, Wasps and other flying insects.
 - Dorsal view, showing wing veining. 
 - Lateral view, showing Eyes and Thorax.
 - Beware of glare on wings.
@@ -49,12 +51,12 @@ keywords: species plants binomial
 - Side or 3/4 profile showing eye, mouth/beak, horns.
 - Do not disturb nests.
 
-## Bats
-- Use a bat detector.
-
 ## Amphibians: Frogs, Toads. Newts
 - 3 quarters view, side of face. 
 - Do not disturb newts.
+
+## Bats
+- Use a bat detector.
 
 ## Flowering Plants
 - Detail of flower head, usually from top.
@@ -63,7 +65,7 @@ keywords: species plants binomial
 
 ## Grasses and Sedges.
 - Seed Head, held steady with fingers.
-- Closeup of stem node/joint.
+- Closeup of basal leaves.
 
 ## Ferns.
 - Whole plant.

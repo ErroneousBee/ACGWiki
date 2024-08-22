@@ -126,3 +126,13 @@ We used to mow this area, it doesnt really grow grass. It does start regereratin
      Dec - Coppicing by Pines Path
 2023 Jan - Coppicing by Pines Path
      Feb - Coppicing by Pines Path
+     Sep - Raking, too hot to rake. Mower had failed during mowing, not much done.
+     Oct - De-silting Cranston
+     Nov - De-silting Cranston
+     Dec - Coppicing by Badgers Path
+2024 Jan - Coppicing by Badgers Path
+     Feb - Coppicing by Badgers Path
+     Mar - ?
+     Apr - Litter Pick
+     Jul - iNaturalist survey in meadow.
+
