@@ -5,21 +5,28 @@ keywords: diary tasks calendar dates
 
 # Diary Dates for Working Groups in 2023-2024
 
-December 10th
-- Roaming with Mattocks, digging out returning rhododendron and laurel. 
-- Species reporting using iNaturalist. 
+8th September 2024 
+- Raking the meadow.
 
-January 14th 2024 
+13th October 2024
+- Pond work, probably pulling items from The Lake, Alfreds Pond and Cranston Pond.
+
+3rd November 2024
+- Coppicing, somewhere near Pines Path.
+
+8th December 2024
+- Removing returning rhododendron from the woods.
+
+12th January 2025 
 - Coppicing. 
 
-February 11th 2024 
-- Coppicing.
+9th February 2025
+- Keeping the glade open. Perhaps drop topping onto path.
 
-March 
-- Path repairs. Moving topping to the Ghyll steps.
-- Creating corduroy path if a good location is available.
+9th March 2025
+- Scout Land. Fixing the path, removing sycamore.
 
-April 
+13th April 2025
 - Annual Litter Pick
 
 May, June, July, August 
