@@ -1,41 +1,51 @@
 ---
-title: Diary and Forthcoming Task Days
+title: Forthcoming Task Days
 keywords: diary tasks calendar dates
 ---
 
-# Diary Dates for Working Groups in 2023-2024
+# Diary Dates for Volunteer Working Groups
 
-8th September 2024 
-- Raking the meadow.
+2024:
+- September 8th  
+    - Raking the meadow.
+- October 13th  
+    - Pond work, probably pulling items from The Lake, Alfreds Pond and Cranston Pond.
+- November 3rd 
+    - Coppicing, somewhere near Pines Path.
+- December 8th 
+    - Removing returning rhododendron from the woods.
 
-13th October 2024
-- Pond work, probably pulling items from The Lake, Alfreds Pond and Cranston Pond.
+2025:
+- January 12th 
+    - Coppicing. 
+- February 9th 
+    - Keeping the glade open. Perhaps drop topping onto path.
+- March 9th 
+    - Scout Land. Fixing the path, removing sycamore.
+- April 13th 
+    - Annual Litter Pick
 
-3rd November 2024
-- Coppicing, somewhere near Pines Path.
-
-8th December 2024
-- Removing returning rhododendron from the woods.
-
-12th January 2025 
-- Coppicing. 
-
-9th February 2025
-- Keeping the glade open. Perhaps drop topping onto path.
-
-9th March 2025
-- Scout Land. Fixing the path, removing sycamore.
-
-13th April 2025
-- Annual Litter Pick
+Other Dates: 
 
 May, June, July, August 
 - Occasional summer tasks announced via email. 
 - Clearing vegetation encroaching on paths. 
 - Surveys and Monitoring.
 
+# Task Information
 
-[Details of some tasks](/#TODO/Tasks) can be found in the [TODO](/#TODO/Home) area.
+Tasks are announced by email, and on Facebook one week before the event. [Contact us](/#Contact)  to be added to the email list.
+
+We generally meet at the [green container](https://w3w.co/outer.vest.swim) at 10am on the 2nd Sunday of the month and begin with a safety briefing.
+We will aim to finish at around 3pm, but many volunteers leave early or arrive late due to family commitments,
+
+[Nearest car parking ](https://w3w.co/rare.taxi.task) is by the pavilion / children's play area.
+
+Please bring a drink and refreshments with you and wear appropriate clothing and sturdy footwear.
+We have gloves available for those that need them, and hand tools are supplied. 
+Some volunteers prefer to bring their own gloves and tools.
+
+[Details of some tasks](/#TODO/Tasks) can be found in our [task planning](/#TODO/Home) pages.
 
 
 # General Dates in the Season
