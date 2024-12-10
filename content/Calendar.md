@@ -17,13 +17,16 @@ keywords: diary tasks calendar dates
 
 2025:
 - January 12th 
-    - Coppicing. 
+    - Coppicing near Pines Path. 
 - February 9th 
-    - Keeping the glade open. Perhaps drop topping onto path.
+    - Coppicing near Pines Path. 
 - March 9th 
     - Scout Land. Fixing the path, removing sycamore.
 - April 13th 
     - Annual Litter Pick
+- May or June
+    - Keeping the glade open. Perhaps drop topping onto path.
+
 
 Other Dates: 
 
