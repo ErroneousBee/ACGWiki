@@ -2,7 +2,7 @@
 const fs = require("fs");
 const fse = require('fs-extra');
 const js_yaml = require('js-yaml');
-const sass = require('node-sass');
+const sass = require('sass');
 
 Config = {
 
@@ -77,10 +77,7 @@ async function install_plugins() {
         if (fs.existsSync(sasspath)) {
 
             console.log("Compile sass for plugin:", plugin);
-            const res = sass.renderSync({
-                file: sasspath,
-                outputStyle: 'compact'
-            });
+            const res = await sass.compile(sasspath);
 
             if (res.css) {
                 fs.writeFileSync('plugins/' + plugin + '/src/plugin.css', res.css);

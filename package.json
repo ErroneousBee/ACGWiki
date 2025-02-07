@@ -6,7 +6,7 @@
   "type": "commonjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node-sass src/*.scss -o css/ && node src/build_website.js"
+    "build": "sass --style=compressed src:css/ && node src/build_website.js"
   },
   "repository": {
     "type": "git",
@@ -26,9 +26,9 @@
     "html-to-text": "^8.1.0",
     "jest": "^27.4.5",
     "lunr": "^2.3.9",
-    "node-sass": "^7.0.1",
     "pdf-parse": "^1.1.1",
     "playwright": "^1.17.1",
+    "sass": "^1.84.0",
     "yaml-front-matter": "^4.1.1"
   }
 }
