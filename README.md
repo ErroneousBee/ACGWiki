@@ -7,6 +7,31 @@ It is based on the PortaWiki project.
 
 # Some useful workflows
 
+## Installing/upgrading node and npm
+
+You may need to run through this if the project has become old enough to have unsupported versions of software.
+
+* Install latest node.js from thier website
+* Install nvm ( the npm version manager )
+* Install npm ( the node package manager )
+* Install git, the version controller.
+
+* Git clone the ACGWiki from github:
+* * `git clone git@github.com:ErroneousBee/ACGWiki.git`
+* * `cd ACGWiki`
+* Run `npm install` to install the dependencies.
+* Run `npm run build` to build the statis website.
+
+If packages are obsolete:
+
+* Packages are listed in package.json
+* `npm install` will download the latest 
+* `npm uninstall <package-name> --save-dev` to remove an obsolete build package.
+* `npm install <package-name> --save-dev` to add a new/replacement package.
+* * E.g. replace old node-sass with its replacement: 
+* * `npm uninstall node-sass --save-dev` then `npm install sass --save-dev`
+* Then run the install and build.
+
 ## Updating content for the website
 
 * Open VS Code
