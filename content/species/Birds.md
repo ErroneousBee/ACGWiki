@@ -33,5 +33,5 @@ Often found probing for food on the pond margins.
 ![Grey Wagtail](birds/grey_wagtail_2.jpg "Grey Wagtail")
 Wagtails have a distinctive gait, flicking thier tails up and down.
 
-!Grey Heron](birds/grey_heron.jpg "Grey Heron")
+![Grey Heron](birds/grey_heron.jpg "Grey Heron")
 Look for herons fishing on the banks of ponds and streams.
