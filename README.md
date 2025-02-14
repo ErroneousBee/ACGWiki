@@ -87,6 +87,14 @@ git checkout main; git config pull.rebase false; git stash; git checkout release
 
 ### Creating a thumbnails Directory
 
+
+There are many tools for creating thumbnail images. I recommend using Imagemagik mogrify for conveinience:
+
 ```
-mkdir thumbs ; mogrify  -format jpg -path thumbs -thumbnail 100x100 *.jpg
+# Move to the image folder you wish to thumbnail:
+cd <path_to_your folder>
+# Recreate a thumbs folder if necessary
+rm -rf thumbs/; mkdir thumbs;
+# Create/update the thumbnails
+mogrify  -format jpg -path thumbs -thumbnail 200x200 *.jpg
 ```
