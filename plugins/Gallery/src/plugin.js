@@ -64,7 +64,7 @@ App.Plugins.Gallery = {
 
             const figure = document.createElement('figure');
             const caption = document.createElement('figcaption');
-            caption.innerText = img.getAttribute("alt") ||  img.getAttribute("title");
+            caption.innerText = img.getAttribute("alt") ||  img.getAttribute("title") || fn ;
             figure.append(caption);
             figure.append(img);
 
