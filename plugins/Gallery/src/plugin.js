@@ -50,6 +50,11 @@ App.Plugins.Gallery = {
         // a figure for each one.
         for (const img of page.querySelectorAll("img")) {
 
+            console.log('xxx', img, img.nextSibling );
+
+            // Get the caption before we move the element about.
+            const below_text = (img.nextSibling) ? img.nextSibling.nodeValue.trim() : '';
+
             // We need the image path and its thumbnail path
             const file = img.getAttribute("src");
             const fn = file.split('/').at(-1);
@@ -59,12 +64,13 @@ App.Plugins.Gallery = {
 
             const figure = document.createElement('figure');
             const caption = document.createElement('figcaption');
-            caption.innerText = img.getAttribute("title") || img.getAttribute("alt");
+            caption.innerText = img.getAttribute("alt") ||  img.getAttribute("title");
             figure.append(caption);
             figure.append(img);
 
+            // Add fuller text below the image.
             const p = document.createElement('p');
-            p.innerText = (img.nextSibling) ? img.nextSibling.textContent.trim() : '';
+            p.innerText = below_text;
             figure.append(p);
 
             grid.append(figure);
