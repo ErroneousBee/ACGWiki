@@ -1,6 +1,9 @@
 ---
 title: About The Woods
 ---
+
+Ash Dieback has killed many ash trees in the woods. [MSDC contractors are felling trees that become unsafe](https://www.midsussex.gov.uk/leisure-sport/trees-and-woodlands/ash-dieback/).
+
 [History](history) - A brief look at the history of the woods.
 
 [Geology](geology) - The rocks and soils beneath your feet.
