@@ -13,7 +13,7 @@ Singing beligerant songs of terratorial threat.
 Greater that a Blue tit.
 
 ![Green woodpecker](birds/green_woodpecker.jpg "Green Woodpecker")
-A large woodpecker, feeds on the ground, likes ants.
+A large woodpecker, feeds on the ground, fond of ants.
 
 ![Nuthatch](birds/nuthatch.jpg "Nuthatch")
 Feeds on Insects, seeds and nuts. Our bushcam often catches one searching tree stumps.
