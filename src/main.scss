@@ -199,7 +199,7 @@ nav.sidenav {
 
 main > div.article_container > article {
 
-    // Images can be zoomed to full size with a click, and zoomed out
+    // By default images can be zoomed to full size with a click, and zoomed out
     img {
         cursor: zoom-in;
     }
@@ -221,6 +221,11 @@ main > div.article_container > article {
             border: 1em solid transparent;
             cursor: zoom-out !important;
         }
+    }
+
+    // Suppress the overlay behaviour
+    img.nooverlay {
+        cursor: pointer;
     }
 
     // tables get a subtle cell border
