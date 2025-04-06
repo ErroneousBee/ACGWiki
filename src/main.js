@@ -180,7 +180,7 @@ App = {
                         break;
 
                     case "md": {
-                        const [html, ] = App.convert_markdown_page(text, file);
+                        const [html,] = App.convert_markdown_page(text, file);
                         element.innerHTML = html;
                         break;
                     }
@@ -533,27 +533,26 @@ App = {
             path = path.slice(1);
         }
         if (path.endsWith(Config.home)) {
-            path = path.slice(0,-(Config.home.length));
+            path = path.slice(0, -(Config.home.length));
         }
         if (path.endsWith('/')) {
-            path = path.slice(0,-1);
+            path = path.slice(0, -1);
         }
-
-        
 
         // Pull all the images from the grid
         for (const img of element.querySelectorAll("img")) {
+
             const file = img.getAttribute("src");
 
-            // Opens with overlay
-            img.onclick = App.open_image.bind(null, element);
-
-            // Is this fully qualified or an external path? 
-            if (file.startsWith("/") || file.startsWith("http")) {
-                continue;
+            // Opens with overlay unless supressed
+            if (!img.classList.contains('nooverlay')) {
+                img.onclick = App.open_image.bind(null, element);
             }
 
-            img.setAttribute("src", Config.contentpath + path + '/' + file);
+            // Is this fully qualified or an external path? 
+            if (!file.startsWith("/") && !file.startsWith("http")) {
+                img.setAttribute("src", Config.contentpath + path + '/' + file);
+            }
 
         }
 
