@@ -5,16 +5,6 @@ keywords: diary tasks calendar dates
 
 # Diary Dates for Volunteer Working Groups
 
-2024:
-- September 8th  
-    - Raking the meadow.
-- October 13th  
-    - Pond work, probably pulling items from The Lake, Alfreds Pond and Cranston Pond.
-- November 3rd 
-    - Coppicing, somewhere near Pines Path.
-- December 8th 
-    - Removing returning rhododendron from the woods.
-
 2025:
 - January 12th 
     - Coppicing near Pines Path. 
@@ -24,8 +14,14 @@ keywords: diary tasks calendar dates
     - Scout Land. Fixing the path, removing sycamore.
 - April 13th 
     - Annual Litter Pick
+- May 
+    - Newt and Bat survey.
 - May or June
     - Keeping the glade open. Perhaps drop topping onto path.
+- September
+    - Meadow maintenance, pushing back scrub.
+- October
+
 
 
 Other Dates: 
