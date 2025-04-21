@@ -1,5 +1,5 @@
 ---
-title: Welcome to Ashplats Conservation Group
+title: Welcome to Ashplats
 ---
 
 <center>

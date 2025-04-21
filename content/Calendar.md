@@ -7,13 +7,16 @@ keywords: diary tasks calendar dates
 
 ## Recent and Upcoming
 
-- May 6th 2025 
+- May 6th 2025
     - Newt and Bat survey. 
     - Meet by Alfreds Pond at 8pm.
     - Sunset is at 20:31.
     - We will be visiting The Lake, Alfreds, and Cranstone ponds. We may seek bats in Rutland Meadow.
     - Bring a torch for the Newts.
     - Bring Bat detectors if you have them.
+
+- May 9th 2025 
+    - Alternate date for Bat and Newt Survey
 
 - May 11th 2025 
     - Pushing back brambles in Rutland Meadow
@@ -22,7 +25,13 @@ keywords: diary tasks calendar dates
 
 ## Ongoing
 
-- Monitoring the dormouse tunnels ( see Whatsapp Group for info )
+- Monitoring the dormouse tunnels 
+    - [Contact](/#Contact) us if you want to help.
+    - Visits are announced on our Whatsapp Group.
+- Butterfly Transect
+    - Weekly survey along a set route.
+    - Runs April to September.
+    - Route to be finalized.
 - Survey in Rutland Meadow to monitor effects of the changed mowing regime.
 - Occasional summer tasks announced via email. 
     
@@ -37,7 +46,7 @@ keywords: diary tasks calendar dates
 
 # Task Information
 
-Tasks are announced by email, and on Facebook one week before the event. [Contact us](/#Contact)  to be added to the email list.
+Tasks are announced by email, and on Facebook one week before the event. [Contact us](/#Contact) to be added to the email list.
 
 We generally meet at the [green container](https://w3w.co/outer.vest.swim) at 10am on the 2nd Sunday of the month and begin with a safety briefing.
 We will aim to finish at around 3pm, but many volunteers leave early or arrive late due to family commitments,
