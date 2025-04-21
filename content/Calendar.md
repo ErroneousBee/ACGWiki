@@ -5,31 +5,35 @@ keywords: diary tasks calendar dates
 
 # Diary Dates for Volunteer Working Groups
 
-2025:
-- January 12th 
-    - Coppicing near Pines Path. 
-- February 9th 
-    - Coppicing near Pines Path. 
-- March 9th 
-    - Scout Land. Fixing the path, removing sycamore.
-- April 13th 
-    - Annual Litter Pick
-- May 
-    - Newt and Bat survey.
-- May or June
-    - Keeping the glade open. Perhaps drop topping onto path.
-- September
-    - Meadow maintenance, pushing back scrub.
-- October
+## Recent and Upcoming
 
+- May 6th 2025 
+    - Newt and Bat survey. 
+    - Meet by Alfreds Pond at 8pm.
+    - Sunset is at 20:31.
+    - We will be visiting The Lake, Alfreds, and Cranstone ponds. We may seek bats in Rutland Meadow.
+    - Bring a torch for the Newts.
+    - Bring Bat detectors if you have them.
 
+- May 11th 2025 
+    - Pushing back brambles in Rutland Meadow
+    - Dropping Path topping onto the path near Alfreds pond.
+    - If time permits, moving to the Glade and pushing back brambles there too.
 
-Other Dates: 
+## Ongoing
 
-May, June, July, August 
+- Monitoring the dormouse tunnels ( see Whatsapp Group for info )
+- Survey in Rutland Meadow to monitor effects of the changed mowing regime.
 - Occasional summer tasks announced via email. 
-- Clearing vegetation encroaching on paths. 
-- Surveys and Monitoring.
+    
+## Next Season 2025-2026:
+
+- Coppicing ( 2 tasks )
+- Rhododendron removal ( 2 tasks )
+- Scout Land ( Removing Sycamore, coppicing, corduroy path repairs )
+- Lake ( Removing Laurels, pulling stuff out the water, looking for fish, removing litter )
+- No litter pick ( skipping a year as theres not so much litter )
+- AGM ( In January )
 
 # Task Information
 
@@ -49,10 +53,9 @@ Some volunteers prefer to bring their own gloves and tools.
 
 # General Dates in the Season
 
-* Early March to end of July - Bird nesting season. Tree felling is kept to a minimum.
+* Autumn / Winter - Coppicing, Removing Invasive species.
 * April - The Litter Pick
+* Summer - Surveys and Monitoring ( announced sporadically ) 
 * September - Meadow mowing and raking
 * Early Autumn - Pond work whilst the ponds are still low and the residents are no longer living fast paced lives.
 * December - The Xmas Task
-* Summer - Reduced activity as volunteers are away and cutting is restricted.
-
