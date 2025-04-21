@@ -13,7 +13,6 @@ Things to be done in the Website
 
 * Tree Survey page.
 * Add recent tasks
-    - Owl Path
     - Laurel clearence.
 * Make Rhodi page a history of clearing it.
     - New phase - digging
@@ -23,17 +22,22 @@ Things to be done in the Website
 
 Create a page that hosts a small quiz, multiple choice on species identification.
 
-ical links in the calandar using webcomponents
+Ical links in the calandar using webcomponents
 
 ### Other website items
 
-Make topleft logo be clickable ( and remove Home from menu )
+Remove Home from menu  ( Logo is nav )
 
 Create playwright test for missing images and broken links
 
 Rework the overlay stuff to work cleaner, perhaps only do it in figures of a certain class
 
 Rework menus to behave better, have animations too.
+    - Cascade?
+
+Rework Search
+    - Add Search ( link? ) to Side Nav.
+    - Make Search not be a page, but open a box as typing happens.
 
 
 
