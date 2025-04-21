@@ -280,11 +280,15 @@ body > div.container {
                 text-decoration: underline;
             }
 
-            h1,
+            h1 {
+                color: var(--article-header-color);
+               }
             h2,
             h3,
             h4 {
-                color: var(--article-header-color);
+ 
+                font-size: medium;
+                color: var(--article-subheader-color);
             }
         }
 
