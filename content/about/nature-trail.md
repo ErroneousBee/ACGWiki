@@ -9,7 +9,7 @@ As a permanent reminder of the Girl-guiding Centenary celebrations (1910 - 2010)
   <figcaption>The route map on the East Court Terrace.</figcaption>
 </figure>
 
-The trail is free for anyone to use. It’s about 1 mile long and will take the average adult about 30 minutes to walk. The information sign above can be found on the terrace of East Court Mansion and the photo left shows one of the posts on the trail. There are 16 posts in total and where possible these are sited near to paths to enable pushchairs, wheelchairs and those who are less steady on their feet to reach them. However, the path through the woods to Rutland Meadow is narrow, over rougher ground and will be muddy when wet.
+The trail is free for anyone to use. It is about 1 mile long and will take the average adult about 30 minutes to walk. The information sign above can be found on the terrace of East Court Mansion and the photo left shows one of the posts on the trail. There are 16 posts in total and where possible these are sited near to paths to enable pushchairs, wheelchairs and those who are less steady on their feet to reach them. However, the path through the woods to Rutland Meadow is narrow, over rougher ground and will be muddy when wet.
 
 <figure>
   <img src="/content/images/P1010545.jpg" alt="Marker Post" style="width:40%"/>
@@ -20,4 +20,4 @@ On top of each post is a beautiful brass plaque designed by a local artist Victo
 
 Please use the trail as much and however you like. Enjoy yourselves and have FUN.
 
-To find out more about girlguiding locally visit the [Girl Guiding Sussex Central](https://www.facebook.com/girlguidingsc) Facebook page.
+To find out more about the trail and guiding locally visit the [trefoil guild](https://www.egmel.co.uk/the-park/trefoil-guild-centenary-nature-trail/) trail page.
