@@ -81,7 +81,7 @@ git stash pop
 or if you know what you are doing ...
 
 ```
-git checkout main; git config pull.rebase false; git stash; git checkout release; git pull; git merge main; git push; git checkout main; git stash pop;
+git checkout main; git config pull.rebase false; git stash; git checkout release; git pull; git merge main -m "Publish from main branch"; git push; git checkout main; git stash pop;
 ```
 
 
