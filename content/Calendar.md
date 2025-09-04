@@ -7,23 +7,27 @@ keywords: diary tasks calendar dates
 
 ## 2025/2026 Season
 
-- Sept 2025
+- Sept 2025 
+    - **Clearing the Lake**
     - Dragging a grapnell to pull rubbish and wood from the lake.
     - Cutting back Laurels.
     - Removing litter from the banks to a pickup point.
 
 - Oct 2025
-    - Lake, Continuing on from previous month
+    - **Clearing the Lake**
+    - Continuing on from previous month
 
 - Nov 2025
-    - Coppicing by Pines Path
+    - **Coppicing** by Pines Path.
 
 - Dec 2025
-    - Pulling Rhododendron
-    - Targeting the area between Sussex Path and Scout Land
+    - **Rhododendron removal**
+    - Digging and pulling out invasive species from the woods.
+    - Targeting the area between Sussex Path and Scout Land.
 
 - Jan 2026
-    - Coppicing
+    - **Coppicing**
+    - Continuing from Novembers task
 
 - Jan 2026
     - AGM - Volunteers for officer positioins are welcome.
