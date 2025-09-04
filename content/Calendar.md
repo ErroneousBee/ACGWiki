@@ -5,25 +5,44 @@ keywords: diary tasks calendar dates
 
 # Diary Dates for Volunteer Working Groups
 
-## Recent and Upcoming
+## 2025/2026 Season
 
-- May 6th 2025
-    - Newt and Bat survey. 
-    - Meet by Alfreds Pond at 8pm.
-    - Sunset is at 20:31.
-    - We will be visiting The Lake, Alfreds, and Cranstone ponds. We may seek bats in Rutland Meadow.
-    - Bring a torch for the Newts.
-    - Bring Bat detectors if you have them.
+- Sept 2025
+    - Dragging a grapnell to pull rubbish and wood from the lake.
+    - Cutting back Laurels.
+    - Removing litter from the banks to a pickup point.
 
-- May 9th 2025 
-    - Alternate date for Bat and Newt Survey
+- Oct 2025
+    - Lake, Continuing on from previous month
 
-- May 11th 2025 
-    - Pushing back brambles in Rutland Meadow
-    - Dropping Path topping onto the path near Alfreds pond.
-    - If time permits, moving to the Glade and pushing back brambles there too.
+- Nov 2025
+    - Coppicing by Pines Path
 
-## Ongoing
+- Dec 2025
+    - Pulling Rhododendron
+    - Targeting the area between Sussex Path and Scout Land
+
+- Jan 2026
+    - Coppicing
+
+- Jan 2026
+    - AGM - Volunteers for officer positioins are welcome.
+
+- Feb 2026
+    - Scout Land. 
+    - Thinning Sycamore.
+    - Touching up the path if possible.
+
+- March 2026
+    - TBA
+
+- April 2026
+    - TBA ( No litter pick this year )
+
+- May 2026
+    - TBA 
+
+## Ongoing Tasks
 
 - Monitoring the dormouse tunnels 
     - [Contact](/#Contact) us if you want to help.
@@ -35,15 +54,6 @@ keywords: diary tasks calendar dates
 - Survey in Rutland Meadow to monitor effects of the changed mowing regime.
 - Occasional summer tasks announced via email. 
     
-## Next Season 2025-2026:
-
-- Coppicing ( 2 tasks )
-- Rhododendron removal ( 2 tasks )
-- Scout Land ( Removing Sycamore, coppicing, corduroy path repairs )
-- Lake ( Removing Laurels, pulling stuff out the water, looking for fish, removing litter )
-- No litter pick ( skipping a year as theres not so much litter )
-- AGM ( In January )
-
 # Task Information
 
 Tasks are announced by email, and on Facebook one week before the event. [Contact us](/#Contact) to be added to the email list.
