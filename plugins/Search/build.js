@@ -3,15 +3,14 @@
  */
 
 
-/* global require */
+/* global require and ES modules */
 const path = require("path");
 const fs = require("fs");
 const lunr = require("lunr");
 const cheerio = require("cheerio");
 const js_yaml = require('js-yaml');
 const { htmlToText } = require('html-to-text');
-const pdf_util = require('pdf-parse');
-
+const { PDFParse } = require('pdf-parse');
 /**
  * Returns an array of file paths.
  * @param {String} folder 
@@ -116,27 +115,21 @@ function markdown_to_lunr_doc(filename, fileId) {
 async function pdf_to_lunr_doc(filename, fileId) {
 
     const buffer = fs.readFileSync(filename);
+    const parser = new PDFParse({ data: buffer });
+    const info = await parser.getInfo({ parsePageInfo: false });
+    const text = await parser.getText();
+    await parser.destroy();
 
-    const data = await pdf_util(buffer).then(data => {
-
-        // console.log(data.numpages);
-        // console.log(data.numrender);
-        // console.log(data.info);
-        // console.log(data.metadata); 
-        // console.log(data.version);
-        // console.log(data.text); 
-
-        return data;
-
-    });
+    // console.log('PDF Info:', info);
+    // console.log('PDF Text:', text.text);
 
     return {
         "id": fileId,
         "link": filename.slice(Config.contentpath.length),
-        "t": data.info.title || "PDF Document",
-        "d": data.info.description || "",
-        "k": data.info.keywords || "pdf",
-        "b": data.text
+        "t": info.Title || text.text.split('\n').slice(0,2),
+        "d": info.Subject || "",
+        "k": info.Keywords || "pdf",
+        "b": text.text.replace(/[^\S ]/g, ' ')
     }
 }
 
