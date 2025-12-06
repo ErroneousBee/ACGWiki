@@ -1,0 +1,17 @@
+Here we create a showdown extension that implements footnotes in a way that suits the SPA nature of the application.
+
+[^alphanum] - indicates a note
+[^alphanum]: Some Text Here - Indicates the refrerence text. 
+
+Multiple notes can point to the same reference.
+
+To use the plugin:
+
+1. Activate Footnotes plugin in config.yaml
+2. Run the build `npm run build`
+3. Optionally, add `showdown_extensions: ['footnotes']` to config.yaml.
+4. Add `showdown_extensions: ['footnotes']` to a markdown frontmatter.
+5. Add `[^1]` note markers to a markdown text.
+6. Add `[^1] Explanation text.` reference to the end of the markdown text.
+7. Test the page.
+
