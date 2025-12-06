@@ -32,15 +32,17 @@ system_files: [
 
 # Developer stuff
 show_config: true # Write a report of the config to the browser console.
-extension_precedence: ["md", "html", "htm", "txt"] # Which filetypes we prefer to show, .md is first.
-extension_types: ["markdown", "html", "html", "text"] # How to interpret file types.
-external_types: ["pdf"] # Open pdf files as new urls
+filetype_precedence: ["md", "html", "htm", "txt"] # Which filetypes we prefer to show, .md is first.
+filetype_types: ["markdown", "html", "html", "text"] # How to interpret file types.
+external_filetypes: ["pdf"] # Open pdf files as new urls
 
 # Plugin Activation.
 # Run 'npm run build' after changing plugins list to install them.
 plugins: 
     - Search
     - Gallery
+    - What3Words
+    - Footnotes
 
 # Search plugin, sets the path and how things get inclusded/excplided
 search:
@@ -49,4 +51,9 @@ search:
     exclude: ["content/assets", "Search.html"] # directories and filenames to be exclused from search
     filetypes: ["markdown","md","html","htm","txt","pdf"] # Only search these file types, e.g. test.md
     max_preview_chars: 275
+
+# Showdown converter extensions used for all pages.
+# Individual pages can activate extensions in the frontmatter section with the same syntax.
+# Beware the navigation menus will also use these extensions.
+showdown_extensions: []
 
