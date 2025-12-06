@@ -22,6 +22,25 @@
     --article-background-color: #000a00;
     --article-line-color: #222;             /* Table borders, horizontal rules */
 
+    /* Alternative colors, foreground, background and middtone . Useful for plugins */
+    --alt-color-fg1: #bbffbb;
+    --alt-color-fg2: #b0b0ff;
+    --alt-color-fg3: #ffb0b0;
+    --alt-color-fg4: #ffd4c0;
+    --alt-color-fg5: #ff90ff;
+    --alt-color-fg6: #d0d0d0;
+    --alt-color-bg1: #101030;
+    --alt-color-bg2: #400010;
+    --alt-color-bg3: #202050;
+    --alt-color-bg4: #300050;
+    --alt-color-bg5: #603010;
+    --alt-color-bg6: #101010;
+    --alt-color-md1: #00ff00;
+    --alt-color-md2: #0000ff;
+    --alt-color-md3: #d050d0;
+    --alt-color-md4: #ffa0a0;
+    --alt-color-md5: #d0ffd0;
+    --alt-color-md6: #606060;
 
     --search-title-color: goldenrod;
     --search-link-color: lightcyan;
