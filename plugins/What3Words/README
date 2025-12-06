@@ -1,0 +1,12 @@
+Turns what3words references ( E.g. ///what.three.words ) into links to the w3w map pages.
+
+To use this plugin:
+
+    1. Activate the plugin in Config.yaml
+    2. Either:
+        * Add a 'what3words' element to showdown_extensions in Config.yaml.
+        * or
+        * Add a 'what3words' element to showdown_extensions in your markdown front matter.
+    3. Run the build with `npx run build`
+    4. Add your w3w tags to your markdown documents.
+    5. Test it works.

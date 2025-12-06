@@ -1,0 +1,44 @@
+/* Footnote markers in the main text */
+sup.footnote {
+    color: var(--alt-color-fg1);
+    font-family: "Tahoma";
+    font-weight: lighter;
+    font-size: xx-small;
+    text-shadow: 1px 1px 0px var(--alt-color-bg1), 2px 2px 0px var(--article-background-color);
+
+}
+
+/* The popover for a footnote reference */
+div.footnote[popover] {
+    border: 2px solid red;
+    color: var(--alt-color-fg3);
+    background-color: var(--alt-color-bg3);
+    padding: 10px;
+    font-size: larger;
+
+    /* Final state of the animation */
+    opacity: 0;
+    transform: scaleX(0);
+
+    --footnote-transition-speed: 0.5s;
+    transition:
+        opacity var(--footnote-transition-speed),
+        transform var(--footnote-transition-speed),
+        overlay var(--footnote-transition-speed) allow-discrete,
+        display var(--footnote-transition-speed) allow-discrete;
+
+}
+
+/* Transition for the popover */
+div.footnote[popover]:popover-open {
+    opacity: 1;
+    transform: scaleX(1);
+}
+
+/* Start of popover animation, must be after the Transition rule */
+@starting-style {
+    div.footnote[popover]:popover-open {
+        opacity: 0;
+        transform: scaleX(0);
+    }
+}

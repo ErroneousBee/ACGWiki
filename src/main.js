@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 Config = {
     title: 'Default Title',
-    extension_precedence: ["md", "html", "htm", "txt"],
+    filetype_precedence: ["md", "html", "htm", "txt"],
     theme: 'default',
     home: 'Home.md',
     search: 'Search.md',
@@ -130,7 +130,7 @@ App = {
         }
 
         // Is this something we dont handle, like a pdf file?
-        const isexternal = Config.external_types.map(type => path.endsWith("." + type)).includes(true);
+        const isexternal = Config.external_filetypes.map(type => path.endsWith("." + type)).includes(true);
         if (isexternal) {
             window.location.href = url.origin + "/" + Config.contentpath + path;
             return;
@@ -210,7 +210,7 @@ App = {
         const filetype = filename.slice((filename.lastIndexOf(".") - 1 >>> 0) + 2);
 
         // If we were given a filetype, remove it and add it to front of the list to try first
-        const extn_list = [...Config.extension_precedence];
+        const extn_list = [...Config.filetype_precedence];
         if (filetype !== "") {
             extn_list.unshift(filetype);
             path = path.substring(0, path.lastIndexOf("."));
@@ -224,7 +224,7 @@ App = {
         App.fetch_with_extention(Config.contentpath + path, extn_list)
             .catch(e => {
                 // That didnt work, lets try appending Config.home
-                return App.fetch_with_extention(Config.contentpath + path + "/" + Config.home, [...Config.extension_precedence])
+                return App.fetch_with_extention(Config.contentpath + path + "/" + Config.home, [...Config.filetype_precedence])
             })
             .then(response => {
 
@@ -319,7 +319,7 @@ App = {
      */
     convert_markdown_page(text, source) {
 
-        let fm, md;
+        let fm, md; // Frontmatter and the markdown
         // First line is the seperator, its yaml and therefore ---
         // TODO: Improve to get fm and md if no sep, or if <hr> exists
         const sep = text.split("\n", 1)[0].trim();
@@ -336,13 +336,14 @@ App = {
 
         try {
             const json = jsyaml.load(fm);
+            const sd_extensions = [...(Config.showdown_extensions || []), ...(json.showdown_extensions || [])];
             const converter = new showdown.Converter({
                 noHeaderId: true,
                 customizedHeaderId: true,
                 parseImgDimensions: true,
                 tables: true,
-                tasklists: true
-
+                tasklists: true,
+                extensions: sd_extensions
             });
             return [converter.makeHtml(md), json];
         } catch (e) {
