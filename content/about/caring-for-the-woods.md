@@ -3,6 +3,10 @@ title: Caring for the Woodland
 keywords: litter, dogs, fire, BBQ, bins
 ---
 
+In 2015 Mid Sussex District Council took out a 125 year lease on most of the East Court Estate and are responsible for maintenance and upkeep.
+
+If you have an issue with any of our trees, please [contact MSDC](/#Contact) who manage the woods on our behalf.
+
 Please help us protect the woodland and wildlife by being considerate in the woods.
 
 Dog walkers are always welcome.
@@ -20,8 +24,4 @@ Cycling and camping are not allowed in the woods.
   
 Please do not put down food for foxes or other animals.
 
-Do not fly tip garden waste in the woods, it brings in invasive plants, and can become a home for rats and other vermin.
-  
-The park and woodlands are managed by Mid Sussex District Council and are subject to Local Authority Bylaws. The site is regularly patrolled by the MSDC Park Rangers. 
-
-Please report any problems to MSDC on 01444 477392 or email:rangers@midsussex.gov.uk
+Do not fly tip garden waste in the woods, it brings in invasive plants, and can become a home for rats.
