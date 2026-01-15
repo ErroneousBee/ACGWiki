@@ -16,9 +16,9 @@
     --topbar-background-color-hover: darkgreen;
 
     --article-color: white;
-    --article-link-color: yellow;
-    --article-header-color: #44ff88;   
-    --article-subheader-color: #aaffbb;   
+    --article-link-color: #ffffa0;
+    --article-header-color: #40b0ff;   
+    --article-subheader-color: #40b0ff;   
     --article-background-color: #000a00;
     --article-line-color: #222;             /* Table borders, horizontal rules */
 
