@@ -29,8 +29,11 @@ keywords: diary tasks calendar dates
     - **Coppicing**
     - Continuing from Novembers task
 
-- Jan 2026
+- 22 Jan 2026
     - AGM - Volunteers for officer positioins are welcome.
+    - Starts 19:30 At Sackville Hall
+    - [Agenda, etc](/#documents) 
+
 
 - Feb 8th 2026
     - Scout Land. 
