@@ -3,16 +3,13 @@ title: ACG Documents
 keywords: minutes, agenda, risk assesmments
 ---
 
-## Risk Assessments
-
-[Covid-19](#risk_assessments/Covid19_RA_2021.pdf)
-
 ## AGM Documents 2024
 
-[AGM Minutes 2023](content/documents/AGM_Minutes_2023.pdf)
+* [Minutes](content/documents/AGM_Minutes_2024.pdf)
+* [Chairmans Report](content/documents/ACG_Chairmans_Report_2024.pdf)
 
-[AGM Minutes 2024](content/documents/AGM_Minutes_2024.pdf)
+## AGM Documents 2025
 
-[Chairmans Report 2024](content/documents/ACG_Chairmans_Report_2024.pdf)
+Held at Sackville Hall, Church Road , East Grinstead. Starting at 19:30 Thursday 22nd January 2026.
 
-
+* [Agenda](content/documents/AGM_Agenda_2025.pdf)
