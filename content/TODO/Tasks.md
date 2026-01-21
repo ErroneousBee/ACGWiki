@@ -150,30 +150,50 @@ Some possible installations we could try
 
 # Previous Tasks
 
-2020 Oct - Owl path clearance and removing laurels around lake.
-     Nov - Very small group. Continued from Oct task at Lake.
-2021 Jul - Litter Pick in the Woodlands.
-     Sep - Mowing and Raking in the Meadow. Not very successful.
-     Oct - Pegasus Path. Push back encroaching vegetation, felled sycamore and used to repair corderoy sections.
-     Nov - Coppicing
-     Dec - Coppicing - Xmas Task in the scout land. Coppicing and reducing Hollies 
-2022 Jan - Coppicing between McIndoe and Badgers
-     Feb - Coppicing between McIndoe and Badgers
-     Mar - Repairs to Ghyll steps ( didnt go well )
-     Jun - Reed Services. Glade brambles pushed back, overgrowth on pegasus and other paths. 
-     Sep - Mowing didn't happen, maintained meadow fringes.
-     Oct - Lake, removed Laurel and removed logs from lake.
-     Nov - Cancelled ( weather )
-     Dec - Coppicing by Pines Path
-2023 Jan - Coppicing by Pines Path
-     Feb - Coppicing by Pines Path
-     Sep - Raking, too hot to rake. Mower had failed during mowing, not much done.
-     Oct - De-silting Cranston
-     Nov - De-silting Cranston
-     Dec - Coppicing by Badgers Path
-2024 Jan - Coppicing by Badgers Path
-     Feb - Coppicing by Badgers Path
-     Mar - ?
-     Apr - Litter Pick
-     Jul - iNaturalist survey in meadow.
-
+2020
+    Oct - Owl path clearance and removing laurels around lake.
+    Nov - Very small group. Continued from Oct task at Lake.
+2021 
+    Jul - Litter Pick in the Woodlands.
+    Sep - Mowing and Raking in the Meadow. Not very successful.
+    Oct - Pegasus Path. Push back encroaching vegetation, felled sycamore and used to repair corderoy sections.
+    Nov - Coppicing
+    Dec - Coppicing - Xmas Task in the scout land. Coppicing and reducing Hollies 
+2022
+    Jan - Coppicing between McIndoe and Badgers
+    Feb - Coppicing between McIndoe and Badgers
+    Mar - Repairs to Ghyll steps ( didnt go well )
+    Jun - Reed Services. Glade brambles pushed back, overgrowth on pegasus and other paths. 
+    Sep - Mowing didn't happen, maintained meadow fringes.
+    Oct - Lake, removed Laurel and removed logs from lake.
+    Nov - Cancelled ( weather )
+    Dec - Coppicing by Pines Path
+2023 
+    Jan - Coppicing by Pines Path
+    Feb - Coppicing by Pines Path
+    Sep - Raking, too hot to rake. Mower had failed during mowing, not much done.
+    Oct - De-silting Cranston
+    Nov - De-silting Cranston
+    Dec - Coppicing by Badgers Path
+2024 
+    Jan - Coppicing by Badgers Path
+    Feb - Coppicing by Badgers Path
+    Mar - ?
+    Apr - Litter Pick ( Last one for a while, litter is vastly reduced.
+    Jul - iNaturalist survey in meadow.
+    Sept - Meadow. Attempted to remove arisings, very hard going with the way it is mowed.
+    Oct - Raining hard, managed some meadow work. 
+    Nov - Roaming Rhodi Removal ( Top of Badgers ) 
+    Dec - ?
+2025 
+    Jan - Coppicing at Pines 
+    Feb - Coppicing at Pines
+    Mar - Coppice site cleanup
+    Apr - No task
+    May - Meadow - Pushed back the brambles.
+    Sept - Removing litter and dead wood from Lake ( 7ACG)
+    Oct - Fungi Survey ( was to be the lake ptII )  
+    Nov - Coppicing By Pines ( 3ACG 6BFS)
+    Dec - Roaming rhodi removal ( Main track and Border Path )
+  
+[^gvols]: Glendale volunteers
