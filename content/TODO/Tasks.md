@@ -120,7 +120,7 @@ We are trialing ( 2025 ) some dormouse tunnels to see if we can identify their m
 
 # Other tasks
 
-* corduroy in boggy sections where public have been widening paths in the winter.
+* Corderoy in boggy sections where public have been widening paths in the winter.
 * Reduce sycamore in coppice areas, it becomes dominant if left unchecked.
     - Scout Land ///shots.cycle.lungs
     - Owl Path ///update.grin.taking
