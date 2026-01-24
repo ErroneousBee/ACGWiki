@@ -61,9 +61,8 @@ git checkout release
 git pull
 
 # Now do the merge from main to release.
-git merge main
-# You may have to supply some text describing whats being merged, it is OK to be vague here.
 # There should be no conflicts, if there are, resolve them and commit using VSCode.
+git merge main -m "Publish from main branch"
 
 # We could build the site locally and use VSCode Live Server to check the website looks ok
 npm install 
