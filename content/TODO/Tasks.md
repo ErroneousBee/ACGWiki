@@ -6,7 +6,7 @@ showdown_extensions: ['footnotes', 'what3words']
 
 These are all jobs that can be done in the woods. Some are seasonal events, some are continuous, some will only need doing periodically.
 
-# Invasive Species Regrowth
+## Invasive Species Regrowth
 
 Generally, we schedule one task per year to visit a section of the woods and dig up any returning rhododendron.
 
@@ -22,7 +22,7 @@ Invasive plant locations are recorded on Mergin Maps. Some locations have a larg
 * Holtye Track has some mature laurels that need removing. They are deep in the treeline, you'll need to push through to get to it. ///legal.doors.jungle
 * Area around top of main track has lots of small laurels in need of digging out[^gv].
 
-# Owl Path
+## Owl Path
 
 Dangerous ash trees removed in 2025. Previous tasks removed trees and scalloped the woodland 
 edges as per the management plan. This can now continue. 
@@ -107,7 +107,7 @@ This is a high traffic area. GCN have been recorded in the lake, but recent surv
 * Remove bamboo[^gv] from ///lease.works.wing
 * Bottom of steps is often litter ridden as drug users attempt to keep the area uninviting. ///less.crisis.fired
 
-# Surveys
+## Surveys
 
 Ashplats has an iNaturalist defined area, so entries in the iNaturalist App automatically become visible for everyone.
 
@@ -118,7 +118,7 @@ Some specific area are worth targeting:
 
 We are trialing ( 2025 ) some dormouse tunnels to see if we can identify their management requirements.
 
-# Other tasks
+## Other tasks
 
 * Corderoy in boggy sections where public have been widening paths in the winter.
 * Reduce sycamore in coppice areas, it becomes dominant if left unchecked.
@@ -150,6 +150,7 @@ Some possible installations we could try
 
 # Previous Tasks
 
+<pre>
 2020
     Oct - Owl path clearance and removing laurels around lake.
     Nov - Very small group. Continued from Oct task at Lake.
@@ -179,7 +180,7 @@ Some possible installations we could try
     Jan - Coppicing by Badgers Path
     Feb - Coppicing by Badgers Path
     Mar - ?
-    Apr - Litter Pick ( Last one for a while, litter is vastly reduced.
+    Apr - Litter Pick 
     Jul - iNaturalist survey in meadow.
     Sept - Meadow. Attempted to remove arisings, very hard going with the way it is mowed.
     Oct - Raining hard, managed some meadow work. 
@@ -189,11 +190,18 @@ Some possible installations we could try
     Jan - Coppicing at Pines 
     Feb - Coppicing at Pines
     Mar - Coppice site cleanup
-    Apr - No task
+    Apr - Litter Pick. Last one for a while, litter is vastly reduced.
     May - Meadow - Pushed back the brambles.
     Sept - Removing litter and dead wood from Lake ( 7ACG)
     Oct - Fungi Survey ( was to be the lake ptII )  
     Nov - Coppicing By Pines ( 3ACG 6BFS)
     Dec - Roaming rhodi removal ( Main track and Border Path )
+2026
+    Jan - Coppicing at Pines 
+    Feb - Scout Land
+    Mar - ?
+    Apr - ?
+
+</pre>
   
 [^gvols]: Glendale volunteers
