@@ -8,34 +8,32 @@ These are all jobs that can be done in the woods. Some are seasonal events, some
 
 ## Invasive Species Regrowth
 
-* Get/Update Herbicide Certs.
-* Map locations of Rhododendron regrowth.
-* Monitor other invasive species, particularly Cherry Laurel.
-* Task to pull Laurel that is popping up.
-    - Around playing fields and lake.
-    - On sandstone cap/chestnut area.
+Generally, we schedule one task per year to visit a section og the woods and dig up any returning rhododendron.
 
-## Owl Path
+Invasive plant locations are recorded on Mergin Maps. Some locations have a large laurel that needs removing, or a specimen off site is seeding into the woods.
 
-This path is becomming overgrown but no activities can be safely done until the dead ash trees removed.
+* Schedule yearly task to remove returning plants.
+    - Around playing fields, play area, and lake. ///spend.glow.same
+    - Area around holtye track and main track ///stale.famous.cheek to ///hats.funds.rates
+    - Area between Main Track and Sussex Border Path ///wake.curry.safe
+    - Area around top of Badgers ///star.code.fields
+    - Lancaster Pond/ McIndoe Path ( generally laurel garden escapees ) ///media.boss.reveal
+    
+* Holtye Track has some mature laurels that need removing. They are deep in the treeline, you'll need to push through to get to it.
+    - ///legal.doors.jungle
+* Area around top of main track has lots of small laurels in need of digging out. [^gvols]
 
-Previous tasks removed trees and scalloped the woodland edges as per the management plan. This needs continuing when it can be safely accessed.
+# Owl Path
 
-
-## Ghyll Steps
-
-The installation of steps and boardwalk has allowed the braiding of paths on the slope to be reduced. 
-
-* MSDC to deal with step replacement
-* Dig out ditches and drains upslope.
-* Add topping to worn areas, particularly the lower slope where water erosion and desire paths are forming, and on some boggy sections 1/2 way up.
-* Push undergrowth back.
-* Plinth is decaying and vandalised.
+Dangerous ash trees removed in 2025. 
+Previous tasks removed trees and scalloped the woodland edges as per the management plan. This can now continue.
+Will need to rebuild the corduroy path.
 
 ## Pegasus Path ( Scout Land )
 
 This was Coppiced, holly reduced, and corduroy path laid Oct 2021.
 
+General maintenence:
 General maintenence:
 * Clear encroaching vegetation.
 * Remove sycamore from coppiced area.
@@ -70,6 +68,7 @@ The ponds are in generally good condition. Pond work is best done in October aft
 * Cranston has had the canopy removed. 
     - Crome the pond as far as possible to increase depth. 
     - Investigate planting. 
+    - Rope swing attracts litter and things thrown in.
     - Rope swing attracts litter and things thrown in.
 
 ## Meadow
