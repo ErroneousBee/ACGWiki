@@ -20,7 +20,7 @@ Invasive plant locations are recorded on Mergin Maps. Some locations have a larg
     - Lancaster Pond/ McIndoe Path ( generally laurel garden escapees ) ///media.boss.reveal
     
 * Holtye Track has some mature laurels that need removing. They are deep in the treeline, you'll need to push through to get to it. ///legal.doors.jungle
-* Area around top of main track has lots of small laurels in need of digging out[^gv].
+* Area around top of main track has lots of small laurels in need of digging out[^gvols].
 
 ## Owl Path
 
@@ -46,7 +46,7 @@ General maintenence:
 
 * Suitable for corduroy along Beech Path. ///stray.usage.arrow 
 * Suitable for corduroy top of Badgers. Particularly the crossroads. ///dice.adjust.silks
-* Sangs Path near Alfreds would benefit from a couple of buckets of MOT in the low spots[^gv].
+* Sangs Path near Alfreds would benefit from a couple of buckets of MOT in the low spots[^gvols].
  
 ## Coppicing Areas
 
@@ -82,8 +82,8 @@ The west side gets encroached by brambles if the mower avoids it.
 2024 Mow was with a flail mower, and was impossible to rake up after it was rained upon.
 2025 Mow is better. Encroaching bramble was pushed back. Arisings mostly removed. 
 
-* Push back encroaching brambles from all sides[^gv].
-* Restore bug hotel[^gv] ( special care to be taken, some glass will be in there )
+* Push back encroaching brambles from all sides[^gvols].
+* Restore bug hotel[^gvols] ( special care to be taken, some glass will be in there )
 * Continue monitoring with surveys.
 * Strew seeds into uncolonized corners.
 * Re-introduce dyers green-weed and possibly other species.
@@ -93,7 +93,7 @@ The west side gets encroached by brambles if the mower avoids it.
 We used to mow this area, it doesn't really grow grass. Annual mowing is not required.
 It does start regenerating trees and bramble, which needs to be kept down to maintain this area as a woodland glade.
 
-* Periodically brush cut bramble encroaching vegetation, push back trees to North-West[^gv].
+* Periodically brush cut bramble encroaching vegetation, push back trees to North-West[^gvols].
 * Rowan and Alder Buckthorne trees have been mapped in the area.
 
 ## Lake Area
@@ -102,9 +102,9 @@ This is a high traffic area. GCN have been recorded in the lake, but recent surv
 
 * Identify the number of fish in the lake. If high, they will need removing.
 * Remove laurels from area between play area and lake. ///future.united.hint
-* Remove Laurels from the bushes[^gv] in the center of the play area, and the perimeter hedge. ///lively.home.ships
+* Remove Laurels from the bushes[^gvols] in the center of the play area, and the perimeter hedge. ///lively.home.ships
 * Remove Laurels from south bank. ///garden.skins.smooth
-* Remove bamboo[^gv] from ///lease.works.wing
+* Remove bamboo[^gvols] from ///lease.works.wing
 * Bottom of steps is often litter ridden as drug users attempt to keep the area uninviting. ///less.crisis.fired
 
 ## Surveys
@@ -124,11 +124,11 @@ We are trialing ( 2025 ) some dormouse tunnels to see if we can identify their m
 * Reduce sycamore in coppice areas, it becomes dominant if left unchecked.
     - Scout Land ///shots.cycle.lungs
     - Owl Path ///update.grin.taking
-* Block desire paths along ghyyl[^gv] at badgers ( ///never.solved.moment ) and bottom of Pines ( ///daisy.liner.maps )
-* Install a cross drain and gully just below the Pines Path seep line. [^gv]
+* Block desire paths along ghyyl[^gvols] at badgers ( ///never.solved.moment ) and bottom of Pines ( ///daisy.liner.maps )
+* Install a cross drain and gully just below the Pines Path seep line. [^gvols]
 * Drain from Alfreds needs rodding.
-* Alfreds could have the live hedge next to the path re-layed[^gv]. Last done 2015ish.
-* Yew hedge between lake and house could have non-yew plants removed. [^gv] 
+* Alfreds could have the live hedge next to the path re-layed[^gvols]. Last done 2015ish.
+* Yew hedge between lake and house could have non-yew plants removed. [^gvols] 
 
 # Installations
 
@@ -140,11 +140,12 @@ Some possible installations we could try
 # Small Items
 
 * Print or buy new feet for 13 yellow Salmon litter pickers
-* Install new lock furniture on container door ( its in the grey cupboard )
-* Paint container with anti-climb paint ( have 3 liters in container )
-* Get w3w locations for pond, dog bin, seep line, etc.
-* Identify where paths need closing off or surfacing
-* Paint container with anti-climb paint ( have 3 liters in container )
+* Fix up the Green Container
+    * Install new lock furniture on container door ( its in the grey cupboard )
+    * Clean rust and prime areas around the door.
+    * Grease  vertical latch bars or otherwise make free.
+    * Paint container with anti-climb paint ( have 3 liters in container )
+    * Use wire brushes, grease, step ladder, paint brush, cloths, protective overalls.
 * Get w3w locations for pond, dog bin, seep line, etc.
 * Identify where paths need closing off or surfacing
 
@@ -198,9 +199,9 @@ Some possible installations we could try
     Dec - Roaming rhodi removal ( Main track and Border Path )
 2026
     Jan - Coppicing at Pines 
-    Feb - Scout Land
-    Mar - ?
-    Apr - ?
+    Feb - Scout Land ( 9 vols! )
+    Mar - Clearing Coppice site
+    Apr - Put out dormouse tunnels
 
 </pre>
   
