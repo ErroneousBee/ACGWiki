@@ -7,58 +7,37 @@ keywords: diary tasks calendar dates
 
 ## 2025/2026 Season
 
-- Sept 14th 2025 
-    - **Clearing the Lake**
-    - Dragging a grapnell to pull rubbish and wood from the lake.
-    - Cutting back Laurels.
-    - Removing litter from the banks to a pickup point.
-
-- Oct 12th 2025
-    - **Clearing the Lake**
-    - Continuing on from previous month
-
-- Nov 2nd 2025
-    - **Coppicing** by Pines Path.
-
-- Dec 14th 2025
-    - **Rhododendron removal**
-    - Digging and pulling out invasive species from the woods.
-    - Targeting the area between Sussex Path and Scout Land.
-
-- Jan 11th 2026
-    - **Coppicing**
-    - Continuing from Novembers task
-
-- 22 Jan 2026
-    - AGM - Volunteers for officer positioins are welcome.
-    - Starts 19:30 At Sackville Hall
-    - [Agenda, etc](/#documents) 
-
-
 - Feb 8th 2026
+    - Sycamore removal and path maintenence.
     - Scout Land. 
-    - Thinning Sycamore.
-    - Touching up the path if possible.
 
-- March 2026
-    - TBA
+- March 8th 2026
+    - Clearing up the Pines Path coppice site.
+    - Moving brash piles to a dead hedge.
+    - Finishiing off any incomplete coppice stools.
+    - protecting coppice stoos from browsing.
 
-- April 2026
-    - TBA ( No litter pick this year )
+- April 12th 2026
+    - Putting out the dormouse tunnels.
 
-- May 2026
-    - TBA 
+- May 10th 2026
+    - Meadow Survey
+    - Identify plants emerging in the meadow.
+    - Monitoring effectiveness of the changed mowing regime.
 
 ## Ongoing Tasks
 
 - Monitoring the dormouse tunnels 
     - [Contact](/#Contact) us if you want to help.
     - Visits are announced on our Whatsapp Group.
+
 - Butterfly Transect
     - Weekly survey along a set route.
     - Runs April to September.
     - Route to be finalized.
+
 - Survey in Rutland Meadow to monitor effects of the changed mowing regime.
+
 - Occasional summer tasks announced via email. 
     
 # Task Information
@@ -83,5 +62,6 @@ Some volunteers prefer to bring their own gloves and tools.
 * April - The Litter Pick
 * Summer - Surveys and Monitoring ( announced sporadically ) 
 * September - Meadow mowing and raking
+* October - Something sheduled to avoid the annual schools X-Country running.
 * Early Autumn - Pond work whilst the ponds are still low and the residents are no longer living fast paced lives.
 * December - The Xmas Task

@@ -3,7 +3,7 @@ title: Welcome to Ashplats
 ---
 
 <center>
-<img src="/content/images/ashplatts-6369.jpg" alt="Task Day" title="ACG Members on a Task Day" width="400" height="auto">
+<img src="/content/images/ashplats_volunteers_2026.jpg" alt="Task Day" title="Conservatiopn group volunteers on a Task Day" width="600" height="auto">
 </center>
 
 
