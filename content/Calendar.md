@@ -17,7 +17,7 @@ keywords: diary tasks calendar dates
     - Finishiing off any incomplete coppice stools.
     - protecting coppice stoos from browsing.
 
-- April 12th 2026
+- April 19th 2026 ( Note the moved date )
     - Putting out the dormouse tunnels.
 
 - May 10th 2026
