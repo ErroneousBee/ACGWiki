@@ -17,7 +17,7 @@ keywords: diary tasks calendar dates
     - Finishiing off any incomplete coppice stools.
     - protecting coppice stoos from browsing.
 
-- April 12th 2026
+- April 19th 2026 ( Note the moved date )
     - Putting out the dormouse tunnels.
 
 - May 10th 2026
@@ -32,8 +32,7 @@ keywords: diary tasks calendar dates
     - Visits are announced on our Whatsapp Group.
 
 - Butterfly Transect
-    - Weekly survey along a set route.
-    - Runs April to September.
+    - Surveys weekly along a set route, from April to September.
     - Route to be finalized.
 
 - Survey in Rutland Meadow to monitor effects of the changed mowing regime.
