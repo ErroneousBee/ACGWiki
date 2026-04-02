@@ -14,6 +14,8 @@ Held at Sackville College, Church Road , East Grinstead. Starting at 19:30 Thurs
 
 * [Agenda](content/documents/AGM_Agenda_2025.pdf)
 * [Chairmans Report](content/documents/Chairmans_Report_2025.pdf)
+* [Minutes](content/documents/AGM_Minutes_2025.pdf)
+
 
 ## Posters and Leaflets
 

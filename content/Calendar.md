@@ -7,26 +7,36 @@ keywords: diary tasks calendar dates
 
 ## 2025/2026 Season
 
+- Feb 8th 2026
+    - Sycamore removal and path maintenence.
+    - Scout Land. 
 
+- March 8th 2026
+    - Clearing up the Pines Path coppice site.
+    - Moving brash piles to a dead hedge.
+    - Finishiing off any incomplete coppice stools.
+    - protecting coppice stoos from browsing.
 
-- April 19th 2026 ( Note the changed date )
-    - Putting out dormouse tunnels. 
+- April 12th 2026
+    - Putting out the dormouse tunnels.
 
-- May 2026 ( Date depends on weather and availability )
+- May 10th 2026
     - Meadow Survey
-
-- June 2026
-    - Repairs and painting the container
+    - Identify plants emerging in the meadow.
+    - Monitoring effectiveness of the changed mowing regime.
 
 ## Ongoing Tasks
 
 - Monitoring the dormouse tunnels 
     - [Contact](/#Contact) us if you want to help.
     - Visits are announced on our Whatsapp Group.
+
 - Butterfly Transect
     - Surveys weekly along a set route, from April to September.
     - Route to be finalized.
+
 - Survey in Rutland Meadow to monitor effects of the changed mowing regime.
+
 - Occasional summer tasks announced via email. 
     
 # Task Information
@@ -51,5 +61,6 @@ Some volunteers prefer to bring their own gloves and tools.
 * April - The Litter Pick
 * Summer - Surveys and Monitoring ( announced sporadically ) 
 * September - Meadow mowing and raking
+* October - Something sheduled to avoid the annual schools X-Country running.
 * Early Autumn - Pond work whilst the ponds are still low and the residents are no longer living fast paced lives.
 * December - The Xmas Task
