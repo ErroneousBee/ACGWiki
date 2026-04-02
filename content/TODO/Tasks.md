@@ -198,9 +198,9 @@ Some possible installations we could try
     Dec - Roaming rhodi removal ( Main track and Border Path )
 2026
     Jan - Coppicing at Pines 
-    Feb - Scout Land
-    Mar - ?
-    Apr - ?
+    Feb - Scout Land, removing sycamore from the hazel coppice area, some corduroy pathing
+    Mar - Coppice Site Cleanup, dead hedging, corduroy path
+    Apr - Putting out Dormice Boxes
 
 </pre>
   
