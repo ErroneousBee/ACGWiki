@@ -203,6 +203,7 @@ Some possible installations we could try
     Feb - Scout Land, removing sycamore from the hazel coppice area, some corduroy pathing
     Mar - Coppice Site Cleanup, dead hedging, corduroy path
     Apr - Putting out Dormice Boxes
+    May 10th 2026 Meadow Survey
 
 </pre>
   

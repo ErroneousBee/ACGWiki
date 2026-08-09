@@ -5,25 +5,44 @@ keywords: diary tasks calendar dates
 
 # Diary Dates for Volunteer Working Groups
 
-## 2025/2026 Season
+## 2026/2027 Season
 
-- Feb 8th 2026
-    - Sycamore removal and path maintenence.
-    - Scout Land. 
+- Sept 13th 2026
+    - Lake Cleanup and Maintenence.
+    - Removing Rubbish and debris from the lake.
+    - Make some parts of the shore accessible for Newt Surveys.
 
-- March 8th 2026
-    - Clearing up the Pines Path coppice site.
-    - Moving brash piles to a dead hedge.
-    - Finishiing off any incomplete coppice stools.
-    - protecting coppice stoos from browsing.
+- October 11th
+    - Maintenence of Pegasus Path.
+    - Cutting back encroaching vegetation.
+    - Removing Sycamores.
 
-- April 19th 2026 ( Note the moved date )
-    - Putting out the dormouse tunnels.
+- November 1st
+    - Coppicing along pines path.
+    - Avoiding Rememberance Day.
 
-- May 10th 2026
-    - Meadow Survey
-    - Identify plants emerging in the meadow.
-    - Monitoring effectiveness of the changed mowing regime.
+- December 13th
+    - Removing invasive Rhododendron and Laurel.
+    - A mobile task, with mince pies and hot drinks.
+    - Targeting the area around the bottom of Scoutland.
+
+- January 10th
+    - Coppicing along Pines Path.
+    - Protecting coppice stools from browsing.
+    - Finishing up by clearing the site.
+
+- February 14th
+    - Clearing the Glade.
+    - Cutting back the brambles, removing trees growing in the glade.    
+
+- March 14th
+    - Owl Path Maintenence.
+    - Pushing back encroaching vegetation.
+    - Fixing some of the corduroy sections.
+
+- April 11th
+    - TBC
+
 
 ## Ongoing Tasks
 
@@ -33,7 +52,6 @@ keywords: diary tasks calendar dates
 
 - Butterfly Transect
     - Surveys weekly along a set route, from April to September.
-    - Route to be finalized.
 
 - Survey in Rutland Meadow to monitor effects of the changed mowing regime.
 
