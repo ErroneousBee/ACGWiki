@@ -11,7 +11,7 @@ It is based on the PortaWiki project.
 
 You may need to run through this if the project has become old enough to have unsupported versions of software.
 
-* Install latest node.js from thier website
+* Install latest node.js from their website
 * Install nvm ( the npm version manager )
 * Install npm ( the node package manager )
 * Install git, the version controller.
@@ -31,6 +31,13 @@ If packages are obsolete:
 * * E.g. replace old node-sass with its replacement: 
 * * `npm uninstall node-sass --save-dev` then `npm install sass --save-dev`
 * Then run the install and build.
+
+## Using VSCode 
+
+VSCode is an editor that contains interfaces to tools such as git, npm, etc.
+
+* Install VSCode froht emiscrosoft servers, or install VSCodium for the pure Open Source version.
+* Install the "Live Server" plugin from within VSCode.
 
 ## Updating content for the website
 
