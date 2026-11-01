@@ -34,7 +34,7 @@ system_files: [
 show_config: true # Write a report of the config to the browser console.
 filetype_precedence: ["md", "html", "htm", "txt"] # Which filetypes we prefer to show, .md is first.
 filetype_types: ["markdown", "html", "html", "text"] # How to interpret file types.
-external_filetypes: ["pdf"] # Open pdf files as new urls
+external_filetypes: ["pdf", "odt"] # Open pdf and LibreOffice files as new urls
 
 # Plugin Activation.
 # Run 'npm run build' after changing plugins list to install them.
