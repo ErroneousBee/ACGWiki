@@ -50,8 +50,6 @@ App.Plugins.Gallery = {
         // a figure for each one.
         for (const img of page.querySelectorAll("img")) {
 
-            console.log('xxx', img, img.nextSibling );
-
             // Get the caption before we move the element about.
             const below_text = (img.nextSibling) ? img.nextSibling.nodeValue.trim() : '';
 
