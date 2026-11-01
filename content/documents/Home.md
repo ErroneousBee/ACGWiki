@@ -24,3 +24,9 @@ Originals are in the Secretaries' files.
 * [Leaflet](content/documents/Leaflet.odt)
 * [Summer Break Flyer](content/documents/Task_Flyer_Summer_Break.odt)
 * [Task Dates Flyer](content/documents/Task_Flyer.odt)
+
+## Other Documents
+
+Originals are in the Secretaries' files.
+
+* [Risk Assessments](content/documents/safety)
